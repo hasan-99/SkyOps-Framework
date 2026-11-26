@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-26",
+  "scope": "Declared template dependencies and upstream license references. No third-party packages or model assets have been installed or bundled by Phases 0 and 1.",
+  "core_phase_0_1_dependencies": "Node.js built-in APIs only; Node itself is supplied by the development environment, not redistributed",
+  "entries": [
+    { "packages": ["next"], "observed_revision": "v16.0.0", "license": "MIT", "source": "https://raw.githubusercontent.com/vercel/next.js/v16.0.0/license.md", "review": "upstream_license_observed", "resolved_package_review": "pending_before_install_or_bundle" },
+    { "packages": ["react", "react-dom"], "observed_revision": "v19.0.0", "license": "MIT", "source": "https://raw.githubusercontent.com/facebook/react/v19.0.0/LICENSE", "review": "upstream_license_observed", "resolved_package_review": "pending_before_install_or_bundle" },
+    { "packages": ["@supabase/supabase-js"], "observed_revision": "v2.45.0", "license": "MIT", "source": "https://raw.githubusercontent.com/supabase/supabase-js/v2.45.0/LICENSE", "review": "upstream_license_observed", "resolved_package_review": "pending_before_install_or_bundle" },
+    { "packages": ["@supabase/ssr"], "observed_revision": "v0.5.0", "license": "MIT", "source": "https://raw.githubusercontent.com/supabase/ssr/v0.5.0/LICENSE", "review": "upstream_license_observed", "resolved_package_review": "pending_before_install_or_bundle" },
+    { "packages": ["tailwindcss", "@tailwindcss/postcss"], "observed_revision": "v4.0.0", "license": "MIT", "source": "https://raw.githubusercontent.com/tailwindlabs/tailwindcss/v4.0.0/LICENSE", "review": "upstream_license_observed", "resolved_package_review": "pending_before_install_or_bundle" },
+    { "packages": ["zod"], "observed_revision": "v3.23.0", "license": "MIT", "source": "https://raw.githubusercontent.com/colinhacks/zod/v3.23.0/LICENSE", "review": "upstream_license_observed", "resolved_package_review": "pending_before_install_or_bundle" },
+    { "packages": ["typescript"], "observed_revision": "v5.6.2", "license": "Apache-2.0", "source": "https://raw.githubusercontent.com/microsoft/TypeScript/v5.6.2/LICENSE.txt", "review": "upstream_license_observed", "resolved_package_review": "pending_before_install_or_bundle" },
+    { "packages": ["postcss"], "observed_revision": "8.4.0", "license": "MIT", "source": "https://raw.githubusercontent.com/postcss/postcss/8.4.0/LICENSE", "review": "upstream_license_observed", "resolved_package_review": "pending_before_install_or_bundle" },
+    { "packages": ["@types/node", "@types/react", "@types/react-dom"], "source": "https://github.com/DefinitelyTyped/DefinitelyTyped", "review": "declared_only", "resolved_package_review": "pending_before_install_or_bundle" }
+  ],
+  "release_obligations": [
+    "Review actual locked/resolved versions and all transitive dependencies",
+    "Include required complete license/copyright/NOTICE texts in packages that redistribute third-party material",
+    "Keep vendor-required attribution even when hosting integrations are removed",
+    "Review exact embedding model/ONNX artifact licenses, hashes and notices before download/distribution",
+    "Review optional Python/MCP/browser tools and asset licenses before bundling",
+    "Do not copy the unpopulated marketplace submodule or unrelated installed plugin caches"
+  ]
+}

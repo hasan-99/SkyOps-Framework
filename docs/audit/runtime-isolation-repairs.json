@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "batches": [
+    {
+      "applied_at": "2026-11-26T11:18:53.601Z",
+      "edits": [
+        {
+          "target_path": ".gitignore",
+          "before_sha256": "0725375380a997ef71fbaf99663138f52f1c385feecce803c03f2adf08285c78",
+          "after_sha256": "0536049da5a8b2052cae0a0a66e95ab9471571febdc809ae3f6ee6af6c83a155"
+        },
+        {
+          "target_path": "CHANGELOG.md",
+          "before_sha256": "8383b074c2eb9ed10dfdee5c3569c9b8116efc2f097e8ee46ae9fdf2bb70794c",
+          "after_sha256": "3c1024297b8b8fa6ac7cb1309ce39cc35a21cfd2d2e89fa6570a8c35d0cc89de"
+        },
+        {
+          "target_path": "bin/auto-report.js",
+          "before_sha256": "62d5b8a8341b053def4c4c977691d6f957aba03e4257ec58800a547657545612",
+          "after_sha256": "f70ca2b44566b40824ac8777025046d2ef72021bc5f6eac9b548ac6709eab79e"
+        },
+        {
+          "target_path": "bin/development-events.js",
+          "before_sha256": "071d765b8406289b26b359071ecefece6141f525c4d2f99e3550eb385c7ce907",
+          "after_sha256": "4edea4dcfd5c6f17ad23ca89c23deb2340668d9d55bf4cccd36a9d0a41dca8a2"
+        },
+        {
+          "target_path": "bin/sync-queue.js",
+          "before_sha256": "874fb00ca35c0ab7c1ef414e4857f0a48a2ea2c76f92c511d72eb7911cf7764b",
+          "after_sha256": "7fc099f5a56586541f26fa5aa20136773b2a42aa4163b3a3f888874f7579aeac"
+        },
+        {
+          "target_path": "bin/knowledge-flush.js",
+          "before_sha256": "53c29280f2f3c0dd4ff56fbb53d690c5253f3c39e93be4713487575290137e8a",
+          "after_sha256": "179a10260d24b5fd380988247a411e6cce893e27ea08992e54f39596c9d00358"
+        },
+        {
+          "target_path": "bin/learning-candidates.js",
+          "before_sha256": "f9cb4196104158b586e10fcffb7d7cd6b40ab58aadf91557e35e0272804e805e",
+          "after_sha256": "1074ac269a1ad0e5fc6d923de305eeb27890a5026c4e7eed79db7692e074aff0"
+        },
+        {
+          "target_path": "bin/project-snapshot.js",
+          "before_sha256": "0efb718c947a711052e484c2898963a7235e0412d6238fb825a75906ba2a5898",
+          "after_sha256": "09ffc10573b4d6c9db3fd04fb1e92351465f9741bb59afc9a3ce788b1a17128f"
+        },
+        {
+          "target_path": "bin/skyops-ui.js",
+          "before_sha256": "d90bf741f7f8bd9c2004d3224acd66ec4faf43f50277f6e115c47dcde49a6804",
+          "after_sha256": "5158f73d98ad079872b101058ebd57df2488deddbf900ff59ced2401b515da70"
+        },
+        {
+          "target_path": "bin/report-payload.js",
+          "before_sha256": "929985fba72fe5d498e6c7c5e1706f4ac2265dbe39d8dd09034ba0cdef1c59e5",
+          "after_sha256": "9c230b32128099e3108e7625bc9f24d759cd62551b1b98760f9c2e7090d54191"
+        },
+        {
+          "target_path": "bin/security-scan.js",
+          "before_sha256": "9598e73c4736ebcf605daa3d835da51d8b74c8162ecae913fe64a2e84230447a",
+          "after_sha256": "1f260041da752ca3d1c0f01a832ba591aaf456b51c4c1f74b76371e87ca66d14"
+        },
+        {
+          "target_path": "bin/state.js",
+          "before_sha256": "91d45602aad385bc063c5cf60e6f667b54072488d23e2af1e54fedb1bf565a37",
+          "after_sha256": "081bcbda8b972bacab81413969173c882ff9c1f5901f2697ec6e6563e5ff4bc4"
+        },
+        {
+          "target_path": "bin/status-snapshot.js",
+          "before_sha256": "318894ac695684a92d3c8219a34848c09654d8bb81ae7db14aed3356d12c249f",
+          "after_sha256": "5c9cae7f399c8c1a8de5c644269e58ae7827ae3aa1789af7f2837fec478b4824"
+        },
+        {
+          "target_path": "bin/statusline.js",
+          "before_sha256": "dc7f7bff10b33701392f1b7dff2b0f46fd3475c22e1250c670582d55ad93b23b",
+          "after_sha256": "b96c787804070f9b4e1267548467a4b0dc6f81c73300312de04136f28f26e22c"
+        },
+        {
+          "target_path": "bin/trust-score.js",
+          "before_sha256": "07ed6daa9cbe5c05a0786ff0e7ffa82ceea7a994aa96bc02156f8e492c3d98bc",
+          "after_sha256": "35d9fe7ea6c3eea0e5c815ffc74f291c5ee337660695402a8607a46b3bde7469"
+        },
+        {
+          "target_path": "bin/vault-access.js",
+          "before_sha256": "de37a0429dfd00194ee8f435275351fab4e75f37bfcfdcee74e5cb6cedde374f",
+          "after_sha256": "ed02b6a7cef552c3639005a00d7e3ab3c0690b9cb7fc40dbf4d85c7159244d51"
+        },
+        {
+          "target_path": "bin/work-packet.js",
+          "before_sha256": "617649409aed0425e46a26c5e0faf2a212591b34605c29454e7ec669b466b4cb",
+          "after_sha256": "5fa04ea3f3a10939c89142a6e8dc3c819c40d3b732e9fd2d2cecb57cd6c2e0b4"
+        },
+        {
+          "target_path": "hooks/auto-update.js",
+          "before_sha256": "48ace7d359dd5981958a4611b3ab477359d083332d295d0c365b44827d894441",
+          "after_sha256": "a666324d4862da19b4561aadabefdd112feefd832e8fe2366315df9360edd46e"
+        },
+        {
+          "target_path": "hooks/branch-guard.js",
+          "before_sha256": "745738c842e337d4544cc69e94d109b9b708280610e8107911851f5c874f9b18",
+          "after_sha256": "fe882b2d35e32a21293894d1e361dbf522775b50f13fcb2b2744a19ea9b15c5b"
+        },
+        {
+          "target_path": "hooks/env-empty-guard.js",
+          "before_sha256": "1e4e5ccf1219d366bc5ef1e275a831c99790b7a51188e4b14ac230ae0f2fe9c4",
+          "after_sha256": "cc7e0fe462d30bf2f01041b345a4bf6292228426df530e6c711b17dad9e2c9d4"
+        },
+        {
+          "target_path": "hooks/approval-guard.js",
+          "before_sha256": "4ddcbb5fa38ca2a71b89755cd31368838d88cc57e25ad8db523a4d4a859ddb0b",
+          "after_sha256": "a10265dc5fc572ae2ca3b9def254aef0a35d12d9634dda2e22a72574ee0e643c"
+        },
+        {
+          "target_path": "hooks/git-guardrails.js",
+          "before_sha256": "f5254b5bdf568b10ebdcd3ff5770c535e763a93ba27ad418bcbbf22c89e963f5",
+          "after_sha256": "35dd9146107807bf70a1202af1bb0b7ce2b0ca6c38ca9c80d4393576477fc2bf"
+        },
+        {
+          "target_path": "hooks/migration-guard.js",
+          "before_sha256": "b802e073efd6f41d00eec13cf940228344ceaafab9b98c56e289bb07102e620b",
+          "after_sha256": "db3f15daf1ce99ba4da97084c040c10a25f3ee8946459ba64279371ec34752d4"
+        },
+        {
+          "target_path": "hooks/pre-compact.js",
+          "before_sha256": "1940a380b21d040f28ecd623fcba57b59e6fd337226968bf0f554bf472ba7a32",
+          "after_sha256": "b0955192a54a05b1881a409b30659d1248d63a0b8b0105201a2ae13000750b03"
+        },
+        {
+          "target_path": "hooks/pre-deploy-gate.js",
+          "before_sha256": "1fe58620b2aa0568649d8655ae3c8c7b26c2c13cb95bcd59b87a6ce2163c13b7",
+          "after_sha256": "1bccf46ee6504828cd65dbb4b55b7e9da9eacf3b4b14109855f97cbcc612068e"
+        },
+        {
+          "target_path": "hooks/pre-push.js",
+          "before_sha256": "3b8ed7d8a676d385822a90016447c1b123574541a75f8e70c325d11fc82df5ca",
+          "after_sha256": "84d6eb4b931270e91638f31d8c2ef5ba632131572a5b779b1172248d23f5d32a"
+        },
+        {
+          "target_path": "hooks/session-start.js",
+          "before_sha256": "f68499b2e6030fcec2f339252afddca7ed4bb9b388c8c5ebc187af835c39a074",
+          "after_sha256": "726612e60591abce885679834dd3cb618679b679ddcfa0bc8ab41fff7932bcac"
+        },
+        {
+          "target_path": "hooks/stop-session-log.js",
+          "before_sha256": "41b86c3fd98af6a04ed03729ad9750153ae5a6b1ab30366014a772f095d06d1a",
+          "after_sha256": "fea6a823380eef5f0435c21d0c2a7654579a978ad5d39efcd28da86af462de27"
+        },
+        {
+          "target_path": "hooks/supabase-destructive-guard.js",
+          "before_sha256": "3241c043e9c9675a79f8a5a4e747b19f9b2a7f365fb34b1b7b6578f3c1216697",
+          "after_sha256": "b62781cfad676d2868437b833126014a7a0472abafa827dcb2852973d847d759"
+        },
+        {
+          "target_path": "hooks/task-write-guard.js",
+          "before_sha256": "705003060931a0e25f44fa964198aad85916abbb37a5943ddf0fbf00e3ee7c4b",
+          "after_sha256": "f6b421bf0c9bf29fd58150a8d0721694006c6b69dc7109419ea2037609127537"
+        },
+        {
+          "target_path": "hooks/usage-capture.js",
+          "before_sha256": "6b360fb8e431c7384e96e3d68605907d627ffe40b07ea3202fda9140df7f6559",
+          "after_sha256": "fcd9a6a906c0d044eb522c15a309cf908e6c209c64612cfe8578ffc3b3d76ba8"
+        },
+        {
+          "target_path": "hooks/deployment-target-guard.js",
+          "before_sha256": "5662ff64adef53ba2b8e98338a5e5ea16c37dc196b19e7fb64c1853052115240",
+          "after_sha256": "692351db729fb21bcb947a47234fa7dfd2b3f6c69f58c4c7287c0321c131d94d"
+        },
+        {
+          "target_path": "rules/access.md",
+          "before_sha256": "de02298cf8a48d52946ecd05381544ae31cfe5b9ed7ca9f5ec69cbe0669f1701",
+          "after_sha256": "7d8a93fb1954344e0a71a503ef3735360fd673a1e920438df24f82bd96d0916d"
+        },
+        {
+          "target_path": "skills/sky-recall/SKILL.md",
+          "before_sha256": "aa58da9dc6fa6fdc4333fc5310bc8bf424facf3b95ee31c178ced16ce053477e",
+          "after_sha256": "dd317bea4567afcdc82a766344b4c2565899627ffffac75d01f70b5dc6b0f44f"
+        },
+        {
+          "target_path": "skills/sky-report/SKILL.md",
+          "before_sha256": "6d94e11fe4e5d7e345964ccffcc9ad68c43d25bd8a4a0f5f740ce70e937ae3ed",
+          "after_sha256": "601755972e42bd1eff3a24b92b24fc2a22efe40c2fd348ba74e5126d16bdedc1"
+        },
+        {
+          "target_path": "skills/sky-ship/SKILL.md",
+          "before_sha256": "82191d8aea83af62e3c27f10e2221846f0f5a3a5b4a67dbab9c155cfd7ddbd75",
+          "after_sha256": "191a7276555af5f9e63bad6b08f4f88a16d42a40fa58f840b26e60d5b610c468"
+        }
+      ]
+    }
+  ]
+}

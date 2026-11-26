@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "authority": "SKYOPS_TRANSFORMATION_PLAN.md#31-approved-owner-controlled-licensing-and-secure-distribution",
+  "source": "User-approved scope addition and explicit answers in this conversation on 26 November 2026",
+  "decisions": {
+    "default_device_limit": 2,
+    "default_offline_validity_seconds": 86400,
+    "public_registration": false,
+    "invitation_only": true,
+    "installation_requires_framework_owner_approval": true,
+    "individual_accounts_and_licenses": true,
+    "source_repository_access_required_for_ordinary_users": false
+  },
+  "offline_acknowledgment": "The user finalized a hard maximum 24-hour signed window, online validation at every online startup, automatic active-session revalidation/legitimate renewal and online validation after expiry. Previously issued disconnected leases cannot be instantly revoked. Export/recovery/uninstall remain available.",
+  "superseded_decisions": [
+    {
+      "default_offline_validity_seconds": 604800,
+      "status": "superseded_by_user_finalized_24_hour_maximum"
+    }
+  ],
+  "runtime_validation": {
+    "every_online_startup": true,
+    "automatic_active_session_revalidation": true,
+    "automatic_valid_lease_renewal": true,
+    "maximum_offline_seconds": 86400
+  },
+  "safe_deprovisioning": {
+    "approved": true,
+    "explicit_installation_consent_required": true,
+    "fresh_signed_permanent_revocation_required": true,
+    "verified_owned_unchanged_components_only": true,
+    "uncertainty_or_outage_never_triggers_uninstall": true,
+    "user_data_and_unrelated_software_preserved": true
+  },
+  "production_trust": "not_configured",
+  "backend_authorization": "pending_phase_4",
+  "live_distribution": "pending_phase_6",
+  "scope_approval": "approved",
+  "remaining_personalization_questions": []
+}

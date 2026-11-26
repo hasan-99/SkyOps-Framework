@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "scope": "Exact reviewed synthetic test lines only; no blanket test-file exceptions",
+  "entries": [
+    {
+      "path": "tests/packaging/cloud-transport.test.cjs",
+      "rule": "credential_in_url",
+      "line_sha256": "00a3ef8d7b0c8ac05211c8fea69e561e06c885a631d92ca68ea479f3f616c9cc",
+      "purpose": "Deliberately invalid synthetic URL credential fixture; verifies origin rejection, no provider request"
+    },
+    {
+      "path": "tests/packaging/local-reports.test.cjs",
+      "rule": "credential_in_url",
+      "line_sha256": "8d99bf42baff2cff0e891558bf9daad4f2e19f7518b257e42d8b2a0a0dbeb605",
+      "purpose": "Synthetic Git remote fixture verifies credential/query redaction; no provider authentication"
+    },
+    {
+      "path": "tests/packaging/source-export.test.cjs",
+      "rule": "credential_in_url",
+      "line_sha256": "b3295f5a25ada1f54cbd23f33754544462499ddfed2ab4120b7d682b73669156",
+      "purpose": "Synthetic URL fixture verifies exact reviewed-content exceptions; no network execution"
+    }
+  ]
+}

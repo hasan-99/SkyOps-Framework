@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-26T13:28:26.839Z",
+  "scaffold": "landing-page",
+  "platform": "win32",
+  "node": "v22.23.3",
+  "fixture": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-OSzi8k",
+  "source_hashes": {
+    "app/globals.css": "a772354908a8c98977f2ff5c35c233e3782e80e8c88f37c18aa7892b964dbedc",
+    "app/layout.tsx": "574d82fc5579e097010ce35db5419358649c56d2b6c7f9bd28725c37db027674",
+    "app/page.tsx": "860c7943276d5d84bac2a472d57821276e9bf4e7688bda2ffec342c581406de8",
+    "eslint.config.mjs": "77e9f34454d52f5986545c76c35c90aa6c82f29d00612fe85b7519d34031bb8b",
+    "next.config.mjs": "ecf47f221980dd851ed058fcaa96de045e2c4886b11ca0a1b4ac8e679ab8ef3a",
+    "package.json": "27d8afc71f78eab8640b273918897bebb8e299648e44131221462f9a1b47f869",
+    "postcss.config.mjs": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+    "README.md": "aaf529789ebd5167123c42ec1f29ad2e8bdf6cd4c6e74730ae5caff99a3c93b9",
+    "tsconfig.json": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2"
+  },
+  "results": [
+    {
+      "stage": "install",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 90448,
+      "output_sha256": "8a0c92362f936b8776a49a1d6060d4e1a3f8dd04f2bd41a21fbf1087029c6b95",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-OSzi8k\\install.log"
+    },
+    {
+      "stage": "lint",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 15456,
+      "output_sha256": "4e4af871e3f7029990a10d051671b87ca9872bcb4aaba2052f4467023b800f62",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-OSzi8k\\lint.log"
+    },
+    {
+      "stage": "typecheck",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 3833,
+      "output_sha256": "28582c5e8c2b8c7eab1d1593225b1a51ac7101a562b8d7ce80850c1cf2bad248",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-OSzi8k\\typecheck.log"
+    },
+    {
+      "stage": "build",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 18063,
+      "output_sha256": "5fbcbb1d65f776dde0a7c788101f1255875a52e72668a1fb17d94d2c4a000e8b",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-OSzi8k\\build.log"
+    }
+  ],
+  "ok": true,
+  "credentials_inherited": false,
+  "dependency_install_scripts": "disabled",
+  "telemetry": "disabled",
+  "phase_gate_passed": false,
+  "limitation": "Actual isolated scaffold dependency/lint/type/build check only; not finished application quality, real auth/RLS/API integration, browser acceptance or deployment. Original scaffold content still requires the planned project development workflow."
+}

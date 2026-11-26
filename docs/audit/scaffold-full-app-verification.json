@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-26T18:38:17.734Z",
+  "scaffold": "full-app",
+  "platform": "win32",
+  "node": "v22.23.3",
+  "fixture": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-NEhlfm",
+  "source_hashes": {
+    "app/globals.css": "8123518b50ab2e796656e1e8dc9446f2781ab858f60d9988105aecf1f2598cbf",
+    "app/layout.tsx": "edc876a8c17fffa450b73cbce06c6bfb9a9f3104cbaeebabd4e25c7046004d58",
+    "app/page.tsx": "68d9b6bd8d802a4dfc07b32bb7e6acd08b36396869c89e1b8f87adc422790b89",
+    "eslint.config.mjs": "77e9f34454d52f5986545c76c35c90aa6c82f29d00612fe85b7519d34031bb8b",
+    "lib/supabase/client.ts": "9a7697f29480242e0e2d3c2c329f2bcf0452ffd849feb0ead602af687e039f7c",
+    "lib/supabase/server.ts": "6385a5281275e607122e7806123c41551715e036e11b436590f4a40e832aa8f7",
+    "next.config.mjs": "22c192b2c4c480c490aefafe3b19d2b705e3c10afc477d61ae9a3b934628bf69",
+    "package.json": "2f9af6a41d8787dda86223729fc918006fdfdf7171e4cf671302d78be3932ab7",
+    "postcss.config.mjs": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+    "README.md": "221b223dda568d91791db344bfc7bec891d5fcf54b4b741bab9c28b74320321c",
+    "supabase/migrations/0001_init.sql": "233b07d39327a8469b6bb8f02e0a66e3a33d20df830a36eda5ccfa9bac000269",
+    "tsconfig.json": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2"
+  },
+  "results": [
+    {
+      "stage": "install",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 126676,
+      "output_sha256": "0667b5059a12f3a1871737f5720aaa000d640d1761d5e885324782df3c3a1d1c",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-NEhlfm\\install.log"
+    },
+    {
+      "stage": "lint",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 23319,
+      "output_sha256": "4cdd52af32a41d804acfc11a3722119066b51f848e3db34af3fd41486957184b",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-NEhlfm\\lint.log"
+    },
+    {
+      "stage": "typecheck",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 9143,
+      "output_sha256": "f85df1fe9df7f6a3ce933e5e5994e37278774039b732d8ae6ca1f96fc0195546",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-NEhlfm\\typecheck.log"
+    },
+    {
+      "stage": "build",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 19568,
+      "output_sha256": "6459ac8e2d37ff649964d467633b97aed192ef8b6a6ed9b6e5fd160de03d2a5c",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-NEhlfm\\build.log"
+    }
+  ],
+  "ok": true,
+  "credentials_inherited": false,
+  "dependency_install_scripts": "disabled",
+  "telemetry": "disabled",
+  "phase_gate_passed": false,
+  "limitation": "Actual isolated scaffold dependency/lint/type/build check only; not finished application quality, real auth/RLS/API integration, browser acceptance or deployment. Original scaffold content still requires the planned project development workflow."
+}

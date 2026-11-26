@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "timestamp": "2026-11-26T11:14:08.185Z",
+  "platform": "win32",
+  "node": "v22.23.3",
+  "results": [
+    {
+      "host": "claude",
+      "ok": true,
+      "exit_code": 0,
+      "help_bytes": 22345,
+      "error": null,
+      "scope": "Isolated CLI help only; no login, model call, skill invocation or framework execution",
+      "profile": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-host-smoke-RJK69l\\installation\\profiles\\claude"
+    },
+    {
+      "host": "codex",
+      "ok": true,
+      "exit_code": 0,
+      "help_bytes": 5940,
+      "error": null,
+      "scope": "Isolated CLI help only; no login, model call, skill invocation or framework execution",
+      "profile": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-host-smoke-RJK69l\\installation\\profiles\\codex"
+    }
+  ],
+  "gate_passed": false,
+  "limitation": "CLI help with isolated child homes/configuration only. Native skill discovery, invocation, guard enforcement, auth/model calls and other operating systems remain unverified."
+}

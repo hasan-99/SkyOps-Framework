@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "host": "codex",
+  "platform": "win32",
+  "scenario": "Actual sky-next invocation in an empty isolated Git fixture",
+  "checked_at": "2026-11-26T12:57:35.111Z",
+  "duration_ms": 36834,
+  "exit_code": 0,
+  "ok": true,
+  "state_helper_executed_successfully": true,
+  "command_calls": 3,
+  "actual_token_usage": {
+    "input_tokens": 39134,
+    "cached_input_tokens": 19072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 259,
+    "reasoning_output_tokens": 0
+  },
+  "expected_state_result": "NO_PROJECT",
+  "observed_state_exit_code": 1,
+  "command_observations": [
+    {
+      "fields": [
+        "id",
+        "type",
+        "command",
+        "aggregated_output",
+        "exit_code",
+        "status"
+      ],
+      "exit_code": 1,
+      "mentions_state_check": true,
+      "output_has_no_project": true
+    },
+    {
+      "fields": [
+        "id",
+        "type",
+        "command",
+        "aggregated_output",
+        "exit_code",
+        "status"
+      ],
+      "exit_code": 1,
+      "mentions_state_check": false,
+      "output_has_no_project": false
+    },
+    {
+      "fields": [
+        "id",
+        "type",
+        "command",
+        "aggregated_output",
+        "exit_code",
+        "status"
+      ],
+      "exit_code": 1,
+      "mentions_state_check": false,
+      "output_has_no_project": false
+    }
+  ],
+  "sandbox": "mxc_read_only",
+  "shell_profiles_allowed": false,
+  "final_message": "I’ll use `sky-next` to check the fixture’s local state.\n`/sky-new`  \nThe local state check returned `NO_PROJECT` because the fixture has no `.planning/` directory.",
+  "unexpected_project_files": [],
+  "native_error_categories": [],
+  "stderr_bytes": 39,
+  "process_error": null,
+  "transport_diagnostic": "native_diagnostics_present_not_recorded",
+  "phase_gate_passed": false,
+  "production_activation": false,
+  "limitation": "One native router scenario only. No claim of other skills, agent tool-policy parity, Claude, other operating systems, cloud or full E2E acceptance."
+}

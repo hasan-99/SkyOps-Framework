@@ -1,0 +1,1216 @@
+{
+  "schema_version": 1,
+  "host": "codex",
+  "checked_at": "2026-11-26T13:34:39.756Z",
+  "platform": "win32",
+  "concurrency_limit": 2,
+  "expected_roles": [
+    "sky-builder",
+    "sky-plan-checker",
+    "sky-planner",
+    "sky-qa-browser",
+    "sky-research-synthesizer",
+    "sky-researcher",
+    "sky-roadmapper",
+    "sky-verifier",
+    "sky-visual-evaluator"
+  ],
+  "tested_roles": 9,
+  "passed": 9,
+  "ok": true,
+  "results": [
+    {
+      "role": "sky-plan-checker",
+      "source": "agents/plan-checker.md",
+      "source_sha256": "320fdd9ce326f0b19f5629eaa8576983037a5573f63e64897738541132a3aec8",
+      "native_artifact_sha256": "4506346cf650c8bcaa1def96203fa6a3ee9551534fec54c3d760a01378dd3fe3",
+      "artifact_unchanged": true,
+      "duration_ms": 27687,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-plan-checker",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            "Phase plan file path",
+            "Phase goal from ROADMAP.md",
+            "Phase success criteria from ROADMAP.md",
+            "Project context summary from PROJECT.md"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "required_role_input_observed": true,
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "agent_message",
+        "collab_tool_call"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 67700,
+        "cached_input_tokens": 33280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 291,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    },
+    {
+      "role": "sky-builder",
+      "source": "agents/builder.md",
+      "source_sha256": "6775824fd7dc29a3da23e3cdcc15d4129f2f67210c55de398bd033f9b150b9de",
+      "native_artifact_sha256": "c1044cdf609f5adaeefc4618c8571c0f7806ca3dacc43ab5aba8d2bf96c8aaf3",
+      "artifact_unchanged": true,
+      "duration_ms": 37764,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-builder",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            "One task block from the phase plan",
+            "PROJECT.md context"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "required_role_input_observed": true,
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "agent_message",
+        "collab_tool_call"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 67575,
+        "cached_input_tokens": 33280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 265,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    },
+    {
+      "role": "sky-planner",
+      "source": "agents/planner.md",
+      "source_sha256": "6c7f49f23746b6818f4d2c60ab8ca99430fd14980dcb90cab7b5a646f8256c4b",
+      "native_artifact_sha256": "11095d9d5f8cfba914d24e24a3b2b217a758b3e24079af07ee9bf87e7ab07a5a",
+      "artifact_unchanged": true,
+      "duration_ms": 45960,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-planner",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            "Project brief (.planning/PROJECT.md)",
+            "Current project state (.planning/STATE.md)",
+            "Target phase number, goal, success criteria, and requirement IDs from the roadmap"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "required_role_input_observed": true,
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "collab_tool_call",
+        "agent_message"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 84695,
+        "cached_input_tokens": 67072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 318,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    },
+    {
+      "role": "sky-qa-browser",
+      "source": "agents/qa-browser.md",
+      "source_sha256": "35ff9f13afca95cb315d8f95a501aecca8eb09e33cf0d0f927a158ced7087416",
+      "native_artifact_sha256": "91973b4719cc549060feba2b2bc8b66a5e373595fcff043b170428a5e84c889f",
+      "artifact_unchanged": true,
+      "duration_ms": 41116,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-qa-browser",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            "Path to the phase plan",
+            "Phase number",
+            "Reachable dev server at a supplied URL or on localhost port 3000 or 3001",
+            "Access to Playwright MCP browser tools"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "required_role_input_observed": true,
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "agent_message",
+        "collab_tool_call"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 67763,
+        "cached_input_tokens": 50304,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 324,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    },
+    {
+      "role": "sky-researcher",
+      "source": "agents/researcher.md",
+      "source_sha256": "4f7143eed239893f8c8df55bc87d1b19a911d2df71267753febafb570f12a74f",
+      "native_artifact_sha256": "a1561aac26db5824531839838cdc419662ea1181cbdbc14254f1b93b6420f9fd",
+      "artifact_unchanged": true,
+      "duration_ms": 26485,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-researcher",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            "Research dimension (stack, features, architecture, or pitfalls)",
+            "Project domain",
+            "Project context summary with core value, constraints, and what is being built",
+            "Milestone context (greenfield or subsequent)",
+            "Absolute output path for the research file"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "required_role_input_observed": true,
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "agent_message",
+        "collab_tool_call"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 67809,
+        "cached_input_tokens": 63232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 335,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    },
+    {
+      "role": "sky-research-synthesizer",
+      "source": "agents/research-synthesizer.md",
+      "source_sha256": "3edbc8bd5b47e5c9041f639ee97cac1da350437c5c3f6a9203c1106fdec282bf",
+      "native_artifact_sha256": "b18b85156e837a21918117cfa5d0007b6e24789b807d2bb3098eadf7760fb910",
+      "artifact_unchanged": true,
+      "duration_ms": 32090,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-research-synthesizer",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            "Project context summarized from PROJECT.md",
+            ".planning/research/STACK.md",
+            ".planning/research/FEATURES.md",
+            ".planning/research/ARCHITECTURE.md",
+            ".planning/research/PITFALLS.md"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "required_role_input_observed": true,
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "agent_message",
+        "collab_tool_call"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 67802,
+        "cached_input_tokens": 48256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 336,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    },
+    {
+      "role": "sky-roadmapper",
+      "source": "agents/roadmapper.md",
+      "source_sha256": "1b2c270bc3eb002987c53e8006f6f7e9e61cb6420bc9a6204d83155816ab5ff2",
+      "native_artifact_sha256": "5254261f9c82836fe53c1df778f5538156216519bc242d0c8c601880b15b6751",
+      "artifact_unchanged": true,
+      "duration_ms": 21446,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-roadmapper",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            ".planning/PROJECT.md with the project goals and constraints",
+            ".planning/config.json with depth and template_type",
+            "User-confirmed scope with the capability inventory, exclusions, and whole-project done-state"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "required_role_input_observed": true,
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "agent_message",
+        "collab_tool_call"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 67758,
+        "cached_input_tokens": 33792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 327,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    },
+    {
+      "role": "sky-verifier",
+      "source": "agents/verifier.md",
+      "source_sha256": "016866757d6255a8c4e53a2e9f535e8b89c959ee704d9ab73351f7193886c839",
+      "native_artifact_sha256": "7e9006579a9be7fb800936cf8c050a45811b8a32ef7a5f4c8175e64cb7cbd4ea",
+      "artifact_unchanged": true,
+      "duration_ms": 38313,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-verifier",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            "Phase plan path and plan with phase success criteria and task acceptance criteria",
+            "Inlined .planning/PROJECT.md contents for project conventions",
+            "Phase implementation files for direct verification",
+            "For frontend verification, design laws, design rubric, and matching design register"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "required_role_input_observed": true,
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "agent_message",
+        "collab_tool_call"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 67743,
+        "cached_input_tokens": 33280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 326,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    },
+    {
+      "role": "sky-visual-evaluator",
+      "source": "agents/visual-evaluator.md",
+      "source_sha256": "90e1377c2273e21dff731ea908f39c1c84b9762a31958eb39effd6905a30d05a",
+      "native_artifact_sha256": "38a2d250aca716cebc34ab37adedef86595fc360d5b369ec91953cde516efc27",
+      "artifact_unchanged": true,
+      "duration_ms": 24206,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-visual-evaluator",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            "Nine-dimension SkyOps scoring rubric with 1–5 anchors",
+            "Design brief excerpt with aesthetic direction, color strategy, and scene sentence",
+            "Product brief excerpt with register, voice, and anti-references",
+            "Full-page PNG screenshots for mobile, tablet, and desktop",
+            "Viewport widths and reduced-motion setting",
+            "Evaluation iteration number"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "required_role_input_observed": true,
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "agent_message",
+        "collab_tool_call"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 67873,
+        "cached_input_tokens": 50304,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 357,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    }
+  ],
+  "phase_gate_passed": false,
+  "production_activation": false,
+  "limitations": [
+    "Missing-input native role entrypoint probes only; no implementation, design scoring, research, browser QA or cloud/provider workflow acceptance",
+    "No per-agent tool-policy equivalence, cross-tenant security or full functional parity claim",
+    "No existing .NET framework/configuration/cache or existing Supabase project was accessed"
+  ]
+}

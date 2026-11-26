@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "host": "claude",
+  "checked_at": "2026-11-26T11:23:11.225Z",
+  "platform": "win32",
+  "exit_code": 0,
+  "expected_agents": [
+    "sky-builder",
+    "sky-plan-checker",
+    "sky-planner",
+    "sky-qa-browser",
+    "sky-research-synthesizer",
+    "sky-researcher",
+    "sky-roadmapper",
+    "sky-verifier",
+    "sky-visual-evaluator"
+  ],
+  "discovered_framework_agents": [],
+  "ok": false,
+  "stdout_bytes": 3,
+  "stderr_bytes": 0,
+  "diagnostic_class": "not_classified",
+  "gate_passed": false,
+  "limitation": "Native agent listing only. Claude skill invocation, policy enforcement, model/auth/cloud calls and other operating systems remain unverified.",
+  "evidence_status": "invalid_methodology_not_a_definition_discovery_probe",
+  "correction": "claude agents --json lists background sessions. Neither agent discovery nor an agent defect is inferred from the empty list."
+}

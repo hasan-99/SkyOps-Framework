@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "access": "invitation_only",
+  "installation_approval": "framework_owner_required",
+  "default_device_limit": 2,
+  "default_offline_validity_seconds": 86400,
+  "maximum_offline_validity_seconds": 86400,
+  "validate_online_at_every_startup": true,
+  "active_session_revalidation_seconds": 300,
+  "automatic_session_renewal": true,
+  "license_states": ["active", "suspended", "expired", "revoked"],
+  "safe_deprovisioning": {
+    "policy_version": 1,
+    "requires_explicit_installation_consent": true,
+    "requires_fresh_signed_permanent_revocation": true,
+    "remove_only_verified_owned_unchanged_components": true,
+    "preserve_user_data": true,
+    "uncertain_status_never_triggers_uninstall": true
+  },
+  "expired_license": "online_revalidation_required",
+  "data_recovery_and_uninstall": "always_available",
+  "ordinary_users_require_repository_access": false,
+  "production_trust_status": "not_configured",
+  "note": "Owner-confirmed defaults. Actual entitlements and signed policy are enforced server-side; editing this file cannot grant a license."
+}

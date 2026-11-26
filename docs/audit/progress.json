@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "authority": "SKYOPS_TRANSFORMATION_PLAN.md",
+  "baseline_commit": "0cd3dd5c903767de55c86d3661ad36148307afd8",
+  "branch": "skyops/transformation",
+  "updated_at": "2026-11-26T18:40:34.373Z",
+  "status_definitions": {
+    "implementation": [
+      "pending",
+      "in_progress",
+      "completed",
+      "blocked"
+    ],
+    "verification": [
+      "not_run",
+      "passed",
+      "failed",
+      "unavailable"
+    ]
+  },
+  "phases": [
+    {
+      "phase": 0,
+      "implementation_status": "completed",
+      "verification_status": "passed",
+      "evidence": [
+        "docs/audit/phase-0-verification.json"
+      ],
+      "remaining_issues": []
+    },
+    {
+      "phase": 1,
+      "implementation_status": "completed",
+      "verification_status": "passed",
+      "evidence": [
+        "docs/audit/phase-1-verification.json"
+      ],
+      "remaining_issues": []
+    },
+    {
+      "phase": 2,
+      "implementation_status": "in_progress",
+      "verification_status": "not_run",
+      "evidence": [
+        "docs/audit/phase-2-packaging-verification.json",
+        "docs/development-status.md",
+        "docs/audit/licensing-decisions.json",
+        "docs/audit/identity-migration.json",
+        "docs/audit/runtime-isolation-repairs.json",
+        "docs/audit/state-transport-adaptation.json",
+        "docs/audit/code-data-path-adaptation.json",
+        "docs/audit/native-host-smoke.json",
+        "docs/audit/claude-native-profile.json",
+        "docs/audit/codex-sandbox-probe.json",
+        "docs/audit/linux-packaging-verification.json",
+        "docs/audit/runtime-surface.json",
+        "docs/audit/codex-native-discovery-existing-profile.json",
+        "docs/audit/codex-native-router.json",
+        "docs/audit/claude-native-router.json",
+        "docs/audit/current-local-verification.json",
+        "docs/audit/private-repository-setup.json",
+        "docs/audit/shared-skill-validation.json",
+        "docs/audit/generic-knowledge-adaptation.json",
+        "docs/audit/voice-credential-cleanup.json",
+        "docs/audit/native-agent-validation-claude.json",
+        "docs/audit/native-agent-validation-codex.json",
+        "docs/audit/scaffold-landing-page-verification.json",
+        "docs/audit/scaffold-full-app-verification.json",
+        "docs/audit/scaffold-ai-agent-verification.json",
+        "docs/audit/scaffold-internal-tool-verification.json"
+      ],
+      "remaining_issues": [
+        "Remaining legacy service/removed-hosting/public-distribution references",
+        "Remaining skill/agent native execution, hook/tool-policy adapters and complete workflow acceptance",
+        "Linux native hosts, macOS and standalone WSL validation; container components alone are insufficient",
+        "Sanitized private source export and actual GitHub CI/release validation",
+        "Production signing trust/bootstrap, licensed delivery and later-phase server authorization"
+      ],
+      "partial_validation": {
+        "status": "passed",
+        "tests": 90,
+        "platform": "win32",
+        "linux_component_tests": 90,
+        "evidence": [
+          "docs/audit/phase-2-packaging-verification.json",
+          "docs/audit/linux-packaging-verification.json"
+        ],
+        "native_discovery": "Codex 29 skills from an independent repository, no parse errors or outside non-system skills",
+        "native_router": "Both authenticated Windows hosts ran the real local state check and routed an empty fixture to sky-new; one bounded scenario only",
+        "claude": "Authenticated isolated native profile; all-role/skill workflow acceptance remains pending",
+        "current_local_tests": 168,
+        "current_local_test_evidence": "docs/audit/current-local-verification.json",
+        "native_role_entrypoints": {
+          "claude": {
+            "passed": 9,
+            "scope": "Actual role dispatch/missing-input negative contracts only",
+            "evidence": "docs/audit/native-agent-validation-claude.json"
+          },
+          "codex": {
+            "passed": 9,
+            "scope": "Actual role dispatch/missing-input negative contracts only",
+            "evidence": "docs/audit/native-agent-validation-codex.json"
+          }
+        }
+      }
+    },
+    {
+      "phase": 3,
+      "implementation_status": "pending",
+      "verification_status": "not_run",
+      "evidence": [],
+      "remaining_issues": [
+        "Phase implementation and gate verification pending"
+      ]
+    },
+    {
+      "phase": 4,
+      "implementation_status": "pending",
+      "verification_status": "not_run",
+      "evidence": [],
+      "remaining_issues": [
+        "Phase implementation and gate verification pending"
+      ]
+    },
+    {
+      "phase": 5,
+      "implementation_status": "pending",
+      "verification_status": "not_run",
+      "evidence": [],
+      "remaining_issues": [
+        "Phase implementation and gate verification pending"
+      ]
+    },
+    {
+      "phase": 6,
+      "implementation_status": "pending",
+      "verification_status": "not_run",
+      "evidence": [],
+      "remaining_issues": [
+        "Phase implementation and gate verification pending"
+      ]
+    },
+    {
+      "phase": 7,
+      "implementation_status": "pending",
+      "verification_status": "not_run",
+      "evidence": [],
+      "remaining_issues": [
+        "Phase implementation and gate verification pending"
+      ]
+    },
+    {
+      "phase": 8,
+      "implementation_status": "pending",
+      "verification_status": "not_run",
+      "evidence": [],
+      "remaining_issues": [
+        "Phase implementation and gate verification pending"
+      ]
+    }
+  ],
+  "limitations": [
+    "Baseline tests ran locally on Windows only",
+    "Native host behavior, other operating systems, cloud, provider and end-to-end scenarios remain unverified",
+    "No performance improvement or full functional parity is claimed"
+  ],
+  "licensing": {
+    "approved": true,
+    "owner_confirmed_device_limit": 2,
+    "owner_confirmed_maximum_offline_hours": 24,
+    "every_online_startup_validation": true,
+    "automatic_active_session_validation_and_renewal": true,
+    "consent_gated_safe_deprovisioning": true,
+    "production_trust": "not_configured",
+    "backend": "pending_phase_4",
+    "evidence": [
+      "docs/audit/licensing-decisions.json",
+      "docs/audit/phase-2-packaging-verification.json"
+    ]
+  },
+  "capability_inventory": {
+    "baseline_component_and_new_requirement_entries": 264,
+    "licensing_extension_entries": 8,
+    "current_total": 272,
+    "note": "Counts are inventory coverage, not verified functional parity"
+  },
+  "provisioning": {
+    "internal_supabase_project": {
+      "display_name": "SkyOps",
+      "region": "eu-central-1",
+      "reference": null,
+      "status": "not_created",
+      "reason": "User reports Free plan active project limit reached",
+      "existing_projects_must_not_be_reused_or_modified": true
+    },
+    "local_supabase_testing": "authorized",
+    "docker": "Developer/test prerequisite only; engine running; no cloud project provisioned"
+  },
+  "external_setup": {
+    "github": {
+      "authenticated_owner": "hasan-99",
+      "repository": "hasan-99/SkyOps-Framework",
+      "private": true,
+      "source_uploaded": false,
+      "evidence": "docs/audit/private-repository-setup.json",
+      "prior_candidate_preserved": "hasan-99/SkyOps"
+    },
+    "standalone_wsl": "No development distro installed; only docker-desktop was listed",
+    "cloud_supabase": "Dedicated new project remains pending; existing projects untouched; local Supabase stack tests are authorized but not yet run"
+  },
+  "execution_cost_policy": {
+    "new_subagents": "disabled_after_user_token_concern",
+    "further_live_model_batches": "require_explicit_user_approval",
+    "current_work": "deterministic_local_scripts_and_tests",
+    "completed_work_preserved": true
+  }
+}

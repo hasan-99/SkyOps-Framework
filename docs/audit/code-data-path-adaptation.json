@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "timestamp": "2026-11-26T12:15:12.588Z",
+  "scope": "Versioned immutable code/resources separate from persistent owned user installation data",
+  "changes": [
+    {
+      "path": "bin/development-events.js",
+      "before_sha256": "cf1ef8a4e1fa3083cd49a09dece9b27a46d60dd2ebc4a2f7621e4834f982ae2a",
+      "after_sha256": "34a395e459a4f04636b015c446943c6ba76c5ef065c7de2d588ef7e5b8afa7fc"
+    },
+    {
+      "path": "bin/skyops-ui.js",
+      "before_sha256": "5158f73d98ad079872b101058ebd57df2488deddbf900ff59ced2401b515da70",
+      "after_sha256": "d0e2c374f90552c83350816b2bb5c7fb1ba7f0ed880b8668384493f742f312f1"
+    },
+    {
+      "path": "hooks/pre-deploy-gate.js",
+      "before_sha256": "749580b14adb2cca4d6c63aba28ea14c69485c1607d97f7e5e15fadc7fbe76f8",
+      "after_sha256": "b56b172bed3ba587c8ff1507e3b8635b97d7914484a763b1ee9a209c9170586b"
+    },
+    {
+      "path": "hooks/session-start.js",
+      "before_sha256": "cccbbb9a20d979adb3567a40c568689d2f881fb8f696c9daf5917a4e1138b859",
+      "after_sha256": "689f26454714c7117a167da33ffb5ccd25c4f1d544a7ff1e016e64ca1685f657"
+    }
+  ]
+}

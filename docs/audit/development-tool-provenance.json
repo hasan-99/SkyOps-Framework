@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-26",
+  "scope": "Development validation only; tools/images/actions are not included in SkyOps user packages",
+  "entries": [
+    {
+      "component": "PyYAML",
+      "version": "6.0.4",
+      "license": "MIT",
+      "upstream_reference": "https://pypi.org/project/PyYAML/6.0.4/",
+      "use": "System skill-creator validator dependency, installed only into ignored repository .skyops-dev-tools/python using isolated pip, public PyPI, pinned version and binary-only/no-dependency options",
+      "redistributed": false,
+      "runtime_dependency": false
+    },
+    {
+      "component": "Official Node Docker image",
+      "resolved_image": "node@sha256:be979e5523c76fa4d5ca4ebd3099078f220aa47ec39c48ad5b5df9314debd6eb",
+      "observed_node": "v22.23.5",
+      "licenses": ["Node.js MIT plus the component notices in its LICENSE", "Docker image build definitions MIT", "Debian base package license notices provided by the image"],
+      "upstream_references": ["https://raw.githubusercontent.com/nodejs/node/v22.23.5/LICENSE", "https://github.com/nodejs/docker-node/blob/main/LICENSE"],
+      "use": "Execute local Linux component tests with no external network and read-only source mount",
+      "redistributed": false,
+      "review_limit": "Not a redistribution/SBOM clearance for bundling the container or its operating system in a product"
+    },
+    {
+      "component": "actions/checkout",
+      "revision": "d23441a48e516b6c34aea4fa41551a30e30af803",
+      "tag": "v6",
+      "revision_evidence": "Read-only git ls-remote of the official repository",
+      "license": "MIT",
+      "license_reference": "https://raw.githubusercontent.com/actions/checkout/main/LICENSE",
+      "use": "Private CI checkout only; credentials not persisted; submodules not fetched",
+      "execution_status": "not_run_in_GitHub",
+      "redistributed": false
+    },
+    {
+      "component": "actions/setup-node",
+      "revision": "249970729cb0ef3589644e2896645e5dc5ba9c38",
+      "tag": "v6",
+      "revision_evidence": "Read-only git ls-remote of the official repository",
+      "license": "MIT",
+      "license_reference": "https://raw.githubusercontent.com/actions/setup-node/main/LICENSE",
+      "use": "Select supported Node runtime in private CI",
+      "execution_status": "not_run_in_GitHub",
+      "redistributed": false
+    }
+  ]
+}

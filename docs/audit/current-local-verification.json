@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-26T18:40:34.358Z",
+  "command": "node scripts/test.cjs",
+  "platform": "win32",
+  "node": "v22.23.3",
+  "tests": 168,
+  "passed": 168,
+  "failed": 0,
+  "skipped": 0,
+  "output_sha256": "70b6669238c7079e84cbebac59760be3e51a64b3ba84f82261cccf5c73c2811c",
+  "ok": true,
+  "phase_gate_passed": false,
+  "scope": "Complete current local baseline, packaging and Git integration test suite; not full native productive workflow, cloud/RLS or end-to-end parity"
+}

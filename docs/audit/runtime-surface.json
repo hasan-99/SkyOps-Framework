@@ -1,0 +1,2278 @@
+{
+  "schema_version": 1,
+  "timestamp": "2026-11-26T12:49:47.879Z",
+  "scope": "Audited target paths only; metadata/line numbers, no file contents or credential values",
+  "counts": {
+    "legacy_identity": 2,
+    "removed_hosting_integration": 115,
+    "removed_business_infrastructure": 238,
+    "hardcoded_original_home": 0,
+    "unapproved_public_framework_distribution": 22
+  },
+  "findings": [
+    {
+      "path": ".gitignore",
+      "line": 28,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": ".gitignore",
+      "line": 29,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": ".gitignore",
+      "line": 35,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 41,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 42,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 48,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 50,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 51,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 57,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 60,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 70,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 72,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 74,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 198,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 209,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 217,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 218,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 219,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 220,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 250,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 371,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 383,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 387,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 394,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 397,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 398,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 438,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 441,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 441,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 444,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 523,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 525,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 529,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 530,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 535,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 539,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 576,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 577,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 581,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 614,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 615,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 632,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 633,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 640,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 651,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 676,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 677,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 683,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 690,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 691,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 693,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 697,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 698,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 700,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 702,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 706,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 707,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 708,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 710,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 714,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 716,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 720,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 724,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 725,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 732,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 739,
+      "category": "legacy_identity",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 739,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 742,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 749,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 750,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 758,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 815,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 832,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 879,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 880,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 885,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 895,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 897,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 898,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 942,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 946,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 958,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 960,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 963,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 964,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 966,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 968,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 969,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 998,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 998,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1479,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1562,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1609,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1612,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1753,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1794,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1896,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1900,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1911,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1912,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1913,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1916,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1918,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1919,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1939,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1942,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1952,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1958,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1960,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2173,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2187,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2192,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2203,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2208,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2257,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2261,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2269,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2270,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2318,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2371,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2378,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2379,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2380,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2384,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2386,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2396,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2398,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2417,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2431,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2439,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2510,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2587,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2616,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2625,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2660,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2664,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2681,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2684,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 2699,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "FLAGS.md",
+      "line": 67,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "FLAGS.md",
+      "line": 73,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "SOUL.md",
+      "line": 4,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "SOUL.md",
+      "line": 7,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 58,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 60,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 61,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 62,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 92,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 97,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 101,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 118,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 126,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 129,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 130,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 132,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 134,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 135,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 140,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 175,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "line": 178,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "agents-skills-guide.html",
+      "line": 388,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "agents-skills-guide.html",
+      "line": 416,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "agents-skills-guide.html",
+      "line": 493,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "agents-skills-guide.html",
+      "line": 496,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "agents-skills-guide.html",
+      "line": 563,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "agents-skills-guide.html",
+      "line": 566,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/auto-report.js",
+      "line": 5,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/auto-report.js",
+      "line": 6,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/auto-report.js",
+      "line": 13,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/auto-report.js",
+      "line": 14,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/auto-report.js",
+      "line": 17,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/auto-report.js",
+      "line": 88,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/auto-report.js",
+      "line": 122,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 4,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 6,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 9,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 11,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 43,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 44,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 73,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 80,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 150,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 152,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/development-events.js",
+      "line": 156,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 4,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 6,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 10,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 15,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 249,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 256,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 262,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 327,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 364,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 400,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/sync-queue.js",
+      "line": 404,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/knowledge.js",
+      "line": 122,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 2,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 4,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 6,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 9,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 21,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 22,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 33,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 57,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 107,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 214,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 218,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 229,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/project-sync.js",
+      "line": 235,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/skyops-ui.js",
+      "line": 743,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/report-payload.js",
+      "line": 122,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/runtime-manifest.js",
+      "line": 30,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/runtime-manifest.js",
+      "line": 31,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/runtime-manifest.js",
+      "line": 32,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/runtime-manifest.js",
+      "line": 33,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/runtime-manifest.js",
+      "line": 35,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/runtime-manifest.js",
+      "line": 36,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/runtime-manifest.js",
+      "line": 43,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/security-scan.js",
+      "line": 48,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/security-scan.js",
+      "line": 304,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/slop-detect.mjs",
+      "line": 187,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 500,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 525,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 613,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 757,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 1325,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 1711,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 1757,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 1798,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 1824,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 2478,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 2513,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 2532,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/state.js",
+      "line": 2932,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "bin/status-snapshot.js",
+      "line": 4,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/pre-deploy-gate.js",
+      "line": 25,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/pre-deploy-gate.js",
+      "line": 27,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/pre-deploy-gate.js",
+      "line": 191,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/pre-push.js",
+      "line": 13,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/pre-push.js",
+      "line": 16,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/pre-push.js",
+      "line": 18,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/session-start.js",
+      "line": 179,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/session-start.js",
+      "line": 204,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/session-start.js",
+      "line": 207,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "hooks/usage-capture.js",
+      "line": 11,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-design/design-brand.md",
+      "line": 33,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-design/design-laws.md",
+      "line": 140,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-design/design-product.md",
+      "line": 18,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-design/design-product.md",
+      "line": 33,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-guide.md",
+      "line": 71,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-guide.md",
+      "line": 91,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-guide.md",
+      "line": 121,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-guide.md",
+      "line": 132,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/CONTEXT.md",
+      "line": 22,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/CONTEXT.md",
+      "line": 29,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/PRODUCT.md",
+      "line": 60,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 365,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 418,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 434,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 435,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 479,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 480,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 495,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 497,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 500,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/help.html",
+      "line": 502,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/journey.md",
+      "line": 89,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/project.md",
+      "line": 25,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/projects/ai-agent.md",
+      "line": 6,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/projects/ai-agent.md",
+      "line": 15,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/projects/voice-agent.md",
+      "line": 6,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/projects/website.md",
+      "line": 6,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/projects/website.md",
+      "line": 12,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/projects/website.md",
+      "line": 17,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/README.md",
+      "line": 22,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/README.md",
+      "line": 97,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/ai-agent/phases.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/ai-agent/phases.md",
+      "line": 9,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/ai-agent/phases.md",
+      "line": 15,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/ai-agent/phases.md",
+      "line": 48,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/ai-agent/phases.md",
+      "line": 53,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/ai-agent/scaffold/next.config.mjs",
+      "line": 4,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/ai-agent/stack.json",
+      "line": 6,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/ai-agent/verify-checklist.md",
+      "line": 30,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/full-app/phases.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/full-app/phases.md",
+      "line": 8,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/full-app/phases.md",
+      "line": 15,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/full-app/phases.md",
+      "line": 45,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/full-app/scaffold/README.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/full-app/stack.json",
+      "line": 4,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/full-app/stack.json",
+      "line": 6,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/full-app/verify-checklist.md",
+      "line": 31,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/internal-tool/phases.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/internal-tool/phases.md",
+      "line": 9,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/internal-tool/phases.md",
+      "line": 15,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/internal-tool/scaffold/README.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/internal-tool/stack.json",
+      "line": 4,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/internal-tool/stack.json",
+      "line": 6,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/internal-tool/verify-checklist.md",
+      "line": 17,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/internal-tool/verify-checklist.md",
+      "line": 30,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/landing-page/phases.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/landing-page/phases.md",
+      "line": 8,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/landing-page/phases.md",
+      "line": 14,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/landing-page/scaffold/README.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/landing-page/scaffold/README.md",
+      "line": 16,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/landing-page/scaffold/next.config.mjs",
+      "line": 4,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/landing-page/stack.json",
+      "line": 6,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/stacks/landing-page/verify-checklist.md",
+      "line": 8,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/work-packet.md",
+      "line": 3,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/work-packet.md",
+      "line": 7,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/work-packet.md",
+      "line": 8,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/work-packet.md",
+      "line": 35,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skyops-templates/work-packet.md",
+      "line": 36,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 9,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 23,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 42,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 50,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 50,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 55,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 70,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 80,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/ai-agent.md",
+      "line": 81,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/voice-agent.md",
+      "line": 4,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/voice-agent.md",
+      "line": 57,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/web-app.md",
+      "line": 4,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/web-app.md",
+      "line": 10,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/web-app.md",
+      "line": 38,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/web-app.md",
+      "line": 45,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/web-app.md",
+      "line": 62,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/web-app.md",
+      "line": 66,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/website.md",
+      "line": 3,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/website.md",
+      "line": 9,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/website.md",
+      "line": 41,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/website.md",
+      "line": 47,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/website.md",
+      "line": 47,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/website.md",
+      "line": 53,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "references/archetypes/website.md",
+      "line": 73,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "rules/speed.md",
+      "line": 21,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "rules/speed.md",
+      "line": 42,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "rules/trust-boundary.md",
+      "line": 12,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/bootstrap-pop-os.sh",
+      "line": 135,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/bootstrap-pop-os.sh",
+      "line": 151,
+      "category": "legacy_identity",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/bootstrap-pop-os.sh",
+      "line": 347,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/bootstrap-pop-os.sh",
+      "line": 348,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/bootstrap-pop-os.sh",
+      "line": 353,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/generate-project-claude-md.sh",
+      "line": 83,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/generate-project-claude-md.sh",
+      "line": 86,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/generate-project-claude-md.sh",
+      "line": 88,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/generate-project-claude-md.sh",
+      "line": 89,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "scripts/generate-project-claude-md.sh",
+      "line": 91,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-deep-research/SKILL.md",
+      "line": 110,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-feature/SKILL.md",
+      "line": 67,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-handoff/SKILL.md",
+      "line": 4,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-handoff/SKILL.md",
+      "line": 29,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-handoff/SKILL.md",
+      "line": 80,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-handoff/SKILL.md",
+      "line": 90,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-handoff/SKILL.md",
+      "line": 127,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-handoff/SKILL.md",
+      "line": 129,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-handoff/SKILL.md",
+      "line": 137,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-idk/SKILL.md",
+      "line": 130,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-learn/SKILL.md",
+      "line": 32,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-new/SKILL.md",
+      "line": 428,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-polish/SKILL.md",
+      "line": 342,
+      "category": "unapproved_public_framework_distribution",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-report/SKILL.md",
+      "line": 14,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-report/SKILL.md",
+      "line": 49,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-road/SKILL.md",
+      "line": 90,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-road/SKILL.md",
+      "line": 99,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-road/SKILL.md",
+      "line": 134,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-secure/SKILL.md",
+      "line": 42,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-ship/SKILL.md",
+      "line": 71,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-ship/SKILL.md",
+      "line": 157,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-ship/SKILL.md",
+      "line": 183,
+      "category": "removed_hosting_integration",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-update/SKILL.md",
+      "line": 47,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-update/SKILL.md",
+      "line": 84,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    },
+    {
+      "path": "skills/sky-verify/SKILL.md",
+      "line": 215,
+      "category": "removed_business_infrastructure",
+      "classification": "requires_manual_contract_review"
+    }
+  ],
+  "gate_passed": false,
+  "limitation": "Lexical surface checks; findings include documentation/comments and require contextual classification. This is not a security/parity proof."
+}

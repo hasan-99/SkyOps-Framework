@@ -1,0 +1,1723 @@
+{
+  "schema_version": 1,
+  "scope": "Mechanical source identity/path adaptation only; functionality, domain decoupling and native host behavior remain pending",
+  "baseline_commit": "0cd3dd5c903767de55c86d3661ad36148307afd8",
+  "applied_at": "2026-11-26T11:09:45.094Z",
+  "files": [
+    {
+      "source_path": ".claudeignore",
+      "target_path": ".claudeignore",
+      "before_sha256": "0dd13855c29fd4749a66663fd0faea669bbd3a8bbd568e0c08a4a60d688ab71d",
+      "after_sha256": "0dd13855c29fd4749a66663fd0faea669bbd3a8bbd568e0c08a4a60d688ab71d",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": ".gitignore",
+      "target_path": ".gitignore",
+      "before_sha256": "2b3176a205bcf916554d223bb0b50e0a2b7cf74d69c268381a6a0950c52917e1",
+      "after_sha256": "0725375380a997ef71fbaf99663138f52f1c385feecce803c03f2adf08285c78",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "CHANGELOG.md",
+      "target_path": "CHANGELOG.md",
+      "before_sha256": "9b54ad94073178aaed7c5ae6e5ec728e3290097eb4f9ca74066833bc3b030475",
+      "after_sha256": "8383b074c2eb9ed10dfdee5c3569c9b8116efc2f097e8ee46ae9fdf2bb70794c",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "CLAUDE.md",
+      "target_path": "CLAUDE.md",
+      "before_sha256": "2a2646d106e1e1265d3deab2d0aac231b0a83d96fc759fb7e5c1d6373eb88507",
+      "after_sha256": "d722e7ab15ebea9e0d12af7260f4a1b71d4db38c70e61b6ea772ca21b93e3afa",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "FLAGS.md",
+      "target_path": "FLAGS.md",
+      "before_sha256": "92d350c445facf601b16a3d8323dac890012f9c4fdb401f6d5b6e61ca7e422d1",
+      "after_sha256": "d4a417604eeef1a55bd784913023301b82da55cfcff93f6612516283b3fc2775",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "SOUL.md",
+      "target_path": "SOUL.md",
+      "before_sha256": "aab4719d4aa41965913c14f4672262daf88430f8dcdb2bc4d2a9b6dfbcdb02b7",
+      "after_sha256": "25177061a6a39905e782522ef45e7685bbf633ee8a766ef000db9c10b92196ae",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "TROUBLESHOOTING.md",
+      "target_path": "TROUBLESHOOTING.md",
+      "before_sha256": "eefe8cfa009274dc4f9105e06cb1db0b8c73f7ec4786d8c271bc1823dc90eab7",
+      "after_sha256": "cd6fccafbf63b6b417021ecfb91e380704a47508afe949c18acc9952463137f5",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents-skills-guide.html",
+      "target_path": "agents-skills-guide.html",
+      "before_sha256": "4f4236ff1fa8b51f484a6080ea3cd9eff1974759beab93d03de90b636b48d130",
+      "after_sha256": "83e2a68683f93adcf2aecba1283d75987a47d0a508c46a499b9648a654eb93eb",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents/builder.md",
+      "target_path": "agents/builder.md",
+      "before_sha256": "15dfb60c462bcbfe2249d2b39c0ff5de66eace7aca9dd2f203fb21508173a7e5",
+      "after_sha256": "6775824fd7dc29a3da23e3cdcc15d4129f2f67210c55de398bd033f9b150b9de",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents/plan-checker.md",
+      "target_path": "agents/plan-checker.md",
+      "before_sha256": "808fd4dc7a763511963737353e640a7ac67e7996bf0a253c3a8a35bb6282a91d",
+      "after_sha256": "320fdd9ce326f0b19f5629eaa8576983037a5573f63e64897738541132a3aec8",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents/planner.md",
+      "target_path": "agents/planner.md",
+      "before_sha256": "2e21720b2b64dd2965a727d0d1a9794d6fc82ed437d74590fe673bb545b8bb05",
+      "after_sha256": "6c7f49f23746b6818f4d2c60ab8ca99430fd14980dcb90cab7b5a646f8256c4b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents/qa-browser.md",
+      "target_path": "agents/qa-browser.md",
+      "before_sha256": "fe3e63c6e2f8c69d5581d6e097358a546a513d76497061066cf983442b0048f7",
+      "after_sha256": "35ff9f13afca95cb315d8f95a501aecca8eb09e33cf0d0f927a158ced7087416",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents/research-synthesizer.md",
+      "target_path": "agents/research-synthesizer.md",
+      "before_sha256": "a9eadd45ffb49e3e76b5709a426d844e4522c2660c03f52ab8621554d24812bc",
+      "after_sha256": "3edbc8bd5b47e5c9041f639ee97cac1da350437c5c3f6a9203c1106fdec282bf",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents/researcher.md",
+      "target_path": "agents/researcher.md",
+      "before_sha256": "006dbfc5189e3f3ee0a87025578944aba86e4d8d1ee2cb1cb7ae2ad0fcb5110a",
+      "after_sha256": "4f7143eed239893f8c8df55bc87d1b19a911d2df71267753febafb570f12a74f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents/roadmapper.md",
+      "target_path": "agents/roadmapper.md",
+      "before_sha256": "994e24669dca0ab5e07c4a5e6011008383a503208cf3b70413cf8fb145b644a6",
+      "after_sha256": "1b2c270bc3eb002987c53e8006f6f7e9e61cb6420bc9a6204d83155816ab5ff2",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents/verifier.md",
+      "target_path": "agents/verifier.md",
+      "before_sha256": "97f32634236fd6c247c3cb3364df5f0da81280bb4f9a3c09ebbfbe9bfd07c1ae",
+      "after_sha256": "016866757d6255a8c4e53a2e9f535e8b89c959ee704d9ab73351f7193886c839",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "agents/visual-evaluator.md",
+      "target_path": "agents/visual-evaluator.md",
+      "before_sha256": "b90869905cfe634dd27842def2a6e59cb1a717ad002a29fc3ac39a9af3f6f9d6",
+      "after_sha256": "78cb26c965eacc7f03d19cdb2a384af08032ef1bc00323bcb7587cc47d472d2a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/agent-runs.js",
+      "target_path": "bin/agent-runs.js",
+      "before_sha256": "fc10c9cc8b791159599a9e6c21d89e8ca1a2371ec4c9c90ce2f861d1617f22a4",
+      "after_sha256": "6f28e46b0ee38525b4a95298675b68cb8ea53fd771b27d1de85ef377659e75f7",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/agent-status.js",
+      "target_path": "bin/agent-status.js",
+      "before_sha256": "e7f3c3085195e2b74915f38468d780153513e1ace1c721928985f3c916561aee",
+      "after_sha256": "90ad68a3d036575eb4d6739e9d7e5e7654c9f93a85f42c2f8cdbfc4a2e25418e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/analyze-gate.js",
+      "target_path": "bin/analyze-gate.js",
+      "before_sha256": "05b59e9087399f99ed6e4bcd71d01af7b4447d031b3f512cce24bbeb683c3b64",
+      "after_sha256": "ec8c145365bc1e2245954383b6971d7981bd654247dd35c8cf2b783632cefb0d",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/auto-report.js",
+      "target_path": "bin/auto-report.js",
+      "before_sha256": "264828b7950a34aaeb7a2088029fc41eded0cdced2082080ef4caa03a28082f8",
+      "after_sha256": "81c54acfbf6af68ab5b6ec59e2b6f142cc81e01a490f8ebc0aa6846ecd0fb033",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/batch-plan.js",
+      "target_path": "bin/batch-plan.js",
+      "before_sha256": "d941a67ce2dc62e1148c31749ce34f986a6f857d6aa5e4d607a56f46111117c7",
+      "after_sha256": "a181b9c7ac85e5bc72d88d8fb3499ce6237febcef21b9be904ecba75db2f5db3",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/branch-hygiene.js",
+      "target_path": "bin/branch-hygiene.js",
+      "before_sha256": "3d446ca1d1ac28de5af32cd595b0c6d26e9fe9dbe8a4c6b6631674cf703b5935",
+      "after_sha256": "2f01307e561628742a8cc74403e2727a1d8d5d2ace3ad0153810170745831558",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/clean-temp-images.ps1",
+      "target_path": "bin/clean-temp-images.ps1",
+      "before_sha256": "722305d6d7463e33a03d78590b140cbb518b6f22a650a55a4dcf669986215301",
+      "after_sha256": "722305d6d7463e33a03d78590b140cbb518b6f22a650a55a4dcf669986215301",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/codex-goal.js",
+      "target_path": "bin/codex-goal.js",
+      "before_sha256": "acd83f7468a7de24b30342164b58666d4496d9ff891690006dab2abb00aae2da",
+      "after_sha256": "686c0b580cf906f5968f2f9422dff9ec5436aa5ada75b9142f0257ce3e64233c",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/command-surface.js",
+      "target_path": "bin/command-surface.js",
+      "before_sha256": "8c98c62d29df419e8595e5c8fb825abe7679578381df9f0f2ac337246440b4ba",
+      "after_sha256": "c56200e234f57f25be6a415adf0fb37df4f99abbfe6de57f27c3752a7cdd9e8e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/contract-runner.js",
+      "target_path": "bin/contract-runner.js",
+      "before_sha256": "38b6015e9c58725ab6903c93ab954a4caba723529be1be8e41fe54c911a4a1fb",
+      "after_sha256": "58c4c2643fa7cc7a4ba4d7f017ea04ec59f1494cd17fed1441320518ba3593e3",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/design-tokens.js",
+      "target_path": "bin/design-tokens.js",
+      "before_sha256": "c629ab0601b78e76bee7fa6a21ef82d44e1e34a415a8692315507cc68b0e5838",
+      "after_sha256": "096845abdf2c907fd9e8694a07d51b1ebf676f05771a3f47546dc538320cb7aa",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/erp-event.js",
+      "target_path": "bin/development-events.js",
+      "before_sha256": "db9b971f83bdd12e7e7fe15cf9dd65078c9486275129b8da79defa62370a7d02",
+      "after_sha256": "071d765b8406289b26b359071ecefece6141f525c4d2f99e3550eb385c7ce907",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/erp-retry.js",
+      "target_path": "bin/sync-queue.js",
+      "before_sha256": "6471c1b8c9d493488533908d9e492afb668c2afc04ceede3c21ba362b6f54a9b",
+      "after_sha256": "874fb00ca35c0ab7c1ef414e4857f0a48a2ea2c76f92c511d72eb7911cf7764b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/eval-runner.js",
+      "target_path": "bin/eval-runner.js",
+      "before_sha256": "35070fc4d46f10e201b1461961bfcf12dfef5d7ed8a5dd3a6d39e0859059b704",
+      "after_sha256": "b55ef185bfd617ca7eb0442a0337d24ab48238e854c0404deb341de0f2a5fa19",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/harness-eval.js",
+      "target_path": "bin/harness-eval.js",
+      "before_sha256": "8cb87d1fae79b72a59dc8c7e423c36fa6d96a370150fdd2882bce29ff97673f0",
+      "after_sha256": "bcceced34bdd55a908b76be9fb36c8f804cd17d3ae91080a72e4582b8d03f4c2",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/host-adapters.js",
+      "target_path": "bin/host-adapters.js",
+      "before_sha256": "5a35e4b76de973cc6e6fd06c98faf74ee6370e062f214ffa98277326a906ada3",
+      "after_sha256": "7dcf084c6452526502cf1a71e78ccd5f4fd2da2922e590e5ca1d48545364a14f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/knowledge-flush.js",
+      "target_path": "bin/knowledge-flush.js",
+      "before_sha256": "efc73c6389d0761bb3167d7b00f4b89393f8ad21c397012e6f8a05074d4fea63",
+      "after_sha256": "53c29280f2f3c0dd4ff56fbb53d690c5253f3c39e93be4713487575290137e8a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/knowledge.js",
+      "target_path": "bin/knowledge.js",
+      "before_sha256": "dc80de8cb3a5d196ddff0a2126726514903a0e223d7df9e0d083c87092283e99",
+      "after_sha256": "cb003d816d7b4d5ba85aa5150a5b03a86ee939e6b5173bc33ac20da15821d45b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/last-report.js",
+      "target_path": "bin/last-report.js",
+      "before_sha256": "cae7a366cf71aa418d10aaec2c88d32491876379229f125d0d0239111ee1cafc",
+      "after_sha256": "9ae987f03d9be82848df7608f3a2e40a30fc5730cfa5364a41d3ca3ab39f656f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/learning-candidates.js",
+      "target_path": "bin/learning-candidates.js",
+      "before_sha256": "ec2170c6d080b35d85a65d3d82770201d952335e85e9ce5667d39dc1dcc626f7",
+      "after_sha256": "f9cb4196104158b586e10fcffb7d7cd6b40ab58aadf91557e35e0272804e805e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/plan-contract.js",
+      "target_path": "bin/plan-contract.js",
+      "before_sha256": "e734bc570d99f83a8aada5055793b4053fd97be1dde29e6d742bd76ccad1927b",
+      "after_sha256": "e734bc570d99f83a8aada5055793b4053fd97be1dde29e6d742bd76ccad1927b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/planning-hygiene.js",
+      "target_path": "bin/planning-hygiene.js",
+      "before_sha256": "d679dd34b7476471710c10a3b0a820af301fee0e8cec67f8216bbd1e6f90abe5",
+      "after_sha256": "d679dd34b7476471710c10a3b0a820af301fee0e8cec67f8216bbd1e6f90abe5",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/project-snapshot.js",
+      "target_path": "bin/project-snapshot.js",
+      "before_sha256": "64a22e865db9850bb63b842c1468a0a99e90255eff3bdf8a0fb9afa538cb03b4",
+      "after_sha256": "0efb718c947a711052e484c2898963a7235e0412d6238fb825a75906ba2a5898",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/project-sync.js",
+      "target_path": "bin/project-sync.js",
+      "before_sha256": "059aceca37209351de022039fb77526bc0091990c3949f95b326fb80f1947bcf",
+      "after_sha256": "14f6f2777717609fab2f98a5b196ea8672765492e79bfbf941b1740aca592d1a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/prune-deprecated.js",
+      "target_path": "bin/prune-deprecated.js",
+      "before_sha256": "ea5721b77f696a44a8c149572a5c831429e4fae4fff2ed6fcfda85746499d826",
+      "after_sha256": "a74de45d596ed8274a75e7c1de3b3193797e85f567e3c19df37dbc8cfde3a7a8",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/qualia-ui.js",
+      "target_path": "bin/skyops-ui.js",
+      "before_sha256": "0bd43048e70f37303f8ff59fc6cf2bae42625af3d3e3dc9165cfdb2b1e25ac28",
+      "after_sha256": "d90bf741f7f8bd9c2004d3224acd66ec4faf43f50277f6e115c47dcde49a6804",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/recall.js",
+      "target_path": "bin/recall.js",
+      "before_sha256": "5e3be62dd8a52ca807bc2ec562e642e01fee12627d23c7c506153ebc4cba7329",
+      "after_sha256": "53c9dd70ac7ccd38c29b5abbf2282ed78691f29f199300224678c14a788c8e30",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/repo-map.js",
+      "target_path": "bin/repo-map.js",
+      "before_sha256": "3ead3aceed43ef8e75ec4439c69e54789adf36c6e700459c6ba3f492534cf607",
+      "after_sha256": "f18066de86ebbad5901619492016b647cb7e9e8bffaa74d787d2a638f4e6a015",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/report-payload.js",
+      "target_path": "bin/report-payload.js",
+      "before_sha256": "5c6e8c9e7e0a89d8d2537fea72d9a2651168ffca5f065b0e19d9cca301ee9d7b",
+      "after_sha256": "929985fba72fe5d498e6c7c5e1706f4ac2265dbe39d8dd09034ba0cdef1c59e5",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/runtime-manifest.js",
+      "target_path": "bin/runtime-manifest.js",
+      "before_sha256": "1a470f819439048f2e9b50ab81d3bcd0fdbf656785839d7685fc43dcde4fb212",
+      "after_sha256": "c4e926e339d85d3934b05c6cc14d89195410098b6b861aa51b434388b7f72a46",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/security-scan.js",
+      "target_path": "bin/security-scan.js",
+      "before_sha256": "cf698d50298d829c4065485b6a30f428f097af728f9093bcd4889322f236a0f4",
+      "after_sha256": "9598e73c4736ebcf605daa3d835da51d8b74c8162ecae913fe64a2e84230447a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/slop-detect.mjs",
+      "target_path": "bin/slop-detect.mjs",
+      "before_sha256": "45875d89f2d0e900d8e9fc0d23be5040b079a151e3e6f3aa2df6a6047285b087",
+      "after_sha256": "54865e09c298554c81d5fe1335a482263206c67c65b59ff0d5a7d746cf7b8523",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/state-ledger.js",
+      "target_path": "bin/state-ledger.js",
+      "before_sha256": "29d1017fad2db806927818512bc417185b8f84bf9c0427db8d6245ec69956f18",
+      "after_sha256": "52e8b9c3a72c945bff20b568e0aa6703cab15bf4ceaed3a61d2ea5bb1815b1c7",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/state.js",
+      "target_path": "bin/state.js",
+      "before_sha256": "e29db61eb776ba50ea667f4a14fbf3964a2f4355ada8a8f1f26e2d1494159310",
+      "after_sha256": "91d45602aad385bc063c5cf60e6f667b54072488d23e2af1e54fedb1bf565a37",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/status-snapshot.js",
+      "target_path": "bin/status-snapshot.js",
+      "before_sha256": "b70a3fd2671c1a98a0c4b8a7b3b9f2d0547dbb2dac83fc7c79cdaa38e9d60970",
+      "after_sha256": "318894ac695684a92d3c8219a34848c09654d8bb81ae7db14aed3356d12c249f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/statusline.js",
+      "target_path": "bin/statusline.js",
+      "before_sha256": "10dcc7192ed0e35b59e784a1941a4d9b748a5e11d10c82e03f3eedc5cee05dbb",
+      "after_sha256": "dc7f7bff10b33701392f1b7dff2b0f46fd3475c22e1250c670582d55ad93b23b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/trust-score.js",
+      "target_path": "bin/trust-score.js",
+      "before_sha256": "dc7e344ec5be7a749f31069aecd163c38f41e1cda080da6ddd747be7830ce307",
+      "after_sha256": "07ed6daa9cbe5c05a0786ff0e7ffa82ceea7a994aa96bc02156f8e492c3d98bc",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/vault-access.js",
+      "target_path": "bin/vault-access.js",
+      "before_sha256": "08ca645b1ced88bbae71bcb7198f1d03466a6a16fc4725393d6c25e424811fa6",
+      "after_sha256": "de37a0429dfd00194ee8f435275351fab4e75f37bfcfdcee74e5cb6cedde374f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/verify-panel.js",
+      "target_path": "bin/verify-panel.js",
+      "before_sha256": "ba76d592044bed56ea5183ef799fec12bc165bc05dc505c50d1b2e13cb060edf",
+      "after_sha256": "ba76d592044bed56ea5183ef799fec12bc165bc05dc505c50d1b2e13cb060edf",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/wave-plan.js",
+      "target_path": "bin/wave-plan.js",
+      "before_sha256": "0537ef39c7965c46e17063163dc66f9d0ef2e429cc5ca1ab5e78eb0673eb5931",
+      "after_sha256": "60e5a8b3b3279674eaa0fc43f3c6efa8041b9941bec5a595fcd39dab2d80b6da",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "bin/work-packet.js",
+      "target_path": "bin/work-packet.js",
+      "before_sha256": "9cf1668c53530218fb98edca24cc362a4a2cacb4fb92f4bb2732e15640f8cbff",
+      "after_sha256": "617649409aed0425e46a26c5e0faf2a212591b34605c29454e7ec669b466b4cb",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/auto-update.js",
+      "target_path": "hooks/auto-update.js",
+      "before_sha256": "cfd9cbc0acf2848ebee87453051d4ae9710961083b5562fcde7ca9a1e34cb200",
+      "after_sha256": "48ace7d359dd5981958a4611b3ab477359d083332d295d0c365b44827d894441",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/branch-guard.js",
+      "target_path": "hooks/branch-guard.js",
+      "before_sha256": "39f730298ec3a02bf98e86739e4e2ea96e7bfdd1db7b6d4664fb6c78f1e1120b",
+      "after_sha256": "745738c842e337d4544cc69e94d109b9b708280610e8107911851f5c874f9b18",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/env-empty-guard.js",
+      "target_path": "hooks/env-empty-guard.js",
+      "before_sha256": "e0e2f766720335aa7d9edc5565178233d50dcf71cd7cd5408cd6ff9b9329684c",
+      "after_sha256": "1e4e5ccf1219d366bc5ef1e275a831c99790b7a51188e4b14ac230ae0f2fe9c4",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/fawzi-approval-guard.js",
+      "target_path": "hooks/approval-guard.js",
+      "before_sha256": "1f9f8876b55aee77b841ff1c162fab3297f9db698041f140ae8f69f5e7e9399e",
+      "after_sha256": "4ddcbb5fa38ca2a71b89755cd31368838d88cc57e25ad8db523a4d4a859ddb0b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/git-guardrails.js",
+      "target_path": "hooks/git-guardrails.js",
+      "before_sha256": "8bde3db6fe0530e59efeaaf4fe8b700f505d06843ed57494420508906f06e0b7",
+      "after_sha256": "f5254b5bdf568b10ebdcd3ff5770c535e763a93ba27ad418bcbbf22c89e963f5",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/migration-guard.js",
+      "target_path": "hooks/migration-guard.js",
+      "before_sha256": "0b4fac0c32c3794258abc905ba02514c92422f4b7694040f10f0d24cfef12607",
+      "after_sha256": "b802e073efd6f41d00eec13cf940228344ceaafab9b98c56e289bb07102e620b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/pre-compact.js",
+      "target_path": "hooks/pre-compact.js",
+      "before_sha256": "6770f29a47a44f683bccc35d804ee04fbe1f66b4c4e63c88f08d62925671cd1d",
+      "after_sha256": "1940a380b21d040f28ecd623fcba57b59e6fd337226968bf0f554bf472ba7a32",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/pre-deploy-gate.js",
+      "target_path": "hooks/pre-deploy-gate.js",
+      "before_sha256": "b65e6de25b8221ea0c1b8a649c6f5a301b3bda5d6167d95821eba8fdaa72f333",
+      "after_sha256": "1fe58620b2aa0568649d8655ae3c8c7b26c2c13cb95bcd59b87a6ce2163c13b7",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/pre-push.js",
+      "target_path": "hooks/pre-push.js",
+      "before_sha256": "0aae6bdb98d251ef41aba02446880226d084e5e5af399ec039ec064973b35ffc",
+      "after_sha256": "3b8ed7d8a676d385822a90016447c1b123574541a75f8e70c325d11fc82df5ca",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/session-start.js",
+      "target_path": "hooks/session-start.js",
+      "before_sha256": "ebb2fa07d5303177c915eba160ca0045e32faf2420fd43c486a4d40c85d8d605",
+      "after_sha256": "f68499b2e6030fcec2f339252afddca7ed4bb9b388c8c5ebc187af835c39a074",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/stop-session-log.js",
+      "target_path": "hooks/stop-session-log.js",
+      "before_sha256": "9905fb6b9feacc4cdb96489df168784060d6f1b123753aa528c9755dd5ece389",
+      "after_sha256": "41b86c3fd98af6a04ed03729ad9750153ae5a6b1ab30366014a772f095d06d1a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/supabase-destructive-guard.js",
+      "target_path": "hooks/supabase-destructive-guard.js",
+      "before_sha256": "1106bced21852d78cf22957efb196747bb0f0d5d0d11a11d266827ab5a3eced9",
+      "after_sha256": "3241c043e9c9675a79f8a5a4e747b19f9b2a7f365fb34b1b7b6578f3c1216697",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/task-write-guard.js",
+      "target_path": "hooks/task-write-guard.js",
+      "before_sha256": "a50fd239961405746945e535c257346a8f1883fecb0d9204e0f9a337a8033d8e",
+      "after_sha256": "705003060931a0e25f44fa964198aad85916abbb37a5943ddf0fbf00e3ee7c4b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/usage-capture.js",
+      "target_path": "hooks/usage-capture.js",
+      "before_sha256": "18fcb6b5201d41ccc1d103583394fc34cbbf7d8d3e1e5d8e67de7bbe8646596d",
+      "after_sha256": "c779d4e6751d8cca48418a0a2998529fedddec75ae8abef563f80e02f8c74112",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "hooks/vercel-account-guard.js",
+      "target_path": "hooks/deployment-target-guard.js",
+      "before_sha256": "959e7bd9a16db12706341278400f23f59bcb2931c3206806ef8cd833eda8b173",
+      "after_sha256": "5662ff64adef53ba2b8e98338a5e5ea16c37dc196b19e7fb64c1853052115240",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-design/design-brand.md",
+      "target_path": "skyops-design/design-brand.md",
+      "before_sha256": "791dfee578989db9a4c1515939725831fc9871270448ec891bc5dc62e19a78f9",
+      "after_sha256": "791dfee578989db9a4c1515939725831fc9871270448ec891bc5dc62e19a78f9",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-design/design-dials.md",
+      "target_path": "skyops-design/design-dials.md",
+      "before_sha256": "179f8ee92a7ec5cbe9f33866d0e412b3119e0e2497653fdee3764c6cff06c257",
+      "after_sha256": "091348c154a1e7fdafae58638a62b03b47d652d3cf0d4e15ebd10424add5fdf6",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-design/design-laws.md",
+      "target_path": "skyops-design/design-laws.md",
+      "before_sha256": "45f872fd08dc41269c85085045ffabf1c8a85ac4fc30cbb9e1357f95d7953abb",
+      "after_sha256": "99e6e6c329fcedd89f78e012ead6b42bb4a0439c4f03f4f32fef9948fcf78266",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-design/design-product.md",
+      "target_path": "skyops-design/design-product.md",
+      "before_sha256": "ae219dab33bf1c90add8c7b666e053e4a7f8fba7a557cfa5b2e3ed8d60294cfa",
+      "after_sha256": "ae219dab33bf1c90add8c7b666e053e4a7f8fba7a557cfa5b2e3ed8d60294cfa",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-design/design-reference.md",
+      "target_path": "skyops-design/design-reference.md",
+      "before_sha256": "71c811c2452f196c99b9eddbf18ab40a77c9216aee7132787c129cacef80d2d2",
+      "after_sha256": "8338193a41ed492342d64e107cd6732dbfc5146a514b0c53304221518f770c1e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-design/design-rubric.md",
+      "target_path": "skyops-design/design-rubric.md",
+      "before_sha256": "6c8286472c4302e8e234b00901ec8159b7deb681a8244130f180212ec15dbe9a",
+      "after_sha256": "069e8a8a854c56dc62d8061f174893c85fd212ed42478eae6404e7fd3b073c6e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-design/frontend.md",
+      "target_path": "skyops-design/frontend.md",
+      "before_sha256": "fd4ddf0474f19c3f4bedade63ac858508a38574c1b632f0e1a5546ddc53056a7",
+      "after_sha256": "6ede3981b7c40ee3dbbd3ed5f078714f1073cf07dc969218689eba03afef79af",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-design/graphics.md",
+      "target_path": "skyops-design/graphics.md",
+      "before_sha256": "9bd0d39a423b25fa681f4920295806200594c5b49bdecc4f5dc2e5ce83b31281",
+      "after_sha256": "3e92ae793f5d2260edc91496b9c784cb2ec21c54261957d6f91dc8f864053811",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-guide.md",
+      "target_path": "skyops-guide.md",
+      "before_sha256": "5ea9c51478e1942e795a81ef32b796517ad7242558160a442347dee1df3f3244",
+      "after_sha256": "f07c95f693d35f7ee7a4b3285b26503b744ec07f737f6e3cfa5b0def2fda36c1",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-references/questioning.md",
+      "target_path": "skyops-references/questioning.md",
+      "before_sha256": "08e908eccf00e3454e18fe7dffdaf23416e6ea280ff61f16ece686802487eec1",
+      "after_sha256": "08e908eccf00e3454e18fe7dffdaf23416e6ea280ff61f16ece686802487eec1",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/CONTEXT.md",
+      "target_path": "skyops-templates/CONTEXT.md",
+      "before_sha256": "21359c407253a88f484e9714e82ab3a23c91493f02daa7008a97ccd54b1e7a33",
+      "after_sha256": "6e4c57b3e344b363699975319770a75d047a5cc7c852f7f39a3ac773b3129f78",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/DESIGN.md",
+      "target_path": "skyops-templates/DESIGN.md",
+      "before_sha256": "e70fa27b0b31d0591615df220eb1d9faea166046f88687c41243db41dcff069f",
+      "after_sha256": "fa309434dfe143c6dab867a163320ecd258603394fbfc9e300e5d21f7fef61c9",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/PRODUCT.md",
+      "target_path": "skyops-templates/PRODUCT.md",
+      "before_sha256": "dc83491a6c2571ba766baf88579dae753b9fa10f23578bc9fe6f1df7136326e8",
+      "after_sha256": "6028ade4001cac9f64dbcb113e77a75dcfc78a54814c49b15442624c9214ba6f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/decisions/ADR-template.md",
+      "target_path": "skyops-templates/decisions/ADR-template.md",
+      "before_sha256": "95b0b35fd24df341e37cf3e23fbe00c1c291a50a2249338c714247563ad6421e",
+      "after_sha256": "95b0b35fd24df341e37cf3e23fbe00c1c291a50a2249338c714247563ad6421e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/help.html",
+      "target_path": "skyops-templates/help.html",
+      "before_sha256": "1bccf1028aa20a14442213e983e3e570b4ddd2ba75808685990e319ef500a4a7",
+      "after_sha256": "db68802c6a1db6ebbee6d40ff216ebe2e320ececaa15d384a2f3e389c3d49fb6",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/instructions.md",
+      "target_path": "skyops-templates/instructions.md",
+      "before_sha256": "2dc0873e107325d8056702ff908d1249c9a864c89cc5c79102ed9b6b45f224ee",
+      "after_sha256": "818291437ab08598d436f1c5413051fba638b539772c66d20f03f3384a5e00d9",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/journey.md",
+      "target_path": "skyops-templates/journey.md",
+      "before_sha256": "3c53b537f1a838d8e6c6614096e46f28fb89dd078454201acdb64d3f3e1ae10f",
+      "after_sha256": "b0fa6b515d22c15df4c3ff57d998634380b2d2d08412ba65e1725904bd17386e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/phase-context.md",
+      "target_path": "skyops-templates/phase-context.md",
+      "before_sha256": "11ca736b2b78a9c1eee7a83ef948a1be141845f913cbb2dfacc96e1e71cee944",
+      "after_sha256": "2b5c680aa785856b5d13f6f9936bc78fe4ebd6aa803de496000c42809a808bdd",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/plan.md",
+      "target_path": "skyops-templates/plan.md",
+      "before_sha256": "fb64915cb74fb16b5a29362ae4323ae21d63221f5c2427d9c1b961217c6e3baa",
+      "after_sha256": "fb64915cb74fb16b5a29362ae4323ae21d63221f5c2427d9c1b961217c6e3baa",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/planning.gitignore",
+      "target_path": "skyops-templates/planning.gitignore",
+      "before_sha256": "8d9dd496a7d7b2f0648007398dbee571a3b990db21859cb41895d338aca8d1a6",
+      "after_sha256": "8d9dd496a7d7b2f0648007398dbee571a3b990db21859cb41895d338aca8d1a6",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/project-discovery.md",
+      "target_path": "skyops-templates/project-discovery.md",
+      "before_sha256": "c78c8e7117cbd706430ac4cf3ab58144aa920058716795ac7d5dc1613597ab9f",
+      "after_sha256": "ce6e3f1a28110ae32530f0726e073055a16479f8aeb458736e3a7b6e5565f28a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/project.md",
+      "target_path": "skyops-templates/project.md",
+      "before_sha256": "4bc9e8beda812214a2663d482254a0e4f75793430fb2ae38ab103e77a07b5b98",
+      "after_sha256": "4bc9e8beda812214a2663d482254a0e4f75793430fb2ae38ab103e77a07b5b98",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/projects/ai-agent.md",
+      "target_path": "skyops-templates/projects/ai-agent.md",
+      "before_sha256": "0a9af038964287688656aa03f3bcad3cdcabbb3e23c9eb5d973fc3b1d8a41b53",
+      "after_sha256": "ab671aa8e4df3f193749ed14b262dba548be4e793c0c9dac0b8ec6a97e2a0b1f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/projects/mobile-app.md",
+      "target_path": "skyops-templates/projects/mobile-app.md",
+      "before_sha256": "caafc404e51f31b6bc9a28ea91cc0a44bcd99fe4a530ba743fb7eba01f5547e7",
+      "after_sha256": "0e087b27ff28c12d766e249cc5ebd24b08195d8a4047c410de65c7c18e1295ba",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/projects/voice-agent.md",
+      "target_path": "skyops-templates/projects/voice-agent.md",
+      "before_sha256": "ebb28261f4216fe1679a92062c97144aca0fb927f604ea0cb07a681036fe6ca0",
+      "after_sha256": "d522ae1e9effff67306e28145447bf51a00c4b86bc5f124f7fbaadc85931eb51",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/projects/website.md",
+      "target_path": "skyops-templates/projects/website.md",
+      "before_sha256": "0cf4e4e099dc7f06ff71614fbdbac14250a9e0acf664de022c1f95b9e0be3eb2",
+      "after_sha256": "a31379b42b6102651d5f98695c86033840fd76cf59e002d87595d089ee05ac21",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/requirements.md",
+      "target_path": "skyops-templates/requirements.md",
+      "before_sha256": "cac6d6260a53351b45d10469f1238dc2e2b31daebb37bcd4523f75f215052d29",
+      "after_sha256": "422dac224d32948ba88f92e32526b616db6a0e5ab73c04ec36fa7074a8917075",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/research-project/ARCHITECTURE.md",
+      "target_path": "skyops-templates/research-project/ARCHITECTURE.md",
+      "before_sha256": "5e0769dc5a18074a4ea6653b48081e7dbe8b662bd087d064cdd713d213b363fc",
+      "after_sha256": "5e0769dc5a18074a4ea6653b48081e7dbe8b662bd087d064cdd713d213b363fc",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/research-project/FEATURES.md",
+      "target_path": "skyops-templates/research-project/FEATURES.md",
+      "before_sha256": "dbba1b7ff50c26df1fe2bfaff4e6829eb1e9db3e8ef77db4d1f6d4d639eba20f",
+      "after_sha256": "dbba1b7ff50c26df1fe2bfaff4e6829eb1e9db3e8ef77db4d1f6d4d639eba20f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/research-project/PITFALLS.md",
+      "target_path": "skyops-templates/research-project/PITFALLS.md",
+      "before_sha256": "b431b2a171e4ebfe01718256d50246f579a0f6969d063c9e57be5336f44ea035",
+      "after_sha256": "b431b2a171e4ebfe01718256d50246f579a0f6969d063c9e57be5336f44ea035",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/research-project/STACK.md",
+      "target_path": "skyops-templates/research-project/STACK.md",
+      "before_sha256": "d8896e51141629a305d30c9fc676c05884cab1a1f3601e4362797a932600c146",
+      "after_sha256": "d8896e51141629a305d30c9fc676c05884cab1a1f3601e4362797a932600c146",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/research-project/SUMMARY.md",
+      "target_path": "skyops-templates/research-project/SUMMARY.md",
+      "before_sha256": "69444a5c6282b576253c7066267d80e106ac87deb0518321754ce22e7b548b59",
+      "after_sha256": "4f68eb0f124aeff814162dc4b7904759e257c820a58c464f890ebc1db6b70fe1",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/roadmap.md",
+      "target_path": "skyops-templates/roadmap.md",
+      "before_sha256": "1cd1608e7da00398b105fd98afa4f867e058b2c22860fbfefe78f77808893b55",
+      "after_sha256": "a73429fd047a4cb30d6119db786e9d631fa3da6868b157ba547bb17164d30d78",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/README.md",
+      "target_path": "skyops-templates/stacks/README.md",
+      "before_sha256": "eff7e3081c2884888d6a0365af38234ab0a447b0e08ea911d959aafa3eec17d6",
+      "after_sha256": "a43c582b39c97e3b20ef0d3e50b6af51c32cd622027a92ee03d835b8b6fab915",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/env.required.json",
+      "target_path": "skyops-templates/stacks/ai-agent/env.required.json",
+      "before_sha256": "71b96511a3c8927c57a3eb52a156a35aaf3d74a7d111830dfbc3bcde54a28b4e",
+      "after_sha256": "a6c8e1b9a9ce2e8f5b21f997d6ade6d24ef5087b205b666f4ce3d20fbb70bd88",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/phases.md",
+      "target_path": "skyops-templates/stacks/ai-agent/phases.md",
+      "before_sha256": "ea92e5ccfde4886112e4b1fd5fef6c0cdfddba4433567d281e953dc433e8005a",
+      "after_sha256": "5d84a1df91900f4f61c81ed1bfe5f9096e752e1a2aec36c964997d770b646c8c",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/README.md",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/README.md",
+      "before_sha256": "2aeea832c4b974722e7754df3ee20c820f5a2039c7aaa64c8f24a61204e74131",
+      "after_sha256": "2aeea832c4b974722e7754df3ee20c820f5a2039c7aaa64c8f24a61204e74131",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/app/api/chat/route.ts",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/app/api/chat/route.ts",
+      "before_sha256": "200407efe4d872f81d5936bdb1a6a6c53e9cba898fc4b0728c88e3cb65e0d424",
+      "after_sha256": "200407efe4d872f81d5936bdb1a6a6c53e9cba898fc4b0728c88e3cb65e0d424",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/app/globals.css",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/app/globals.css",
+      "before_sha256": "385b62fa77fa9b26c104ee6e707cae77a90e86276b4f83858fea712525405ddb",
+      "after_sha256": "385b62fa77fa9b26c104ee6e707cae77a90e86276b4f83858fea712525405ddb",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/app/layout.tsx",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/app/layout.tsx",
+      "before_sha256": "ef607f8b03ad85c1b52f6d01cb69453eb75d8d83f9f44f670010c8be6e985f7d",
+      "after_sha256": "ef607f8b03ad85c1b52f6d01cb69453eb75d8d83f9f44f670010c8be6e985f7d",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/app/page.tsx",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/app/page.tsx",
+      "before_sha256": "314cf9996c8504582f32ac60d460dfeea937542895ea9e50dd8611644bfa9d41",
+      "after_sha256": "314cf9996c8504582f32ac60d460dfeea937542895ea9e50dd8611644bfa9d41",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/evals/cases.json",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/evals/cases.json",
+      "before_sha256": "ef245ea3b69e6527ce7f6b5708905d5f92fefc15850fc49707a42bcfa7576f0a",
+      "after_sha256": "ef245ea3b69e6527ce7f6b5708905d5f92fefc15850fc49707a42bcfa7576f0a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/lib/openrouter/client.ts",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/lib/openrouter/client.ts",
+      "before_sha256": "30ef230fcb3f45bcc5451df31251765ab87d8ee90ffb7f81efc8bde88b8037bb",
+      "after_sha256": "30ef230fcb3f45bcc5451df31251765ab87d8ee90ffb7f81efc8bde88b8037bb",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/lib/prompts/system.ts",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/lib/prompts/system.ts",
+      "before_sha256": "125bd3c704e2ccd864e0fb24df73ad4b349b68d062e0c0c03a2e94cd583807be",
+      "after_sha256": "125bd3c704e2ccd864e0fb24df73ad4b349b68d062e0c0c03a2e94cd583807be",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/lib/supabase/client.ts",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/lib/supabase/client.ts",
+      "before_sha256": "d783bc9270f897a2266565d6c68b3ceb2635db5d0066443479f471ff7d546153",
+      "after_sha256": "d783bc9270f897a2266565d6c68b3ceb2635db5d0066443479f471ff7d546153",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/lib/supabase/server.ts",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/lib/supabase/server.ts",
+      "before_sha256": "bb133062e94363594415206669cd2108a38e07322084e53a218f730f0ec753be",
+      "after_sha256": "bb133062e94363594415206669cd2108a38e07322084e53a218f730f0ec753be",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/next.config.mjs",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/next.config.mjs",
+      "before_sha256": "a8723d6cc6089566f5f8e27ad1e67fe514e6a74845f6b18f7888ad78c7e9a939",
+      "after_sha256": "a8723d6cc6089566f5f8e27ad1e67fe514e6a74845f6b18f7888ad78c7e9a939",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/package.json",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/package.json",
+      "before_sha256": "fad99891c202446ddf088450581f7a2ebaf8c29f1075c995fc0654b2f648c580",
+      "after_sha256": "fad99891c202446ddf088450581f7a2ebaf8c29f1075c995fc0654b2f648c580",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/postcss.config.mjs",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/postcss.config.mjs",
+      "before_sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "after_sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/supabase/migrations/0001_init.sql",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/supabase/migrations/0001_init.sql",
+      "before_sha256": "4ab1e3faa1c81268b9b006a5517567451d326e9796ff6103275cdf51615003b6",
+      "after_sha256": "4ab1e3faa1c81268b9b006a5517567451d326e9796ff6103275cdf51615003b6",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/scaffold/tsconfig.json",
+      "target_path": "skyops-templates/stacks/ai-agent/scaffold/tsconfig.json",
+      "before_sha256": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2",
+      "after_sha256": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/stack.json",
+      "target_path": "skyops-templates/stacks/ai-agent/stack.json",
+      "before_sha256": "a5990ba9da40290e9aa83c93f6d801af60a418cd6fda4066b111fe7bcfa84d3e",
+      "after_sha256": "a5990ba9da40290e9aa83c93f6d801af60a418cd6fda4066b111fe7bcfa84d3e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/ai-agent/verify-checklist.md",
+      "target_path": "skyops-templates/stacks/ai-agent/verify-checklist.md",
+      "before_sha256": "39a221e635e973b500cfa32a8a00034e219b7da72c5fd5c1d5cfe070d49af15a",
+      "after_sha256": "39a221e635e973b500cfa32a8a00034e219b7da72c5fd5c1d5cfe070d49af15a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/env.required.json",
+      "target_path": "skyops-templates/stacks/full-app/env.required.json",
+      "before_sha256": "9a58bac49009576c778294b6428cc3d85d6739f1779e177b5c2b5ce25dd97572",
+      "after_sha256": "9a58bac49009576c778294b6428cc3d85d6739f1779e177b5c2b5ce25dd97572",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/phases.md",
+      "target_path": "skyops-templates/stacks/full-app/phases.md",
+      "before_sha256": "2754fa39250ebd8da73c4c4862749547ae07a1f5a16782aae064c0e085a1dcd0",
+      "after_sha256": "7a7c004e4ae139c02e09eaa1d169d0fae61e3d4d5c6859ff5511f160fd33a3d3",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/README.md",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/README.md",
+      "before_sha256": "0e83febad71920936317649cd11eb7a045b5a2516589d686723e83c359e2ba98",
+      "after_sha256": "0e83febad71920936317649cd11eb7a045b5a2516589d686723e83c359e2ba98",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/app/globals.css",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/app/globals.css",
+      "before_sha256": "8123518b50ab2e796656e1e8dc9446f2781ab858f60d9988105aecf1f2598cbf",
+      "after_sha256": "8123518b50ab2e796656e1e8dc9446f2781ab858f60d9988105aecf1f2598cbf",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/app/layout.tsx",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/app/layout.tsx",
+      "before_sha256": "edc876a8c17fffa450b73cbce06c6bfb9a9f3104cbaeebabd4e25c7046004d58",
+      "after_sha256": "edc876a8c17fffa450b73cbce06c6bfb9a9f3104cbaeebabd4e25c7046004d58",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/app/page.tsx",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/app/page.tsx",
+      "before_sha256": "68d9b6bd8d802a4dfc07b32bb7e6acd08b36396869c89e1b8f87adc422790b89",
+      "after_sha256": "68d9b6bd8d802a4dfc07b32bb7e6acd08b36396869c89e1b8f87adc422790b89",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/lib/supabase/client.ts",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/lib/supabase/client.ts",
+      "before_sha256": "9a7697f29480242e0e2d3c2c329f2bcf0452ffd849feb0ead602af687e039f7c",
+      "after_sha256": "9a7697f29480242e0e2d3c2c329f2bcf0452ffd849feb0ead602af687e039f7c",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/lib/supabase/server.ts",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/lib/supabase/server.ts",
+      "before_sha256": "fe65b958c223eac9d754a956e69965a96290a62aca2257e5a3d4b228bc53b657",
+      "after_sha256": "fe65b958c223eac9d754a956e69965a96290a62aca2257e5a3d4b228bc53b657",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/next.config.mjs",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/next.config.mjs",
+      "before_sha256": "22c192b2c4c480c490aefafe3b19d2b705e3c10afc477d61ae9a3b934628bf69",
+      "after_sha256": "22c192b2c4c480c490aefafe3b19d2b705e3c10afc477d61ae9a3b934628bf69",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/package.json",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/package.json",
+      "before_sha256": "f4a015758791bc5e0d49b258fdcb8385c9fce79b4e60cfaf7b945c839d43deed",
+      "after_sha256": "f4a015758791bc5e0d49b258fdcb8385c9fce79b4e60cfaf7b945c839d43deed",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/postcss.config.mjs",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/postcss.config.mjs",
+      "before_sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "after_sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/supabase/migrations/0001_init.sql",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/supabase/migrations/0001_init.sql",
+      "before_sha256": "233b07d39327a8469b6bb8f02e0a66e3a33d20df830a36eda5ccfa9bac000269",
+      "after_sha256": "233b07d39327a8469b6bb8f02e0a66e3a33d20df830a36eda5ccfa9bac000269",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/scaffold/tsconfig.json",
+      "target_path": "skyops-templates/stacks/full-app/scaffold/tsconfig.json",
+      "before_sha256": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2",
+      "after_sha256": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/stack.json",
+      "target_path": "skyops-templates/stacks/full-app/stack.json",
+      "before_sha256": "8cd895ce4baaa717b9369c1fefda0591877508a9da3bed226ae67eea49635496",
+      "after_sha256": "8cd895ce4baaa717b9369c1fefda0591877508a9da3bed226ae67eea49635496",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/full-app/verify-checklist.md",
+      "target_path": "skyops-templates/stacks/full-app/verify-checklist.md",
+      "before_sha256": "d00506ea69c70713f61198942d2f44ad7ba7071e7493a18f2e9f2329a5726020",
+      "after_sha256": "d00506ea69c70713f61198942d2f44ad7ba7071e7493a18f2e9f2329a5726020",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/env.required.json",
+      "target_path": "skyops-templates/stacks/internal-tool/env.required.json",
+      "before_sha256": "53d604af6fe33dd71dda504f3caa6eb0da87b99442c9a38b3cc64ac04bbee2b4",
+      "after_sha256": "53d604af6fe33dd71dda504f3caa6eb0da87b99442c9a38b3cc64ac04bbee2b4",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/phases.md",
+      "target_path": "skyops-templates/stacks/internal-tool/phases.md",
+      "before_sha256": "3ce779cb8f6b86e2711b7e465acc3ae960dac9642933052fcfad434a6b7a78c2",
+      "after_sha256": "c4e8e9d9190c2e5fedb9be4e03e0374fc4bc7ba0034c02cfcb7a304c1b0e2113",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/README.md",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/README.md",
+      "before_sha256": "281f9b52fc2245462375c2f7ca9d28bc05f4b03518f2611c309adf1e22114466",
+      "after_sha256": "281f9b52fc2245462375c2f7ca9d28bc05f4b03518f2611c309adf1e22114466",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/app/globals.css",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/app/globals.css",
+      "before_sha256": "385b62fa77fa9b26c104ee6e707cae77a90e86276b4f83858fea712525405ddb",
+      "after_sha256": "385b62fa77fa9b26c104ee6e707cae77a90e86276b4f83858fea712525405ddb",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/app/layout.tsx",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/app/layout.tsx",
+      "before_sha256": "c3fc7615876e4edd949f1fd454adba15ffca0478c737c28ef6d96a3fbc11ba23",
+      "after_sha256": "c3fc7615876e4edd949f1fd454adba15ffca0478c737c28ef6d96a3fbc11ba23",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/app/page.tsx",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/app/page.tsx",
+      "before_sha256": "66f617a75954a7d8ce2a29fe6bdf8d663080d404578a9eb712900738bdc967bb",
+      "after_sha256": "66f617a75954a7d8ce2a29fe6bdf8d663080d404578a9eb712900738bdc967bb",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/lib/supabase/client.ts",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/lib/supabase/client.ts",
+      "before_sha256": "194437cf53e4857f50972d9cc9c507b650ccde0f47154628a117724ccd1a6f2f",
+      "after_sha256": "194437cf53e4857f50972d9cc9c507b650ccde0f47154628a117724ccd1a6f2f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/lib/supabase/server.ts",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/lib/supabase/server.ts",
+      "before_sha256": "bb133062e94363594415206669cd2108a38e07322084e53a218f730f0ec753be",
+      "after_sha256": "bb133062e94363594415206669cd2108a38e07322084e53a218f730f0ec753be",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/next.config.mjs",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/next.config.mjs",
+      "before_sha256": "383d22a5b233d2c0d6eb0a8c22ecddb229094cdcbc40f165cc4016a9366af76d",
+      "after_sha256": "383d22a5b233d2c0d6eb0a8c22ecddb229094cdcbc40f165cc4016a9366af76d",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/package.json",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/package.json",
+      "before_sha256": "cb3b09d9cc38364e9e263b8fc0c987d89ddb49ca424a6ce677448925a522b17d",
+      "after_sha256": "cb3b09d9cc38364e9e263b8fc0c987d89ddb49ca424a6ce677448925a522b17d",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/postcss.config.mjs",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/postcss.config.mjs",
+      "before_sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "after_sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/supabase/migrations/0001_init.sql",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/supabase/migrations/0001_init.sql",
+      "before_sha256": "ba50da94599a6997315e91376a5d0f16da9c9fc7621dec2cd780b77f9f64629a",
+      "after_sha256": "ba50da94599a6997315e91376a5d0f16da9c9fc7621dec2cd780b77f9f64629a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/scaffold/tsconfig.json",
+      "target_path": "skyops-templates/stacks/internal-tool/scaffold/tsconfig.json",
+      "before_sha256": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2",
+      "after_sha256": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/stack.json",
+      "target_path": "skyops-templates/stacks/internal-tool/stack.json",
+      "before_sha256": "7b21c178b47953f2192dd7e648eaa4138a8b71c142e5afc1a7ace07a1523d395",
+      "after_sha256": "7b21c178b47953f2192dd7e648eaa4138a8b71c142e5afc1a7ace07a1523d395",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/internal-tool/verify-checklist.md",
+      "target_path": "skyops-templates/stacks/internal-tool/verify-checklist.md",
+      "before_sha256": "7f01446e09ab21b6fccb6016384ff61fb78ce3f314e5162ee0becfa4a008b84e",
+      "after_sha256": "7f01446e09ab21b6fccb6016384ff61fb78ce3f314e5162ee0becfa4a008b84e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/env.required.json",
+      "target_path": "skyops-templates/stacks/landing-page/env.required.json",
+      "before_sha256": "aae92f9d6e7d8b957d4efbebcdeec8dbf7a62ffa8d07762ef21ab53172b1e4a4",
+      "after_sha256": "aae92f9d6e7d8b957d4efbebcdeec8dbf7a62ffa8d07762ef21ab53172b1e4a4",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/phases.md",
+      "target_path": "skyops-templates/stacks/landing-page/phases.md",
+      "before_sha256": "388399901feb298b99c55b147c27f1aee0de8658760003018f83aeeac64829a4",
+      "after_sha256": "2316d05f0a20322d7c5bb222455706e92811d83e974e00bb127761e0e300a41d",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/scaffold/README.md",
+      "target_path": "skyops-templates/stacks/landing-page/scaffold/README.md",
+      "before_sha256": "7093542736ed51b49e9259f786f80c01be4c6276aad49141273454b336312d7f",
+      "after_sha256": "7093542736ed51b49e9259f786f80c01be4c6276aad49141273454b336312d7f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/scaffold/app/globals.css",
+      "target_path": "skyops-templates/stacks/landing-page/scaffold/app/globals.css",
+      "before_sha256": "a772354908a8c98977f2ff5c35c233e3782e80e8c88f37c18aa7892b964dbedc",
+      "after_sha256": "a772354908a8c98977f2ff5c35c233e3782e80e8c88f37c18aa7892b964dbedc",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/scaffold/app/layout.tsx",
+      "target_path": "skyops-templates/stacks/landing-page/scaffold/app/layout.tsx",
+      "before_sha256": "574d82fc5579e097010ce35db5419358649c56d2b6c7f9bd28725c37db027674",
+      "after_sha256": "574d82fc5579e097010ce35db5419358649c56d2b6c7f9bd28725c37db027674",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/scaffold/app/page.tsx",
+      "target_path": "skyops-templates/stacks/landing-page/scaffold/app/page.tsx",
+      "before_sha256": "860c7943276d5d84bac2a472d57821276e9bf4e7688bda2ffec342c581406de8",
+      "after_sha256": "860c7943276d5d84bac2a472d57821276e9bf4e7688bda2ffec342c581406de8",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/scaffold/next.config.mjs",
+      "target_path": "skyops-templates/stacks/landing-page/scaffold/next.config.mjs",
+      "before_sha256": "929361a3ea0b95cd6d09078151670933acae037181ec504a7d582ea014136ed6",
+      "after_sha256": "929361a3ea0b95cd6d09078151670933acae037181ec504a7d582ea014136ed6",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/scaffold/package.json",
+      "target_path": "skyops-templates/stacks/landing-page/scaffold/package.json",
+      "before_sha256": "1e45e185e52ec39c5cf78d6c84a848afc518c50edb529560740626b87fe41a77",
+      "after_sha256": "1e45e185e52ec39c5cf78d6c84a848afc518c50edb529560740626b87fe41a77",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/scaffold/postcss.config.mjs",
+      "target_path": "skyops-templates/stacks/landing-page/scaffold/postcss.config.mjs",
+      "before_sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "after_sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/scaffold/tsconfig.json",
+      "target_path": "skyops-templates/stacks/landing-page/scaffold/tsconfig.json",
+      "before_sha256": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2",
+      "after_sha256": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/stack.json",
+      "target_path": "skyops-templates/stacks/landing-page/stack.json",
+      "before_sha256": "d81028640a606e54e8cd09d56b3f17a3c9b17ce3bc85d25822c56c3563b18d07",
+      "after_sha256": "d81028640a606e54e8cd09d56b3f17a3c9b17ce3bc85d25822c56c3563b18d07",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/stacks/landing-page/verify-checklist.md",
+      "target_path": "skyops-templates/stacks/landing-page/verify-checklist.md",
+      "before_sha256": "d88ed842a4ef469fd6f61fc8953b825d090384c9240b380745436f7437bce310",
+      "after_sha256": "d88ed842a4ef469fd6f61fc8953b825d090384c9240b380745436f7437bce310",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/state.md",
+      "target_path": "skyops-templates/state.md",
+      "before_sha256": "a717615c22bd1e76707816d6588470983b0ecb1db29eb3770d15f91145ad2eeb",
+      "after_sha256": "a717615c22bd1e76707816d6588470983b0ecb1db29eb3770d15f91145ad2eeb",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/tracking.json",
+      "target_path": "skyops-templates/tracking.json",
+      "before_sha256": "eec3fc1cd3f8ea6e80a63843bb94bf34c15247d154983f71186a06db9f6b3402",
+      "after_sha256": "eec3fc1cd3f8ea6e80a63843bb94bf34c15247d154983f71186a06db9f6b3402",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "qualia-templates/work-packet.md",
+      "target_path": "skyops-templates/work-packet.md",
+      "before_sha256": "aef5b1870c0429a9b907d86cd97f1cdc4fe75907f0030afca51684de5e9335b8",
+      "after_sha256": "f23749f43061aee0614a2fd05fac055ee09f01a2612cc4235947300adfd80b48",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "references/archetypes/ai-agent.md",
+      "target_path": "references/archetypes/ai-agent.md",
+      "before_sha256": "ecc186e7472e6af7e182863e0bea478cc7b46ab4adc72de60427b118158776f3",
+      "after_sha256": "c7d52b0d158a66f7cda022282f80cd6eece64688217a4777e3520848d4f2357a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "references/archetypes/voice-agent.md",
+      "target_path": "references/archetypes/voice-agent.md",
+      "before_sha256": "75e91ea5c0ccd071c04aa4b8a8c446bb11fbcbf815200161dbb58471ce17de60",
+      "after_sha256": "bfb12cc684a5cd1f0884d99d7df3c58983e16681ed05e2795304c9f35a476059",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "references/archetypes/web-app.md",
+      "target_path": "references/archetypes/web-app.md",
+      "before_sha256": "23758339dd3c8c5c5cba1776602bd105471b39325012de537547b80c3e29cd29",
+      "after_sha256": "eeadb246de5046c98194598e573353fa235720c17be054a6c558ff0101142783",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "references/archetypes/website.md",
+      "target_path": "references/archetypes/website.md",
+      "before_sha256": "17ee1a09bbf80a490bb6e9b557b47d4aea54efbc6d1eee8c877b07d97cc69b18",
+      "after_sha256": "8b11f8caee2cf3f0845578b956af67cdd454c752afd8bc88a6205ad7bd517971",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "references/questioning.md",
+      "target_path": "references/questioning.md",
+      "before_sha256": "08e908eccf00e3454e18fe7dffdaf23416e6ea280ff61f16ece686802487eec1",
+      "after_sha256": "08e908eccf00e3454e18fe7dffdaf23416e6ea280ff61f16ece686802487eec1",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/access.md",
+      "target_path": "rules/access.md",
+      "before_sha256": "5e32db448d569a4ad8270a435efa3077a2e3038d5916e41dd7c96ad4ca6153d9",
+      "after_sha256": "de02298cf8a48d52946ecd05381544ae31cfe5b9ed7ca9f5ec69cbe0669f1701",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/architecture.md",
+      "target_path": "rules/architecture.md",
+      "before_sha256": "aba377e3d9ea0bfa83ea39c7b70a37da1d5d08736278b6c197b4a47a1e3d9886",
+      "after_sha256": "b6fd53bebfaa1ee86763491ddc590c203f67b88ea72fd77dd6afb89fd0531407",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/codex-goal.md",
+      "target_path": "rules/codex-goal.md",
+      "before_sha256": "385cb1ab8bdf0c32e93d6b85959a00d5e10c74317048ee00042ca85915102e66",
+      "after_sha256": "37801ed66d415999f3e81d6fcdee83154d5ffc3fe0aa2a6a001a6b382408176d",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/command-output.md",
+      "target_path": "rules/command-output.md",
+      "before_sha256": "51d7d7f3a93789f1511bb9a59131d3b0400a38eef0df0729ee3c63d85fa6ceb6",
+      "after_sha256": "aa3fd12567d15f3f7d39d9f1a11241c2a4c9a9354372cedec91bed0d7d546854",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/constitution.md",
+      "target_path": "rules/constitution.md",
+      "before_sha256": "bc41962415a6636e31abd41f33fef9fd23f9b179be2bde6b549e8e8084e6387b",
+      "after_sha256": "46db167a5c6948f5f40df8426feb5154c3f3890a4751162ef08b5ab5331076b2",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/context7.md",
+      "target_path": "rules/context7.md",
+      "before_sha256": "9bc5db5cd5fb4023b3126f25efecf2a80b2fe4bc0c78da0ad20ad48e133ff4a2",
+      "after_sha256": "9bc5db5cd5fb4023b3126f25efecf2a80b2fe4bc0c78da0ad20ad48e133ff4a2",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/deployment.md",
+      "target_path": "rules/deployment.md",
+      "before_sha256": "1cd8dcef58897d189cc1e5b78fddcb4a73944115b93f4e805f64b68fa08e5e45",
+      "after_sha256": "1cd8dcef58897d189cc1e5b78fddcb4a73944115b93f4e805f64b68fa08e5e45",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/grounding.md",
+      "target_path": "rules/grounding.md",
+      "before_sha256": "301254317b98b2c3e656bd6b0e7c7dd7841980e1d4d08926dd2263fec16362e6",
+      "after_sha256": "447bb0631bffaf92c4f54cb02dee701523160d700fabb5afe7240b7e8d94daff",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/infrastructure.md",
+      "target_path": "rules/infrastructure.md",
+      "before_sha256": "d372f95c1289fa2c58271d3ddf2a70998228687a8f173c6b8524f6567e0c90df",
+      "after_sha256": "ab3216aebf314107338d4847b5930fc84ce33afad2080c3b19907185225fab6b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/one-opinion.md",
+      "target_path": "rules/one-opinion.md",
+      "before_sha256": "1791b13d50f40d2013fb973e07761765500ed34b8583bab3b012104febd7d0ea",
+      "after_sha256": "659bacecf1dcf9af3e785b085cf6f76bf40d90298ad74be1010d7ff51561552b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/security.md",
+      "target_path": "rules/security.md",
+      "before_sha256": "00ad50b05c280647df2e4349dcd32d24c7ec1e29ee0632c19d7251dad9cb002a",
+      "after_sha256": "00ad50b05c280647df2e4349dcd32d24c7ec1e29ee0632c19d7251dad9cb002a",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/speed.md",
+      "target_path": "rules/speed.md",
+      "before_sha256": "5546753a1505b02eef0fc9bc3b815e7454663c8b06d03978e36a4dfed3067bfa",
+      "after_sha256": "d17b760972a25e610e857e185ceca32eb67e5e82827e3e417626c9c86bcaf754",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "rules/trust-boundary.md",
+      "target_path": "rules/trust-boundary.md",
+      "before_sha256": "12ebed34dab67d3fcca165fbec886f337c76b54680d71c6a1af8a342565ed498",
+      "after_sha256": "da6a8ad95f576b2cb3d52f7dad4fee643589bfa69678cf2c7cb79fce2e367f6b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/apply-retention.sh",
+      "target_path": "scripts/apply-retention.sh",
+      "before_sha256": "072beea6217e5120c12ec99475d4da292d54ceb58e1335268fccfbddfef9d2de",
+      "after_sha256": "072beea6217e5120c12ec99475d4da292d54ceb58e1335268fccfbddfef9d2de",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/bootstrap-pop-os.sh",
+      "target_path": "scripts/bootstrap-pop-os.sh",
+      "before_sha256": "988295817bae088124624f50c9b25a57e2059dad27e5bb7498049ffa7dac563c",
+      "after_sha256": "9682895064395795fdce3134faff24651c3f4cfd2836997c3a47047994af975b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/claude-voice",
+      "target_path": "scripts/claude-voice",
+      "before_sha256": "c7753095ec42c7a9638feb910537852d6cc28578d476d303c6d8004418685634",
+      "after_sha256": "c7753095ec42c7a9638feb910537852d6cc28578d476d303c6d8004418685634",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/cleanup.sh",
+      "target_path": "scripts/cleanup.sh",
+      "before_sha256": "b90b03cdb10ee8f8386447bd10d2c53414d657cf5010d99754abcca02af898ba",
+      "after_sha256": "2f5ae00b91a2915e9d129e9a049607ef09b3a77de566efc57f466743166cee77",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/cowork-mode.sh",
+      "target_path": "scripts/cowork-mode.sh",
+      "before_sha256": "61b6b63923c5fd5862a0735d20b6b5379eacc7021e14cb185446c27f81d6953b",
+      "after_sha256": "61b6b63923c5fd5862a0735d20b6b5379eacc7021e14cb185446c27f81d6953b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/generate-project-claude-md.sh",
+      "target_path": "scripts/generate-project-claude-md.sh",
+      "before_sha256": "96f6d86033d1c7727cb5baadaa63521c0ab42686cfc2586b5a84ff7e19ad3ecb",
+      "after_sha256": "7ddbe4686d5608e1d3a3194ff3ca46e5a519ac5b16d437c60c14a88ec08fcbe8",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/load-test-webhook.js",
+      "target_path": "scripts/load-test-webhook.js",
+      "before_sha256": "e68bfbf31598958fcb68ce65bd248f9856b36f545e2c518a28030ef414c85b68",
+      "after_sha256": "e68bfbf31598958fcb68ce65bd248f9856b36f545e2c518a28030ef414c85b68",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/say.py",
+      "target_path": "scripts/say.py",
+      "before_sha256": "21f13e70fefb53ccb1008cf2106ec53faadc4227922bd0482f6ce37ef57a1372",
+      "after_sha256": "21f13e70fefb53ccb1008cf2106ec53faadc4227922bd0482f6ce37ef57a1372",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/showcase-video-recorder/ffmpeg-builder.js",
+      "target_path": "scripts/showcase-video-recorder/ffmpeg-builder.js",
+      "before_sha256": "e8613b98660853cb6d8a7e3ba42fb6bc08e8cab2eb36a87d8df9a58a2774832e",
+      "after_sha256": "e8613b98660853cb6d8a7e3ba42fb6bc08e8cab2eb36a87d8df9a58a2774832e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/showcase-video-recorder/playwright-helpers.js",
+      "target_path": "scripts/showcase-video-recorder/playwright-helpers.js",
+      "before_sha256": "f1852894c35c85c20a339faf3b354bd3d094050d8f4a02d12782bef014077efc",
+      "after_sha256": "f1852894c35c85c20a339faf3b354bd3d094050d8f4a02d12782bef014077efc",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/speak.py",
+      "target_path": "scripts/speak.py",
+      "before_sha256": "2c2cc983239fcf4c6780b15e091e5ff9855eb48fd8adf144a0891c563d616657",
+      "after_sha256": "2c2cc983239fcf4c6780b15e091e5ff9855eb48fd8adf144a0891c563d616657",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/speak.sh",
+      "target_path": "scripts/speak.sh",
+      "before_sha256": "4c0b8d109fa991e1d26521e3513f068da7ab4121d4f8cdf975f9819548b08a8a",
+      "after_sha256": "aec13da6128a1683c2f991451f3683bc8c14834e26e5e400dcf4f648cc317144",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/status.sh",
+      "target_path": "scripts/status.sh",
+      "before_sha256": "0b77d215b1732466817248f43138ae84a721a51457fe5305e17d37254fa068be",
+      "after_sha256": "0b77d215b1732466817248f43138ae84a721a51457fe5305e17d37254fa068be",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/sync-to-framework.sh",
+      "target_path": "scripts/sync-to-framework.sh",
+      "before_sha256": "423df6118ce685475dcf850d2a719362bd7942e0e44645dad9af60414c22aaa6",
+      "after_sha256": "235ffe190bf31dac622adcf7dc0b3adb3c9ac5ea9bcd7cb8331e3c6d97ec8c59",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/voice-hotkey.py",
+      "target_path": "scripts/voice-hotkey.py",
+      "before_sha256": "529eab619b995a77f8c249d4dc479390a6090712d14cd1106bc80f948491ba8d",
+      "after_sha256": "529eab619b995a77f8c249d4dc479390a6090712d14cd1106bc80f948491ba8d",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "scripts/voice-input.sh",
+      "target_path": "scripts/voice-input.sh",
+      "before_sha256": "010c70fc1966ab0c6667de2ffb6a4d28e7c152e6035fcd1046dc58e4233b4003",
+      "after_sha256": "010c70fc1966ab0c6667de2ffb6a4d28e7c152e6035fcd1046dc58e4233b4003",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/deep-research/SKILL.md",
+      "target_path": "skills/sky-deep-research/SKILL.md",
+      "before_sha256": "9795cb3f6ed4fe4967d360dcb34cf17a59ad68b24c48a87c426155ad0fab0c4a",
+      "after_sha256": "d70b85a97b6b7a9234a795047ddb8a12bb2c9ff63e666e23e1c51e435581c785",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-build/SKILL.md",
+      "target_path": "skills/sky-build/SKILL.md",
+      "before_sha256": "3157906438b346d8bdca4a529e9802e15a145e9ddb8b31d27197623cd9bbff79",
+      "after_sha256": "627b858fa090f8f2153d06efb50cefbad09c9176e0c973c075af10e3b6764bef",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-doctor/SKILL.md",
+      "target_path": "skills/sky-doctor/SKILL.md",
+      "before_sha256": "5580370a63f0ee7492e153dbc3ddf2587ff3e0e46bffc3224fc2a4e185854ab1",
+      "after_sha256": "3ccb8595553f612776f969a482cb22bc95e90fa299b7a6041591c33661dbf699",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-eval/SKILL.md",
+      "target_path": "skills/sky-eval/SKILL.md",
+      "before_sha256": "e91dca173e285ebf973401cde366d1addce23b45a31b0a5fd273ed39c43445eb",
+      "after_sha256": "cdcb227cf2714cc0ba21c89759501b6d94faa19d7395e8dad91bc971c7373297",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-feature/SKILL.md",
+      "target_path": "skills/sky-feature/SKILL.md",
+      "before_sha256": "8c926b295f63e1f5d2c7df21418537181f396629b43366d625bb9befa12a065d",
+      "after_sha256": "979ef0a00cb8c8ffe20a5cecf3f710fda6a6f4ac2dd80c95f11efdc40a45b6f0",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-fix/SKILL.md",
+      "target_path": "skills/sky-fix/SKILL.md",
+      "before_sha256": "8fa4cf20a2b0006c77a1486470c466e26d7f122095f0d61af1d0578f98f6b049",
+      "after_sha256": "8b8312828c75e4847bb657d9923181122f5ab18d22851cc2f54be4f7c6b09103",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-handoff/SKILL.md",
+      "target_path": "skills/sky-handoff/SKILL.md",
+      "before_sha256": "e2ec1a557574a64613e455fe784da62f940662f4f692eb12f7f05228ea3fec6a",
+      "after_sha256": "6d705afca007a37c241db426e1a3417faadb78943f929a0bc91ec13c5ffb50ef",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-idk/SKILL.md",
+      "target_path": "skills/sky-idk/SKILL.md",
+      "before_sha256": "d2a41be4cedf6a032db1b2563727711abb772539de6392a3c21aca5bde42205b",
+      "after_sha256": "9b2b77faa113f18315b2426b50ba11fce167cb9633157aa1de0165f27d428f28",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-learn/SKILL.md",
+      "target_path": "skills/sky-learn/SKILL.md",
+      "before_sha256": "ce60b5f8ab05ee7b17bac1b259d92bdc1b9446a59d6a2ef53b61612ed1203f2d",
+      "after_sha256": "d9174d5b56f9e9a50aaeae432f148051b90c784d26d07fd61d832c7ba422039b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-map/SKILL.md",
+      "target_path": "skills/sky-map/SKILL.md",
+      "before_sha256": "f28c6d71442515e084ea2e7ed4da1dcdef53e446fdc6a003c013c0bc83259eb4",
+      "after_sha256": "d8a7a0f9d598a905353b916ace31110d3936eb3ff1303941acd8baae157645f9",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-milestone/SKILL.md",
+      "target_path": "skills/sky-milestone/SKILL.md",
+      "before_sha256": "454965e74482a633d061c23a86f885f2d66bcfa1ba8a868d3a7868499f59b0c2",
+      "after_sha256": "df8975b497364023235b9c802124e9ecd25b886f89da76c489eef558a4a64363",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-new/REFERENCE.md",
+      "target_path": "skills/sky-new/REFERENCE.md",
+      "before_sha256": "9405a19e99894b432ffe273824722580874fcd148fb74dda92e93eb54bf6122a",
+      "after_sha256": "8b90ec00698161aeee5295af62b26db71d941ed5260ce4343526b6bdac861b2d",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-new/SKILL.md",
+      "target_path": "skills/sky-new/SKILL.md",
+      "before_sha256": "9043be8a8a98e7f267c8dc282f2ffc384b57dde0bc761c46309dc3a619f8a69c",
+      "after_sha256": "10200c5c1c6bd5cdc71cbdd9c39a75e323a4abe31a22fc72ff63f1ddadd9cfeb",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-optimize/REFERENCE.md",
+      "target_path": "skills/sky-optimize/REFERENCE.md",
+      "before_sha256": "a616bd02f0a2ced9d8b61b3c9f150978348af14445c70f45ae0d4fbb9629e1bd",
+      "after_sha256": "0f395c0b32ed85d10cf92c758ccc8495259fd6ed1a2a994b16bcb133e8434c50",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-optimize/SKILL.md",
+      "target_path": "skills/sky-optimize/SKILL.md",
+      "before_sha256": "c3ce97fd6624c10ccfa95ea20f49fb8cd3f2e9a88cb4d1793a09d3839330b4e5",
+      "after_sha256": "7c743d2bdf9a8b7e932ac6446c30a7b630c1df6c70d9168d05e21322d63d66b2",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-plan/SKILL.md",
+      "target_path": "skills/sky-plan/SKILL.md",
+      "before_sha256": "0f9f0221e5b0afbc6e93e5c53040c6280d54580d90f0984e502f29f9b655219b",
+      "after_sha256": "8d7a8b2d66a68a6d288f09019a1ef5d2d640208219f18f8e5e386cd751fccd35",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-polish/REFERENCE.md",
+      "target_path": "skills/sky-polish/REFERENCE.md",
+      "before_sha256": "ed75aa016c4d6b6fee60b8db633848d197ce78c57c20b9dc5873054b68de1bcf",
+      "after_sha256": "08e5b1618261a083735963c081c6d01b3ac52066d59f43ea7eaff8697142ec34",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-polish/SKILL.md",
+      "target_path": "skills/sky-polish/SKILL.md",
+      "before_sha256": "0a66b449e030deb2aa2e83fc6b3c6e5b2980fd31d4960e7b223af19349bd4a58",
+      "after_sha256": "51d5b14fb63371547a1b9187b459f84346747e6314a27c18e0e054b6c1895419",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-polish/fixtures/broken.html",
+      "target_path": "skills/sky-polish/fixtures/broken.html",
+      "before_sha256": "9b91db8c8c4b9d66898d842d1c82ce65ee5c54a2a27b7deafda83d5f7f720b50",
+      "after_sha256": "2b912faae48e53b73578740fe1090960b44a3f713fff45c72c106f7df406bccb",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-polish/fixtures/clean.html",
+      "target_path": "skills/sky-polish/fixtures/clean.html",
+      "before_sha256": "167e7e8b1f6e69ad483e4b1f1faeaeb54565c4b93fefb75dea81dd2c94e1e3ec",
+      "after_sha256": "167e7e8b1f6e69ad483e4b1f1faeaeb54565c4b93fefb75dea81dd2c94e1e3ec",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-polish/scripts/loop.mjs",
+      "target_path": "skills/sky-polish/scripts/loop.mjs",
+      "before_sha256": "93fb6e33760e885719190b4ed269bb2159cbf883e5ffb1e5b7d15ebe4b9055b4",
+      "after_sha256": "110deaab2e59799f311e702cd8edcaf70e7f8403e8c5d4a88e9cb72179fb4f22",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-polish/scripts/playwright-capture.mjs",
+      "target_path": "skills/sky-polish/scripts/playwright-capture.mjs",
+      "before_sha256": "2ef69aa37b19d182647b6dffef858335f7a0553a18736d5d35ff2b83d150817c",
+      "after_sha256": "bdfd1a78c60d34402f36f8e08874cb6e5278661b737cba20af8cb3021e36d715",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-polish/scripts/score.mjs",
+      "target_path": "skills/sky-polish/scripts/score.mjs",
+      "before_sha256": "82ab0938697b823d46b84230d6894f2e2e9582111c5dfa60a63bbbd2d48885f7",
+      "after_sha256": "c7c35154d3cc22cf77299717ff7bdec682cdaad8ca8f8d985bfc51bdb6044cef",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-polish/scripts/vibe-extract.mjs",
+      "target_path": "skills/sky-polish/scripts/vibe-extract.mjs",
+      "before_sha256": "edc117dc6bff0df912c8a8c77516851388eac10bb0656cda4942967a5f48e8a7",
+      "after_sha256": "5d106dd896b370ad36e992d75fbd703f55b0aad23072faba14a74cc7e1ec80f7",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-polish/scripts/vibe-tokens.mjs",
+      "target_path": "skills/sky-polish/scripts/vibe-tokens.mjs",
+      "before_sha256": "820a3d0fd8a9a82ec9887ff109e62e3fb7727a3b8087c150e7a28d2e52571006",
+      "after_sha256": "12cce0a64d9293d9ba0604294060874db41f328d3e21ec83bb918d67a8d3ad4f",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-postmortem/SKILL.md",
+      "target_path": "skills/sky-postmortem/SKILL.md",
+      "before_sha256": "9cef0d17bdc74ac1099164d11adbd6b129848d4c63715b71bbc468349f741211",
+      "after_sha256": "220afd4b48b98bdf1ac03058db176a243e06810cf604e61be4461d600bb2e2bc",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-recall/SKILL.md",
+      "target_path": "skills/sky-recall/SKILL.md",
+      "before_sha256": "98f6ae8092ff3431e024e1b90dc295b1b357a30c38e6aaee1a6e771ae568f222",
+      "after_sha256": "aa58da9dc6fa6fdc4333fc5310bc8bf424facf3b95ee31c178ced16ce053477e",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-report/SKILL.md",
+      "target_path": "skills/sky-report/SKILL.md",
+      "before_sha256": "1c7eab38d957ef81ad4153876690faa7d8f301a08cd8c8e2b907f9d10363fd4d",
+      "after_sha256": "6d94e11fe4e5d7e345964ccffcc9ad68c43d25bd8a4a0f5f740ce70e937ae3ed",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-research/SKILL.md",
+      "target_path": "skills/sky-research/SKILL.md",
+      "before_sha256": "fe6854192701e6ed10bea15d9ad155cf7897b14ae26af6c89791a3b225e849c1",
+      "after_sha256": "97ae3059a756d76679edfa5c5f95136e3f3f61fe2385ea2363e37eb83c6696dc",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-review/SKILL.md",
+      "target_path": "skills/sky-review/SKILL.md",
+      "before_sha256": "00e03ef14be261fe1e36e0bc0e02d81d154eefa06d21587efb876f36fe810144",
+      "after_sha256": "748647c01ce6e70777772eb15340b4bdbf0c7fa64b0ef537d41cd64fd268c2c6",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-road/SKILL.md",
+      "target_path": "skills/sky-road/SKILL.md",
+      "before_sha256": "73092654b091ddbccab84ea00de598770fe646f7d8b00cb87978d369613be922",
+      "after_sha256": "bf6d308a0d8e51dfcccad646be5529818b0a05f279b998e9337245f874e8fe1b",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-scope/SKILL.md",
+      "target_path": "skills/sky-scope/SKILL.md",
+      "before_sha256": "42162f9bdd6e5ab29b3c8a9810157176ada5e32c5f0a47ac6cb200e89d4e9ab4",
+      "after_sha256": "322b824d4317eecf4fca3011feecf8ca2ea23aa51c0e03a41163283a245ca651",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-secure/SKILL.md",
+      "target_path": "skills/sky-secure/SKILL.md",
+      "before_sha256": "b9ea41e4c1c481bf3d6fbe2f1bd36587a7703d7f6ce92a203267fff01816481b",
+      "after_sha256": "c86087d916fdcb56bf4df800b1e67bc0e564003f5155e449e71c390d93c67b52",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-ship/SKILL.md",
+      "target_path": "skills/sky-ship/SKILL.md",
+      "before_sha256": "2fa058d7cdab609e15fb98817d67b75a9fd5688c9c8835bec24a560766e673bb",
+      "after_sha256": "82191d8aea83af62e3c27f10e2221846f0f5a3a5b4a67dbab9c155cfd7ddbd75",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-test/SKILL.md",
+      "target_path": "skills/sky-test/SKILL.md",
+      "before_sha256": "7b970b6d79755532cdf154533a09b68aa121797dfbb073aa51f4a2bee9ed2cd8",
+      "after_sha256": "f70b78f4c69e545924be5e14a5910fc1946a9ba958902e6f1e2dae7376355540",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-update/SKILL.md",
+      "target_path": "skills/sky-update/SKILL.md",
+      "before_sha256": "6ecf55dcb9c08630ae1ae6d5e0ad1cb0e73e06f7632abfdc1e1c45c49c0a4a75",
+      "after_sha256": "017d1e37e47b576be08e5add550ec4df57b94f339e300ddb4eba1472ce8564d5",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia-verify/SKILL.md",
+      "target_path": "skills/sky-verify/SKILL.md",
+      "before_sha256": "86814f5b895703083d09b7e7f59a3c0f275132a3ac01685325d55a2d3bbff015",
+      "after_sha256": "102477781b17d2630a4b399918c23205b5c8dfa34f9fb57cb113bc554c611a06",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/qualia/SKILL.md",
+      "target_path": "skills/sky-next/SKILL.md",
+      "before_sha256": "89c7e0c99bf8fbd2799ecac76c7161eaba80073875da4a8d02ce1fe15212778c",
+      "after_sha256": "60068d5af214b5cb2faef04528996a9ebb8aa38a590cddfacdb19da4a27b37fa",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "skills/zoho-workflow/SKILL.md",
+      "target_path": "skills/sky-zoho-workflow/SKILL.md",
+      "before_sha256": "404c2432723dea1f007d34aa20095a176fcbeabee3a4ebb0dbede495a51e5f64",
+      "after_sha256": "c16540d59822e24e23e0271af6d709805195bebc8a25eb560f2cc4352483bdbd",
+      "functional_parity_verified": false
+    },
+    {
+      "source_path": "statusline-command.sh",
+      "target_path": "statusline-command.sh",
+      "before_sha256": "c4a9eb2b9aad1c2c0e38668f49a70ed4ebe8d76673af0bcc2b3759846fa8527f",
+      "after_sha256": "d295d3156767224b628648138831a5843e0bc2fbdc3d51bc50bdb48e8c9cfe16",
+      "functional_parity_verified": false
+    }
+  ]
+}

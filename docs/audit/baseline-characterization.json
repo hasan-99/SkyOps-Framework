@@ -1,0 +1,2151 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "0cd3dd5c903767de55c86d3661ad36148307afd8",
+  "captured_at": "2026-11-26T10:23:31.932Z",
+  "method": "Execute only four approved deterministic baseline modules extracted from immutable Git blobs; no installed host/profile or provider is invoked.",
+  "measurement_scope": "Local deterministic helpers only. Not an AI workflow benchmark or evidence of a performance improvement.",
+  "environment": {
+    "node": "v22.23.3",
+    "platform": "win32",
+    "architecture": "x64",
+    "cpu": "Intel(R) Core(TM) Ultra 7 155H",
+    "memory_bytes": 33799254016
+  },
+  "sources": [
+    {
+      "path": "bin/plan-contract.js",
+      "sha256": "cc60b1786859a2efc5d2e29d957650fa90053c1e26358748e027f22963bced79"
+    },
+    {
+      "path": "bin/wave-plan.js",
+      "sha256": "f2c73f70de48d75bb003bad151a700c4576368d5978312f9a4b4a51433bd9e79"
+    },
+    {
+      "path": "bin/verify-panel.js",
+      "sha256": "bba821246d07a04e4c948f4680f4b71c518ac0c970aa6024503ccd056a9652b2"
+    },
+    {
+      "path": "bin/eval-runner.js",
+      "sha256": "b2e8f52d93675e406985710e2a8db385fdb8dfd6b70c5b738b00bc82affc1754"
+    }
+  ],
+  "cases": [
+    {
+      "id": "contract-valid",
+      "module": "plan-contract",
+      "function": "validate",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": []
+      },
+      "elapsed_ms": 1.4071
+    },
+    {
+      "id": "contract-unknown-dependency",
+      "module": "plan-contract",
+      "function": "validate",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 2,
+              "depends_on": [
+                "T9"
+              ],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": [
+          "tasks[0].depends_on: references unknown id \"T9\""
+        ]
+      },
+      "elapsed_ms": 0.0987
+    },
+    {
+      "id": "contract-cycle",
+      "module": "plan-contract",
+      "function": "validate",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [
+                "T2"
+              ],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            },
+            {
+              "id": "T2",
+              "title": "Implement T2",
+              "wave": 1,
+              "depends_on": [
+                "T1"
+              ],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T2.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T2 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T2.js"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": [
+          "tasks: cycle detected: T1 → T2 → T1",
+          "tasks[id=T1].wave: must be > 1 (max wave of its dependencies)",
+          "tasks[id=T2].wave: must be > 1 (max wave of its dependencies)"
+        ]
+      },
+      "elapsed_ms": 0.0714
+    },
+    {
+      "id": "contract-wrong-wave",
+      "module": "plan-contract",
+      "function": "validate",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            },
+            {
+              "id": "T2",
+              "title": "Implement T2",
+              "wave": 1,
+              "depends_on": [
+                "T1"
+              ],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T2.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T2 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T2.js"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": [
+          "tasks[id=T2].wave: must be > 1 (max wave of its dependencies)"
+        ]
+      },
+      "elapsed_ms": 0.0533
+    },
+    {
+      "id": "contract-file-list-overlap",
+      "module": "plan-contract",
+      "function": "validate",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [
+                "src/T1.js"
+              ],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": [
+          "tasks[0]: src/T1.js appears in multiple file lists"
+        ]
+      },
+      "elapsed_ms": 0.1204
+    },
+    {
+      "id": "contract-scope-reduction",
+      "module": "plan-contract",
+      "function": "validate",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Use a placeholder for now.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": [
+          "tasks[0].action: scope-reduction phrase(s) detected: placeholder — rewrite to deliver the actual spec, or split via locked-decision channel"
+        ]
+      },
+      "elapsed_ms": 0.106
+    },
+    {
+      "id": "contract-missing-evidence",
+      "module": "plan-contract",
+      "function": "validate",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": []
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": [
+          "tasks[0].verification: must be a non-empty array"
+        ]
+      },
+      "elapsed_ms": 0.0428
+    },
+    {
+      "id": "contract-shell-metacharacters",
+      "module": "plan-contract",
+      "function": "validate",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "command-exit",
+                  "command": "node;bad",
+                  "args": [],
+                  "expected_exit": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": [
+          "tasks[id=T1].verification[0].command: shell metacharacters not allowed (use args[])"
+        ]
+      },
+      "elapsed_ms": 0.1124
+    },
+    {
+      "id": "contract-invalid-json",
+      "module": "plan-contract",
+      "function": "parseSafely",
+      "args": [
+        "{"
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "error": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+        }
+      },
+      "elapsed_ms": 0.0772
+    },
+    {
+      "id": "contract-stable-hash",
+      "module": "plan-contract",
+      "function": "hashPlan",
+      "args": [
+        "A plan with explicit acceptance criteria."
+      ],
+      "result": {
+        "returned": "sha256:d0b929c07117a3ca914328ef1b65917f15b01d2b8756e257ed1711f7608aabd6"
+      },
+      "elapsed_ms": 0.0526
+    },
+    {
+      "id": "waves-small-sequential",
+      "module": "wave-plan",
+      "function": "plan",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            },
+            {
+              "id": "T2",
+              "title": "Implement T2",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T2.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T2 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T2.js"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "phase": 1,
+          "task_count": 2,
+          "max_concurrency": 1,
+          "derived_levels": 1,
+          "batch_count": 2,
+          "batches": [
+            {
+              "wave": 1,
+              "batch": 1,
+              "tasks": [
+                "T1"
+              ]
+            },
+            {
+              "wave": 1,
+              "batch": 2,
+              "tasks": [
+                "T2"
+              ]
+            }
+          ],
+          "notes": [
+            "widest level has 2 independent tasks; capped to batches of 1."
+          ]
+        }
+      },
+      "elapsed_ms": 0.4083
+    },
+    {
+      "id": "waves-dependency-order",
+      "module": "wave-plan",
+      "function": "plan",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            },
+            {
+              "id": "T2",
+              "title": "Implement T2",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T2.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T2 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T2.js"
+                }
+              ]
+            },
+            {
+              "id": "T3",
+              "title": "Implement T3",
+              "wave": 2,
+              "depends_on": [
+                "T1"
+              ],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T3.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T3 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T3.js"
+                }
+              ]
+            },
+            {
+              "id": "T4",
+              "title": "Implement T4",
+              "wave": 3,
+              "depends_on": [
+                "T2",
+                "T3"
+              ],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T4.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T4 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T4.js"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "parallel": 2
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "phase": 1,
+          "task_count": 4,
+          "max_concurrency": 2,
+          "derived_levels": 3,
+          "batch_count": 3,
+          "batches": [
+            {
+              "wave": 1,
+              "batch": 1,
+              "tasks": [
+                "T1",
+                "T2"
+              ]
+            },
+            {
+              "wave": 2,
+              "batch": 2,
+              "tasks": [
+                "T3"
+              ]
+            },
+            {
+              "wave": 3,
+              "batch": 3,
+              "tasks": [
+                "T4"
+              ]
+            }
+          ],
+          "notes": []
+        }
+      },
+      "elapsed_ms": 0.0891
+    },
+    {
+      "id": "waves-concurrency-cap",
+      "module": "wave-plan",
+      "function": "plan",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            },
+            {
+              "id": "T2",
+              "title": "Implement T2",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T2.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T2 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T2.js"
+                }
+              ]
+            },
+            {
+              "id": "T3",
+              "title": "Implement T3",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T3.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T3 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T3.js"
+                }
+              ]
+            },
+            {
+              "id": "T4",
+              "title": "Implement T4",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T4.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T4 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T4.js"
+                }
+              ]
+            },
+            {
+              "id": "T5",
+              "title": "Implement T5",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T5.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T5 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T5.js"
+                }
+              ]
+            },
+            {
+              "id": "T6",
+              "title": "Implement T6",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T6.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T6 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T6.js"
+                }
+              ]
+            },
+            {
+              "id": "T7",
+              "title": "Implement T7",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T7.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T7 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T7.js"
+                }
+              ]
+            },
+            {
+              "id": "T8",
+              "title": "Implement T8",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T8.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T8 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T8.js"
+                }
+              ]
+            },
+            {
+              "id": "T9",
+              "title": "Implement T9",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T9.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T9 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T9.js"
+                }
+              ]
+            },
+            {
+              "id": "T10",
+              "title": "Implement T10",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T10.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T10 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T10.js"
+                }
+              ]
+            },
+            {
+              "id": "T11",
+              "title": "Implement T11",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T11.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T11 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T11.js"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "parallel": 3
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "phase": 1,
+          "task_count": 11,
+          "max_concurrency": 3,
+          "derived_levels": 1,
+          "batch_count": 4,
+          "batches": [
+            {
+              "wave": 1,
+              "batch": 1,
+              "tasks": [
+                "T1",
+                "T2",
+                "T3"
+              ]
+            },
+            {
+              "wave": 1,
+              "batch": 2,
+              "tasks": [
+                "T4",
+                "T5",
+                "T6"
+              ]
+            },
+            {
+              "wave": 1,
+              "batch": 3,
+              "tasks": [
+                "T7",
+                "T8",
+                "T9"
+              ]
+            },
+            {
+              "wave": 1,
+              "batch": 4,
+              "tasks": [
+                "T10",
+                "T11"
+              ]
+            }
+          ],
+          "notes": [
+            "widest level has 11 independent tasks; capped to batches of 3."
+          ]
+        }
+      },
+      "elapsed_ms": 0.2326
+    },
+    {
+      "id": "waves-cycle-rejected",
+      "module": "wave-plan",
+      "function": "plan",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [
+                "T2"
+              ],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            },
+            {
+              "id": "T2",
+              "title": "Implement T2",
+              "wave": 1,
+              "depends_on": [
+                "T1"
+              ],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T2.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T2 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T2.js"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "error": "CYCLE",
+          "cycle": "T1 → T2 → T1"
+        }
+      },
+      "elapsed_ms": 0.0681
+    },
+    {
+      "id": "waves-invalid-cap",
+      "module": "wave-plan",
+      "function": "plan",
+      "args": [
+        {
+          "version": 1,
+          "phase": 1,
+          "goal": "Deliver the specified behavior",
+          "why": "Make the agreed user flow work",
+          "generated_at": "2026-11-26T00:00:00.000Z",
+          "generated_by": "manual",
+          "source_plan_hash": "",
+          "success_criteria": [
+            "All acceptance criteria have evidence"
+          ],
+          "tasks": [
+            {
+              "id": "T1",
+              "title": "Implement T1",
+              "wave": 1,
+              "depends_on": [],
+              "persona": "backend",
+              "files_modify": [],
+              "files_create": [
+                "src/T1.js"
+              ],
+              "files_delete": [],
+              "acceptance_criteria": [
+                "The T1 behavior returns its documented result"
+              ],
+              "action": "Implement the defined behavior and run its validation commands.",
+              "context_files": [],
+              "verification": [
+                {
+                  "type": "file-exists",
+                  "path": "src/T1.js"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "parallel": 0
+        }
+      ],
+      "result": {
+        "threw": {
+          "name": "Error",
+          "message": "--parallel must be an integer ≥ 1 (got 0)"
+        }
+      },
+      "elapsed_ms": 0.0344
+    },
+    {
+      "id": "panel-high-unjudged-fails",
+      "module": "verify-panel",
+      "function": "aggregate",
+      "args": [
+        {
+          "phase": 1,
+          "lenses": [
+            "correctness"
+          ],
+          "findings": [
+            {
+              "lens": "correctness",
+              "file": "src/action.js",
+              "line": 12,
+              "severity": "HIGH",
+              "title": "Required action is not connected",
+              "votes": {
+                "real": 0,
+                "notReal": 0
+              }
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "verdict": "FAIL",
+          "phase": 1,
+          "counts": {
+            "CRITICAL": 0,
+            "HIGH": 1,
+            "MEDIUM": 0,
+            "LOW": 0
+          },
+          "score": 5,
+          "per_lens_scores": {
+            "correctness": 5
+          },
+          "surviving": [
+            {
+              "file": "src/action.js",
+              "line": 12,
+              "title": "Required action is not connected",
+              "severity": "HIGH",
+              "lenses": [
+                "correctness"
+              ],
+              "votes": {
+                "real": 0,
+                "notReal": 0
+              },
+              "verified": false
+            }
+          ],
+          "killed": [],
+          "totals": {
+            "findings": 1,
+            "surviving": 1,
+            "killed": 0
+          }
+        }
+      },
+      "elapsed_ms": 0.3752
+    },
+    {
+      "id": "panel-tie-survives",
+      "module": "verify-panel",
+      "function": "aggregate",
+      "args": [
+        {
+          "phase": 1,
+          "lenses": [
+            "correctness"
+          ],
+          "findings": [
+            {
+              "lens": "correctness",
+              "file": "src/action.js",
+              "line": 12,
+              "severity": "HIGH",
+              "title": "Required action is not connected",
+              "votes": {
+                "real": 2,
+                "notReal": 2
+              }
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "verdict": "FAIL",
+          "phase": 1,
+          "counts": {
+            "CRITICAL": 0,
+            "HIGH": 1,
+            "MEDIUM": 0,
+            "LOW": 0
+          },
+          "score": 5,
+          "per_lens_scores": {
+            "correctness": 5
+          },
+          "surviving": [
+            {
+              "file": "src/action.js",
+              "line": 12,
+              "title": "Required action is not connected",
+              "severity": "HIGH",
+              "lenses": [
+                "correctness"
+              ],
+              "votes": {
+                "real": 2,
+                "notReal": 2
+              },
+              "verified": true
+            }
+          ],
+          "killed": [],
+          "totals": {
+            "findings": 1,
+            "surviving": 1,
+            "killed": 0
+          }
+        }
+      },
+      "elapsed_ms": 0.0372
+    },
+    {
+      "id": "panel-majority-rejects",
+      "module": "verify-panel",
+      "function": "aggregate",
+      "args": [
+        {
+          "phase": 1,
+          "lenses": [
+            "correctness"
+          ],
+          "findings": [
+            {
+              "lens": "correctness",
+              "file": "src/action.js",
+              "line": 12,
+              "severity": "HIGH",
+              "title": "Required action is not connected",
+              "votes": {
+                "real": 1,
+                "notReal": 2
+              }
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "verdict": "PASS",
+          "phase": 1,
+          "counts": {
+            "CRITICAL": 0,
+            "HIGH": 0,
+            "MEDIUM": 0,
+            "LOW": 0
+          },
+          "score": 5,
+          "per_lens_scores": {
+            "correctness": 5
+          },
+          "surviving": [],
+          "killed": [
+            {
+              "file": "src/action.js",
+              "line": 12,
+              "title": "Required action is not connected",
+              "severity": "HIGH",
+              "lenses": [
+                "correctness"
+              ],
+              "votes": {
+                "real": 1,
+                "notReal": 2
+              },
+              "verified": true
+            }
+          ],
+          "totals": {
+            "findings": 1,
+            "surviving": 0,
+            "killed": 1
+          }
+        }
+      },
+      "elapsed_ms": 0.0227
+    },
+    {
+      "id": "panel-critical-fails",
+      "module": "verify-panel",
+      "function": "aggregate",
+      "args": [
+        {
+          "phase": 1,
+          "lenses": [
+            "security"
+          ],
+          "findings": [
+            {
+              "lens": "security",
+              "file": "src/action.js",
+              "line": 12,
+              "severity": "CRITICAL",
+              "title": "Required action is not connected",
+              "votes": {
+                "real": 2,
+                "notReal": 1
+              }
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "verdict": "FAIL",
+          "phase": 1,
+          "counts": {
+            "CRITICAL": 1,
+            "HIGH": 0,
+            "MEDIUM": 0,
+            "LOW": 0
+          },
+          "score": 4,
+          "per_lens_scores": {
+            "security": 4
+          },
+          "surviving": [
+            {
+              "file": "src/action.js",
+              "line": 12,
+              "title": "Required action is not connected",
+              "severity": "CRITICAL",
+              "lenses": [
+                "security"
+              ],
+              "votes": {
+                "real": 2,
+                "notReal": 1
+              },
+              "verified": true
+            }
+          ],
+          "killed": [],
+          "totals": {
+            "findings": 1,
+            "surviving": 1,
+            "killed": 0
+          }
+        }
+      },
+      "elapsed_ms": 0.0237
+    },
+    {
+      "id": "panel-low-pass",
+      "module": "verify-panel",
+      "function": "aggregate",
+      "args": [
+        {
+          "phase": 1,
+          "lenses": [
+            "correctness"
+          ],
+          "findings": [
+            {
+              "lens": "correctness",
+              "file": "src/action.js",
+              "line": 12,
+              "severity": "LOW",
+              "title": "Required action is not connected",
+              "votes": {
+                "real": 0,
+                "notReal": 0
+              }
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "verdict": "PASS",
+          "phase": 1,
+          "counts": {
+            "CRITICAL": 0,
+            "HIGH": 0,
+            "MEDIUM": 0,
+            "LOW": 1
+          },
+          "score": 5,
+          "per_lens_scores": {
+            "correctness": 5
+          },
+          "surviving": [
+            {
+              "file": "src/action.js",
+              "line": 12,
+              "title": "Required action is not connected",
+              "severity": "LOW",
+              "lenses": [
+                "correctness"
+              ],
+              "votes": {
+                "real": 0,
+                "notReal": 0
+              },
+              "verified": false
+            }
+          ],
+          "killed": [],
+          "totals": {
+            "findings": 1,
+            "surviving": 1,
+            "killed": 0
+          }
+        }
+      },
+      "elapsed_ms": 0.0752
+    },
+    {
+      "id": "panel-deduplicates-lenses",
+      "module": "verify-panel",
+      "function": "aggregate",
+      "args": [
+        {
+          "phase": 1,
+          "lenses": [
+            "correctness",
+            "security"
+          ],
+          "findings": [
+            {
+              "lens": "correctness",
+              "file": "src/action.js",
+              "line": 12,
+              "severity": "LOW",
+              "title": "Required action is not connected",
+              "votes": {
+                "real": 0,
+                "notReal": 0
+              }
+            },
+            {
+              "lens": "security",
+              "file": "src/action.js",
+              "line": 12,
+              "severity": "HIGH",
+              "title": "Required action is not connected",
+              "votes": {
+                "real": 2,
+                "notReal": 1
+              }
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "verdict": "FAIL",
+          "phase": 1,
+          "counts": {
+            "CRITICAL": 0,
+            "HIGH": 1,
+            "MEDIUM": 0,
+            "LOW": 0
+          },
+          "score": 5,
+          "per_lens_scores": {
+            "correctness": 5,
+            "security": 5
+          },
+          "surviving": [
+            {
+              "file": "src/action.js",
+              "line": 12,
+              "title": "Required action is not connected",
+              "severity": "HIGH",
+              "lenses": [
+                "correctness",
+                "security"
+              ],
+              "votes": {
+                "real": 2,
+                "notReal": 1
+              },
+              "verified": true
+            }
+          ],
+          "killed": [],
+          "totals": {
+            "findings": 1,
+            "surviving": 1,
+            "killed": 0
+          }
+        }
+      },
+      "elapsed_ms": 0.1184
+    },
+    {
+      "id": "eval-contains",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "contains",
+          "value": "Approved"
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "contains \"Approved\""
+        }
+      },
+      "elapsed_ms": 0.1429
+    },
+    {
+      "id": "eval-missing-string",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "contains",
+          "value": "absent"
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "detail": "contains \"absent\""
+        }
+      },
+      "elapsed_ms": 0.0131
+    },
+    {
+      "id": "eval-not-contains",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "not_contains",
+          "value": "rejected"
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "not_contains \"rejected\""
+        }
+      },
+      "elapsed_ms": 0.0055
+    },
+    {
+      "id": "eval-equals",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "equals",
+          "value": "Approved result"
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "equals \"Approved result\""
+        }
+      },
+      "elapsed_ms": 0.0064
+    },
+    {
+      "id": "eval-regex",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "regex",
+          "value": "^Approved"
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "regex /^Approved/"
+        }
+      },
+      "elapsed_ms": 0.0352
+    },
+    {
+      "id": "eval-invalid-regex",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "regex",
+          "value": "["
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "detail": "invalid regex: ["
+        }
+      },
+      "elapsed_ms": 0.0235
+    },
+    {
+      "id": "eval-not-regex",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "not_regex",
+          "value": "^Rejected"
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "not_regex /^Rejected/"
+        }
+      },
+      "elapsed_ms": 0.0145
+    },
+    {
+      "id": "eval-min-length",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "min_length",
+          "value": 5
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "min_length 5 (got 15)"
+        }
+      },
+      "elapsed_ms": 0.0102
+    },
+    {
+      "id": "eval-max-length",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "max_length",
+          "value": 5
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "detail": "max_length 5 (got 15)"
+        }
+      },
+      "elapsed_ms": 0.0056
+    },
+    {
+      "id": "eval-latency-pass",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "max_latency_ms",
+          "value": 100
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "max_latency_ms 100 (got 80)"
+        }
+      },
+      "elapsed_ms": 0.0066
+    },
+    {
+      "id": "eval-cost-fail",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "max_cost_usd",
+          "value": 0.0001
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "detail": "max_cost_usd 0.0001 (got 0.001)"
+        }
+      },
+      "elapsed_ms": 0.008
+    },
+    {
+      "id": "eval-pending-judge",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "llm_rubric",
+          "rubric": "Grounded in the supplied policy"
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "pending": true,
+          "detail": "llm_rubric PENDING (no judge verdict): \"Grounded in the supplied policy\""
+        }
+      },
+      "elapsed_ms": 0.0084
+    },
+    {
+      "id": "eval-judge-pass",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "llm_rubric",
+          "rubric": "Grounded in policy",
+          "verdict": "pass"
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "llm_rubric \"Grounded in policy\" → pass"
+        }
+      },
+      "elapsed_ms": 0.0081
+    },
+    {
+      "id": "eval-unknown-assertion",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "unrecognized"
+        },
+        {
+          "output": "Approved result",
+          "latency_ms": 80,
+          "cost_usd": 0.001
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "detail": "unknown assertion type: unrecognized"
+        }
+      },
+      "elapsed_ms": 0.0047
+    },
+    {
+      "id": "eval-json-valid",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "json_valid"
+        },
+        {
+          "output": "{\"ok\":true}"
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "json_valid"
+        }
+      },
+      "elapsed_ms": 0.0119
+    },
+    {
+      "id": "eval-json-path",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "json_path",
+          "path": "result.items.0.id",
+          "equals": 7
+        },
+        {
+          "output": "{\"result\":{\"items\":[{\"id\":7}]}}"
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": true,
+          "detail": "json_path result.items.0.id equals \"7\" (got \"7\")"
+        }
+      },
+      "elapsed_ms": 0.1273
+    },
+    {
+      "id": "eval-json-missing-path",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "json_path",
+          "path": "missing"
+        },
+        {
+          "output": "{}"
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "detail": "json_path missing: missing"
+        }
+      },
+      "elapsed_ms": 0.0152
+    },
+    {
+      "id": "eval-unmeasured-latency-fails",
+      "module": "eval-runner",
+      "function": "runAssertion",
+      "args": [
+        {
+          "type": "max_latency_ms",
+          "value": 100
+        },
+        {
+          "output": "ok"
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "detail": "max_latency_ms: no latency_ms recorded on case"
+        }
+      },
+      "elapsed_ms": 0.007
+    },
+    {
+      "id": "eval-empty-suite-fails",
+      "module": "eval-runner",
+      "function": "run",
+      "args": [
+        {
+          "feature": "empty",
+          "cases": []
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "feature": "empty",
+          "total_cases": 0,
+          "passed_cases": 0,
+          "failed_cases": 0,
+          "pending": 0,
+          "cases": []
+        }
+      },
+      "elapsed_ms": 0.1183
+    },
+    {
+      "id": "eval-empty-assertions-fail",
+      "module": "eval-runner",
+      "function": "run",
+      "args": [
+        {
+          "feature": "no-checks",
+          "cases": [
+            {
+              "name": "missing checks",
+              "output": "ok",
+              "assert": []
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "feature": "no-checks",
+          "total_cases": 1,
+          "passed_cases": 0,
+          "failed_cases": 1,
+          "pending": 0,
+          "cases": [
+            {
+              "name": "missing checks",
+              "ok": false,
+              "assertions": []
+            }
+          ]
+        }
+      },
+      "elapsed_ms": 0.073
+    },
+    {
+      "id": "eval-pending-suite-fails",
+      "module": "eval-runner",
+      "function": "run",
+      "args": [
+        {
+          "feature": "judgment",
+          "cases": [
+            {
+              "name": "answer",
+              "output": "ok",
+              "assert": [
+                {
+                  "type": "llm_rubric",
+                  "rubric": "Grounded"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "result": {
+        "returned": {
+          "ok": false,
+          "feature": "judgment",
+          "total_cases": 1,
+          "passed_cases": 0,
+          "failed_cases": 1,
+          "pending": 1,
+          "cases": [
+            {
+              "name": "answer",
+              "ok": false,
+              "assertions": [
+                {
+                  "type": "llm_rubric",
+                  "ok": false,
+                  "pending": true,
+                  "detail": "llm_rubric PENDING (no judge verdict): \"Grounded\""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "elapsed_ms": 0.0358
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-26T18:38:16.211Z",
+  "scaffold": "internal-tool",
+  "platform": "win32",
+  "node": "v22.23.3",
+  "fixture": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-wTCWe7",
+  "source_hashes": {
+    "app/globals.css": "385b62fa77fa9b26c104ee6e707cae77a90e86276b4f83858fea712525405ddb",
+    "app/layout.tsx": "c3fc7615876e4edd949f1fd454adba15ffca0478c737c28ef6d96a3fbc11ba23",
+    "app/page.tsx": "66f617a75954a7d8ce2a29fe6bdf8d663080d404578a9eb712900738bdc967bb",
+    "eslint.config.mjs": "77e9f34454d52f5986545c76c35c90aa6c82f29d00612fe85b7519d34031bb8b",
+    "lib/supabase/client.ts": "194437cf53e4857f50972d9cc9c507b650ccde0f47154628a117724ccd1a6f2f",
+    "lib/supabase/server.ts": "3d48ad63da808209e31d0f69332ed606791f47591902e84b7c5cbad234306413",
+    "next.config.mjs": "383d22a5b233d2c0d6eb0a8c22ecddb229094cdcbc40f165cc4016a9366af76d",
+    "package.json": "a0d8b688506d9e98fd7bfb836234f71f73d1b7bfe857267d42a26ba09cd04238",
+    "postcss.config.mjs": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+    "README.md": "1cbf4008e69b86240ac2457168e0db50e3ddf03d890c0d36e0f4b0c5aeb0cfe0",
+    "supabase/migrations/0001_init.sql": "ba50da94599a6997315e91376a5d0f16da9c9fc7621dec2cd780b77f9f64629a",
+    "tsconfig.json": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2"
+  },
+  "results": [
+    {
+      "stage": "install",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 125099,
+      "output_sha256": "0667b5059a12f3a1871737f5720aaa000d640d1761d5e885324782df3c3a1d1c",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-wTCWe7\\install.log"
+    },
+    {
+      "stage": "lint",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 23330,
+      "output_sha256": "b68dbe6d4b4c30c1b5ec58eda616470c3ddda0c073d55452ce60e9cd79be8ded",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-wTCWe7\\lint.log"
+    },
+    {
+      "stage": "typecheck",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 4905,
+      "output_sha256": "3542ccb4b986b4b444ddb68bc2ee70682f4a453da5eddc404de5e1cdf0d73386",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-wTCWe7\\typecheck.log"
+    },
+    {
+      "stage": "build",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 22263,
+      "output_sha256": "1754875c8c22670d03988b9218ffab6a89c0b47f342aa4f40464d562a15e0c37",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-wTCWe7\\build.log"
+    }
+  ],
+  "ok": true,
+  "credentials_inherited": false,
+  "dependency_install_scripts": "disabled",
+  "telemetry": "disabled",
+  "phase_gate_passed": false,
+  "limitation": "Actual isolated scaffold dependency/lint/type/build check only; not finished application quality, real auth/RLS/API integration, browser acceptance or deployment. Original scaffold content still requires the planned project development workflow."
+}

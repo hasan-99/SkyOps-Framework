@@ -1,0 +1,550 @@
+TAP version 13
+# Subtest: only configured Supabase or local test origins are accepted
+ok 1 - only configured Supabase or local test origins are accepted
+  ---
+  duration_ms: 1.4374
+  type: 'test'
+  ...
+# Subtest: local packet normalization preserves development context without business personnel or hosting fields
+ok 2 - local packet normalization preserves development context without business personnel or hosting fields
+  ---
+  duration_ms: 1.0504
+  type: 'test'
+  ...
+# Subtest: missing cloud configuration and user authentication fail explicitly
+ok 3 - missing cloud configuration and user authentication fail explicitly
+  ---
+  duration_ms: 804.8824
+  type: 'test'
+  ...
+# Subtest: native transport sends scope-bound real requests and rejects another project packet
+ok 4 - native transport sends scope-bound real requests and rejects another project packet
+  ---
+  duration_ms: 934.8293
+  type: 'test'
+  ...
+# Subtest: one shared skill body and its resources produce independent artifacts for either host
+ok 5 - one shared skill body and its resources produce independent artifacts for either host
+  ---
+  duration_ms: 53.355
+  type: 'test'
+  ...
+# Subtest: catalog stays bounded to metadata and excludes instruction bodies and references
+ok 6 - catalog stays bounded to metadata and excludes instruction bodies and references
+  ---
+  duration_ms: 25.162
+  type: 'test'
+  ...
+# Subtest: agent model overrides are platform-specific and do not duplicate or alter shared prompts
+ok 7 - agent model overrides are platform-specific and do not duplicate or alter shared prompts
+  ---
+  duration_ms: 35.1339
+  type: 'test'
+  ...
+# Subtest: missing components, old identities, duplicate hosts and invalid names fail compilation
+ok 8 - missing components, old identities, duplicate hosts and invalid names fail compilation
+  ---
+  duration_ms: 25.2393
+  type: 'test'
+  ...
+# Subtest: compiling artifacts performs no filesystem writes or profile installation
+ok 9 - compiling artifacts performs no filesystem writes or profile installation
+  ---
+  duration_ms: 28.2916
+  type: 'test'
+  ...
+# Subtest: explicit-only invocation and host hint metadata survive the shared-source host translation
+ok 10 - explicit-only invocation and host hint metadata survive the shared-source host translation
+  ---
+  duration_ms: 35.0421
+  type: 'test'
+  ...
+# Subtest: installation path rendering happens before Codex TOML encoding and leaves shared prompts unchanged
+ok 11 - installation path rendering happens before Codex TOML encoding and leaves shared prompts unchanged
+  ---
+  duration_ms: 65.6963
+  type: 'test'
+  ...
+# Subtest: target checking covers local delivery entry points for both shells
+ok 12 - target checking covers local delivery entry points for both shells
+  ---
+  duration_ms: 2.1015
+  type: 'test'
+  ...
+# Subtest: unconfigured projects cannot perform a remote deployment
+ok 13 - unconfigured projects cannot perform a remote deployment
+  ---
+  duration_ms: 0.4481
+  type: 'test'
+  ...
+# Subtest: the selected application target must match and cannot be the framework database
+ok 14 - the selected application target must match and cannot be the framework database
+  ---
+  duration_ms: 0.9039
+  type: 'test'
+  ...
+# Subtest: a different repository and destructive remote reset are blocked
+ok 15 - a different repository and destructive remote reset are blocked
+  ---
+  duration_ms: 0.6666
+  type: 'test'
+  ...
+# Subtest: qualified CLI diagnostics reuse the single core and never certify unchecked native hooks
+ok 16 - qualified CLI diagnostics reuse the single core and never certify unchecked native hooks
+  ---
+  duration_ms: 1429.3468
+  type: 'test'
+  ...
+# Subtest: status uses the scoped JSON queue and preserves corrupt data instead of reporting empty
+ok 17 - status uses the scoped JSON queue and preserves corrupt data instead of reporting empty
+  ---
+  duration_ms: 3357.1512
+  type: 'test'
+  ...
+# Subtest: planning CLI keeps organization preview-only unless write is explicitly requested
+ok 18 - planning CLI keeps organization preview-only unless write is explicitly requested
+  ---
+  duration_ms: 476.8705
+  type: 'test'
+  ...
+# Subtest: all 29 original skills and all nine original agents compile for both hosts
+ok 19 - all 29 original skills and all nine original agents compile for both hosts
+  ---
+  duration_ms: 67.1524
+  type: 'test'
+  ...
+# Subtest: the active command manifest exposes every preserved skill entry point
+ok 20 - the active command manifest exposes every preserved skill entry point
+  ---
+  duration_ms: 2.2591
+  type: 'test'
+  ...
+# Subtest: identity migration preserves legal notices and does not invent legacy service endpoints
+ok 21 - identity migration preserves legal notices and does not invent legacy service endpoints
+  ---
+  duration_ms: 1.0001
+  type: 'test'
+  ...
+# Subtest: host child environments isolate homes, settings, cache and credentials
+ok 22 - host child environments isolate homes, settings, cache and credentials
+  ---
+  duration_ms: 678.118
+  type: 'test'
+  ...
+# Subtest: native profile artifacts remain inside their owned root and refuse replacement
+ok 23 - native profile artifacts remain inside their owned root and refuse replacement
+  ---
+  duration_ms: 827.8375
+  type: 'test'
+  ...
+# Subtest: unmarked directories and linked profile destinations are refused
+ok 24 - unmarked directories and linked profile destinations are refused
+  ---
+  duration_ms: 17.818
+  type: 'test'
+  ...
+# Subtest: profile refresh preserves native authentication and user-modified artifacts
+ok 25 - profile refresh preserves native authentication and user-modified artifacts
+  ---
+  duration_ms: 720.2811
+  type: 'test'
+  ...
+# Subtest: an existing native configuration fails preflight before any profile artifacts are written
+ok 26 - an existing native configuration fails preflight before any profile artifacts are written
+  ---
+  duration_ms: 71.7241
+  type: 'test'
+  ...
+# Subtest: moving generated Codex skills preserves modified files and native authentication
+ok 27 - moving generated Codex skills preserves modified files and native authentication
+  ---
+  duration_ms: 621.3231
+  type: 'test'
+  ...
+# Subtest: host adapters separate native configuration, shared code and persistent knowledge paths
+ok 28 - host adapters separate native configuration, shared code and persistent knowledge paths
+  ---
+  duration_ms: 19.7877
+  type: 'test'
+  ...
+# Subtest: owner-confirmed limits are two devices and at most 24 offline hours
+ok 29 - owner-confirmed limits are two devices and at most 24 offline hours
+  ---
+  duration_ms: 0.7855
+  type: 'test'
+  ...
+# Subtest: properly signed release and user/device-bound installation claims verify
+ok 30 - properly signed release and user/device-bound installation claims verify
+  ---
+  duration_ms: 4.7421
+  type: 'test'
+  ...
+# Subtest: hash integrity alone cannot authorize installation and creates no installation root
+ok 31 - hash integrity alone cannot authorize installation and creates no installation root
+  ---
+  duration_ms: 18.0322
+  type: 'test'
+  ...
+# Subtest: an offline runtime lease cannot be used as an installation authorization
+ok 32 - an offline runtime lease cannot be used as an installation authorization
+  ---
+  duration_ms: 1.4832
+  type: 'test'
+  ...
+# Subtest: signature alteration, unsigned algorithm and unknown key are rejected
+ok 33 - signature alteration, unsigned algorithm and unknown key are rejected
+  ---
+  duration_ms: 1.4019
+  type: 'test'
+  ...
+# Subtest: wrong audience and revoked/expired or purpose-confused signing keys fail closed
+ok 34 - wrong audience and revoked/expired or purpose-confused signing keys fail closed
+  ---
+  duration_ms: 1.4456
+  type: 'test'
+  ...
+# Subtest: leases reject another user, device, absent clock context and ordinary clock rollback
+ok 35 - leases reject another user, device, absent clock context and ordinary clock rollback
+  ---
+  duration_ms: 1.3732
+  type: 'test'
+  ...
+# Subtest: offline validity passes just before 24 hours and fails at the exact expiry
+ok 36 - offline validity passes just before 24 hours and fails at the exact expiry
+  ---
+  duration_ms: 1.7876
+  type: 'test'
+  ...
+# Subtest: installation grants reject the wrong release, stale grant, sequence and channel
+ok 37 - installation grants reject the wrong release, stale grant, sequence and channel
+  ---
+  duration_ms: 2.5525
+  type: 'test'
+  ...
+# Subtest: release floor blocks unauthorized downgrades while valid offline rollback remains available
+ok 38 - release floor blocks unauthorized downgrades while valid offline rollback remains available
+  ---
+  duration_ms: 1.4413
+  type: 'test'
+  ...
+# Subtest: catalog lists all 29 skills and 9 specialists without importing their bodies
+ok 39 - catalog lists all 29 skills and 9 specialists without importing their bodies
+  ---
+  duration_ms: 12.305
+  type: 'test'
+  ...
+# Subtest: private identity and help are available without an account or native coding host
+ok 40 - private identity and help are available without an account or native coding host
+  ---
+  duration_ms: 686.1834
+  type: 'test'
+  ...
+# Subtest: trusted hashes are required and unfinished source cannot be installed
+ok 41 - trusted hashes are required and unfinished source cannot be installed
+  ---
+  duration_ms: 26.0273
+  type: 'test'
+  ...
+# Subtest: content tampering and extra payloads are rejected before installation
+ok 42 - content tampering and extra payloads are rejected before installation
+  ---
+  duration_ms: 35.8303
+  type: 'test'
+  ...
+# Subtest: path traversal, Windows alternate streams and case collisions are rejected
+ok 43 - path traversal, Windows alternate streams and case collisions are rejected
+  ---
+  duration_ms: 17.079
+  type: 'test'
+  ...
+# Subtest: an existing unrelated directory is never adopted or changed
+ok 44 - an existing unrelated directory is never adopted or changed
+  ---
+  duration_ms: 23.9264
+  type: 'test'
+  ...
+# Subtest: install, update, rollback and uninstall retain separate user data
+ok 45 - install, update, rollback and uninstall retain separate user data
+  ---
+  duration_ms: 148.7233
+  type: 'test'
+  ...
+# Subtest: a corrupt rollback release cannot replace the active version
+ok 46 - a corrupt rollback release cannot replace the active version
+  ---
+  duration_ms: 121.7937
+  type: 'test'
+  ...
+# Subtest: concurrent lifecycle operations cannot alter active selection
+ok 47 - concurrent lifecycle operations cannot alter active selection
+  ---
+  duration_ms: 83.0182
+  type: 'test'
+  ...
+# Subtest: source changes after install do not change the installed snapshot
+ok 48 - source changes after install do not change the installed snapshot
+  ---
+  duration_ms: 52.9597
+  type: 'test'
+  ...
+# Subtest: hard-linked package files cannot be used to mutate a release indirectly
+ok 49 - hard-linked package files cannot be used to mutate a release indirectly
+  ---
+  duration_ms: 16.8309
+  type: 'test'
+  ...
+# Subtest: repeating a verified installation preserves the rollback version
+ok 50 - repeating a verified installation preserves the rollback version
+  ---
+  duration_ms: 119.9116
+  type: 'test'
+  ...
+# Subtest: an interrupted release selection recovers only a verified complete snapshot
+ok 51 - an interrupted release selection recovers only a verified complete snapshot
+  ---
+  duration_ms: 82.0113
+  type: 'test'
+  ...
+# Subtest: linked installation roots and linked package directories cannot reach another directory
+ok 52 - linked installation roots and linked package directories cannot reach another directory
+  ---
+  duration_ms: 34.4021
+  type: 'test'
+  ...
+# Subtest: uninstall refuses a linked release tree without deleting its target
+ok 53 - uninstall refuses a linked release tree without deleting its target
+  ---
+  duration_ms: 61.6459
+  type: 'test'
+  ...
+# Subtest: shipped work produces one local development report without cloud configuration
+ok 54 - shipped work produces one local development report without cloud configuration
+  ---
+  duration_ms: 1174.816
+  type: 'test'
+  ...
+# Subtest: in-progress work and disabled capture do not produce false shipped reports
+ok 55 - in-progress work and disabled capture do not produce false shipped reports
+  ---
+  duration_ms: 658.858
+  type: 'test'
+  ...
+# Subtest: raw prompt samples stay out of reports until capture and synchronization are explicitly enabled
+ok 56 - raw prompt samples stay out of reports until capture and synchronization are explicitly enabled
+  ---
+  duration_ms: 1579.9487
+  type: 'test'
+  ...
+# Subtest: authorized synchronization queues a report but never claims cloud delivery
+ok 57 - authorized synchronization queues a report but never claims cloud delivery
+  ---
+  duration_ms: 1122.82
+  type: 'test'
+  ...
+# Subtest: a selected context belonging to another local project cannot receive the current report
+ok 58 - a selected context belonging to another local project cannot receive the current report
+  ---
+  duration_ms: 1053.0467
+  type: 'test'
+  ...
+# Subtest: an untracked project has a local label but no fabricated cloud identity
+ok 59 - an untracked project has a local label but no fabricated cloud identity
+  ---
+  duration_ms: 478.1906
+  type: 'test'
+  ...
+# Subtest: reports and snapshots remove Git URL credentials and omit local filesystem remotes
+ok 60 - reports and snapshots remove Git URL credentials and omit local filesystem remotes
+  ---
+  duration_ms: 851.2893
+  type: 'test'
+  ...
+# Subtest: raw prompt capture defaults off while structured command metrics remain available
+ok 61 - raw prompt capture defaults off while structured command metrics remain available
+  ---
+  duration_ms: 204.5865
+  type: 'test'
+  ...
+# Subtest: raw prompts require explicit opt-in in the isolated configuration
+ok 62 - raw prompts require explicit opt-in in the isolated configuration
+  ---
+  duration_ms: 194.5434
+  type: 'test'
+  ...
+# Subtest: development metrics and prompt capture can both be disabled
+ok 63 - development metrics and prompt capture can both be disabled
+  ---
+  duration_ms: 195.1029
+  type: 'test'
+  ...
+# Subtest: update notices require a fresh signed release and never query a public registry
+ok 64 - update notices require a fresh signed release and never query a public registry
+  ---
+  duration_ms: 20.7065
+  type: 'test'
+  ...
+# Subtest: protected branch awareness covers explicit and current-branch pushes without claiming to enforce provider access
+ok 65 - protected branch awareness covers explicit and current-branch pushes without claiming to enforce provider access
+  ---
+  duration_ms: 1.069
+  type: 'test'
+  ...
+# Subtest: relayed ownership claims never grant authority or retain prompt samples
+ok 66 - relayed ownership claims never grant authority or retain prompt samples
+  ---
+  duration_ms: 0.9238
+  type: 'test'
+  ...
+# Subtest: informational guards create no worker tally, raw sample or remote queue
+ok 67 - informational guards create no worker tally, raw sample or remote queue
+  ---
+  duration_ms: 216.43
+  type: 'test'
+  ...
+# Subtest: empty-secret protection applies to supported delivery tools without logging secret values
+ok 68 - empty-secret protection applies to supported delivery tools without logging secret values
+  ---
+  duration_ms: 0.8465
+  type: 'test'
+  ...
+# Subtest: local OWNER claims cannot disable mandatory quality gates
+ok 69 - local OWNER claims cannot disable mandatory quality gates
+  ---
+  duration_ms: 576.7059
+  type: 'test'
+  ...
+# Subtest: delivery hook ignores unrelated read commands without running project checks
+ok 70 - delivery hook ignores unrelated read commands without running project checks
+  ---
+  duration_ms: 195.4093
+  type: 'test'
+  ...
+# Subtest: active online verification schedules automatic revalidation within five minutes
+ok 71 - active online verification schedules automatic revalidation within five minutes
+  ---
+  duration_ms: 7.6314
+  type: 'test'
+  ...
+# Subtest: connectivity, authentication or service uncertainty never triggers removal
+ok 72 - connectivity, authentication or service uncertainty never triggers removal
+  ---
+  duration_ms: 2.2605
+  type: 'test'
+  ...
+# Subtest: suspension and expiry disable execution but do not request uninstallation
+ok 73 - suspension and expiry disable execution but do not request uninstallation
+  ---
+  duration_ms: 1.7235
+  type: 'test'
+  ...
+# Subtest: a previously confirmed suspension cannot be bypassed with a cached active lease
+ok 74 - a previously confirmed suspension cannot be bypassed with a cached active lease
+  ---
+  duration_ms: 1.4012
+  type: 'test'
+  ...
+# Subtest: permanent revocation remains terminal for the same license and cannot be inferred from uncertainty
+ok 75 - permanent revocation remains terminal for the same license and cannot be inferred from uncertainty
+  ---
+  duration_ms: 2.1259
+  type: 'test'
+  ...
+# Subtest: status confirmation rejects another challenge, license, device and expired response
+ok 76 - status confirmation rejects another challenge, license, device and expired response
+  ---
+  duration_ms: 2.5722
+  type: 'test'
+  ...
+# Subtest: revocation without recorded installation consent disables execution without uninstalling
+ok 77 - revocation without recorded installation consent disables execution without uninstalling
+  ---
+  duration_ms: 48.6661
+  type: 'test'
+  ...
+# Subtest: consented revocation uses the official uninstaller and preserves user files and projects
+ok 78 - consented revocation uses the official uninstaller and preserves user files and projects
+  ---
+  duration_ms: 73.7861
+  type: 'test'
+  ...
+# Subtest: modified framework files are preserved and reported during manual uninstallation
+ok 79 - modified framework files are preserved and reported during manual uninstallation
+  ---
+  duration_ms: 58.7667
+  type: 'test'
+  ...
+# Subtest: modified unrecognized activation metadata is preserved rather than deleted
+ok 80 - modified unrecognized activation metadata is preserved rather than deleted
+  ---
+  duration_ms: 56.4261
+  type: 'test'
+  ...
+# Subtest: outages, temporary states and invalid consent cannot initiate uninstall
+ok 81 - outages, temporary states and invalid consent cannot initiate uninstall
+  ---
+  duration_ms: 73.4421
+  type: 'test'
+  ...
+# Subtest: unsafe cleanup is refused without re-enabling execution or touching unrelated files
+ok 82 - unsafe cleanup is refused without re-enabling execution or touching unrelated files
+  ---
+  duration_ms: 58.4476
+  type: 'test'
+  ...
+# Subtest: events queue locally without any cloud account, legacy service or shared key
+ok 83 - events queue locally without any cloud account, legacy service or shared key
+  ---
+  duration_ms: 520.7707
+  type: 'test'
+  ...
+# Subtest: concurrent enqueue operations preserve every queued item
+ok 84 - concurrent enqueue operations preserve every queued item
+  ---
+  duration_ms: 1733.4465
+  type: 'test'
+  ...
+# Subtest: deduplication is context-scoped and never replaces another user record
+ok 85 - deduplication is context-scoped and never replaces another user record
+  ---
+  duration_ms: 848.1583
+  type: 'test'
+  ...
+# Subtest: unconfigured, foreign context, off-origin and service-key uploads fail without network access
+ok 86 - unconfigured, foreign context, off-origin and service-key uploads fail without network access
+  ---
+  duration_ms: 961.359
+  type: 'test'
+  ...
+# Subtest: the sync client makes a real loopback request with pinned context and idempotency
+ok 87 - the sync client makes a real loopback request with pinned context and idempotency
+  ---
+  duration_ms: 217.4469
+  type: 'test'
+  ...
+# Subtest: corrupt queues and credential-bearing headers are preserved or refused, never silently cleared
+ok 88 - corrupt queues and credential-bearing headers are preserved or refused, never silently cleared
+  ---
+  duration_ms: 377.8464
+  type: 'test'
+  ...
+# Subtest: draining preserves writes and revised records queued during an in-flight upload
+ok 89 - draining preserves writes and revised records queued during an in-flight upload
+  ---
+  duration_ms: 1006.0034
+  type: 'test'
+  ...
+# Subtest: show/clear operate on the selected context and preserve other queued users
+ok 90 - show/clear operate on the selected context and preserve other queued users
+  ---
+  duration_ms: 961.2507
+  type: 'test'
+  ...
+1..90
+# tests 90
+# suites 0
+# pass 90
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 17101.7875

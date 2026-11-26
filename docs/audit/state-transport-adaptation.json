@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "adapted_at": "2026-11-26T11:45:55.616Z",
+  "changes": [
+    {
+      "path": "bin/project-snapshot.js",
+      "before_sha256": "09ffc10573b4d6c9db3fd04fb1e92351465f9741bb59afc9a3ce788b1a17128f",
+      "after_sha256": "aa90795777d56dbcd768a6125aaf402b6c63430c90cb343fc6efd8e282b99cab",
+      "scope": "Retain local snapshot/packet generation; replace unavailable business service transport with configured authenticated Supabase transport"
+    },
+    {
+      "path": "bin/work-packet.js",
+      "before_sha256": "5fa04ea3f3a10939c89142a6e8dc3c819c40d3b732e9fd2d2cecb57cd6c2e0b4",
+      "after_sha256": "4df07df91a16ed5470e9b4cdc5589c3b7329c82c140e17188a20bbb0586a7802",
+      "scope": "Retain local snapshot/packet generation; replace unavailable business service transport with configured authenticated Supabase transport"
+    }
+  ],
+  "server_acceptance": "pending"
+}

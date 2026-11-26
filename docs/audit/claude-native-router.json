@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "host": "claude",
+  "platform": "win32",
+  "checked_at": "2026-11-26T12:57:17.693Z",
+  "duration_ms": 19371,
+  "scenario": "Actual sky-next invocation in an independent empty Git fixture",
+  "exit_code": 0,
+  "ok": true,
+  "state_helper_executed_successfully": true,
+  "tool_calls": [
+    "Skill",
+    "Bash"
+  ],
+  "tool_result_errors": 0,
+  "expected_state_result": "NO_PROJECT",
+  "observed_expected_nonzero_state_result": true,
+  "unexpected_tool_result_errors": 0,
+  "tool_observations": [
+    {
+      "name": "Skill",
+      "mentions_state_check": false,
+      "results": [
+        {
+          "is_error": false,
+          "contains_no_project": false
+        }
+      ]
+    },
+    {
+      "name": "Bash",
+      "mentions_state_check": true,
+      "results": [
+        {
+          "is_error": false,
+          "contains_no_project": true
+        }
+      ]
+    }
+  ],
+  "actual_token_usage": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 14763,
+    "cache_read_input_tokens": 42673,
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "thinking_tokens": 76
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 14763,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 53,
+        "cache_read_input_tokens": 19842,
+        "cache_creation_input_tokens": 301,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 301
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "actual_cost_usd": 0.13286259999999997,
+  "final_message": "Next: `/sky-new`\nReason: the local state check returned `NO_PROJECT`: \"No .planning/ found. Run /sky-new to start.\"",
+  "result_subtype": "success",
+  "unexpected_project_files": [],
+  "process_error": null,
+  "stderr_bytes": 0,
+  "output_bytes": 21772,
+  "permission_denials": [],
+  "phase_gate_passed": false,
+  "production_activation": false,
+  "limitation": "One bounded native router scenario only. No other skills/agents, host hook mapping, tenant backend, other operating systems or full E2E parity is certified."
+}

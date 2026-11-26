@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyOps Agents and Skills Guide</title>
+  <style>
+    :root {
+      --paper: #f7f4ed;
+      --ink: #23201a;
+      --muted: #6b6256;
+      --line: #d7cfc1;
+      --panel: #fffaf0;
+      --agent: #0f6b63;
+      --skill: #8b3f2f;
+      --accent: #d6a338;
+      --shadow: 0 16px 40px rgba(52, 42, 28, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Aptos", "Segoe UI", Tahoma, sans-serif;
+      line-height: 1.5;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(135deg, #fff6df 0%, #efe7d6 48%, #e9f1eb 100%);
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 32px;
+      align-items: end;
+      padding: 48px 0 32px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 4.3rem);
+      line-height: 0.95;
+      letter-spacing: 0;
+      max-width: 760px;
+    }
+
+    .lead {
+      margin: 0;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 1.06rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(120px, 1fr));
+      gap: 10px;
+      min-width: 270px;
+    }
+
+    .stat {
+      border: 1px solid var(--line);
+      background: rgba(255, 250, 240, 0.72);
+      padding: 16px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 2rem;
+      line-height: 1;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+      padding: 24px 0;
+    }
+
+    input[type="search"] {
+      width: 100%;
+      min-height: 46px;
+      border: 1px solid var(--line);
+      background: #fffdf7;
+      color: var(--ink);
+      padding: 0 14px;
+      font: inherit;
+      outline: none;
+    }
+
+    input[type="search"]:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(214, 163, 56, 0.22);
+    }
+
+    .tabs {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      background: #fffdf7;
+    }
+
+    .tabs button {
+      flex: 0 0 auto;
+      border: 0;
+      border-right: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      min-height: 44px;
+      padding: 0 16px;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .tabs button:last-child {
+      border-right: 0;
+    }
+
+    .tabs button.active {
+      background: var(--ink);
+      color: #fffaf0;
+    }
+
+    main {
+      padding: 0 0 56px;
+    }
+
+    section {
+      margin-top: 18px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: baseline;
+      border-bottom: 1px solid var(--line);
+      padding: 22px 0 12px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(1.4rem, 2.2vw, 2.2rem);
+      letter-spacing: 0;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    article {
+      min-height: 210px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      padding: 18px;
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 10px;
+    }
+
+    article[data-kind="agent"] {
+      border-top: 4px solid var(--agent);
+    }
+
+    article[data-kind="skill"] {
+      border-top: 4px solid var(--skill);
+    }
+
+    .eyebrow {
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 1.15rem;
+      overflow-wrap: anywhere;
+    }
+
+    .purpose {
+      margin: 0;
+      color: #3e3931;
+    }
+
+    .path {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.86rem;
+      overflow-wrap: anywhere;
+    }
+
+    .path code {
+      color: #3b342b;
+      background: #f1e8d7;
+      padding: 2px 5px;
+    }
+
+    .empty {
+      display: none;
+      margin: 32px 0 0;
+      border: 1px dashed var(--line);
+      padding: 24px;
+      color: var(--muted);
+      background: #fffdf7;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 780px) {
+      .hero,
+      .toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .stats {
+        min-width: 0;
+      }
+
+      .tabs {
+        width: 100%;
+      }
+
+      .tabs button {
+        flex: 1 1 0;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .section-head p {
+        margin-top: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <div>
+        <h1>Agents and Skills Guide</h1>
+        <p class="lead">A map of all 9 specialist agents and 29 preserved skill entry points in the shared SkyOps Framework source. These inventory notes do not certify native execution, policy enforcement or end-to-end readiness; consult the authoritative plan and validation receipts.</p>
+      </div>
+      <div class="stats" aria-label="Inventory counts">
+        <div class="stat"><strong id="agentCount">9</strong><span>agents</span></div>
+        <div class="stat"><strong id="skillCount">29</strong><span>skills</span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap toolbar">
+    <input id="search" type="search" placeholder="Search by name, purpose, or file path" aria-label="Search agents and skills">
+    <div class="tabs" aria-label="Filter list">
+      <button type="button" class="active" data-filter="all">All</button>
+      <button type="button" data-filter="agent">Agents</button>
+      <button type="button" data-filter="skill">Skills</button>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section id="agents">
+      <div class="section-head">
+        <h2>Agents</h2>
+        <p>Specialist workers spawned by SkyOps workflows.</p>
+      </div>
+      <div class="grid">
+        <article data-kind="agent" data-search="sky-builder executes a single task from a phase plan fresh context agents builder.md">
+          <div class="eyebrow">Agent</div>
+          <h3>sky-builder</h3>
+          <p class="purpose">Builds one planned task in fresh context, changes only the assigned scope, validates it, then reports DONE, PARTIAL, or BLOCKED.</p>
+          <p class="path"><code>agents/builder.md</code></p>
+        </article>
+
+        <article data-kind="agent" data-search="sky-plan-checker validates phase plan specificity wave assignment verification contracts agents plan-checker.md">
+          <div class="eyebrow">Agent</div>
+          <h3>sky-plan-checker</h3>
+          <p class="purpose">Reviews a phase plan before build work starts. It catches vague tasks, weak acceptance criteria, bad wave ordering, and missing verification detail.</p>
+          <p class="path"><code>agents/plan-checker.md</code></p>
+        </article>
+
+        <article data-kind="agent" data-search="sky-planner creates executable phase plans task breakdown wave assignments verification agents planner.md">
+          <div class="eyebrow">Agent</div>
+          <h3>sky-planner</h3>
+          <p class="purpose">Turns project and phase context into an executable plan with task breakdowns, waves, acceptance criteria, and validation commands.</p>
+          <p class="path"><code>agents/planner.md</code></p>
+        </article>
+
+        <article data-kind="agent" data-search="sky-qa-browser browser qa mobile tablet desktop console accessibility agents qa-browser.md">
+          <div class="eyebrow">Agent</div>
+          <h3>sky-qa-browser</h3>
+          <p class="purpose">Uses a real browser to test frontend work across viewports, click key flows, and report console, layout, and accessibility problems.</p>
+          <p class="path"><code>agents/qa-browser.md</code></p>
+        </article>
+
+        <article data-kind="agent" data-search="sky-research-synthesizer merges research outputs summary roadmap implications agents research-synthesizer.md">
+          <div class="eyebrow">Agent</div>
+          <h3>sky-research-synthesizer</h3>
+          <p class="purpose">Combines the parallel research files into one SUMMARY.md without adding new claims, so roadmap work has a clean source of truth.</p>
+          <p class="path"><code>agents/research-synthesizer.md</code></p>
+        </article>
+
+        <article data-kind="agent" data-search="sky-researcher deep research stack features architecture pitfalls context7 web search agents researcher.md">
+          <div class="eyebrow">Agent</div>
+          <h3>sky-researcher</h3>
+          <p class="purpose">Researches one project dimension such as stack, features, architecture, or pitfalls, with citations and confidence notes.</p>
+          <p class="path"><code>agents/researcher.md</code></p>
+        </article>
+
+        <article data-kind="agent" data-search="sky-roadmapper journey requirements roadmap milestones agents roadmapper.md">
+          <div class="eyebrow">Agent</div>
+          <h3>sky-roadmapper</h3>
+          <p class="purpose">Creates the project journey, requirements, and current milestone roadmap from approved project context and research.</p>
+          <p class="path"><code>agents/roadmapper.md</code></p>
+        </article>
+
+        <article data-kind="agent" data-search="sky-verifier goal backward verification phase acceptance agents verifier.md">
+          <div class="eyebrow">Agent</div>
+          <h3>sky-verifier</h3>
+          <p class="purpose">Checks whether the phase goal actually works. It verifies code and behavior instead of trusting build summaries.</p>
+          <p class="path"><code>agents/verifier.md</code></p>
+        </article>
+
+        <article data-kind="agent" data-search="sky-visual-evaluator screenshots design rubric polish loop agents visual-evaluator.md">
+          <div class="eyebrow">Agent</div>
+          <h3>sky-visual-evaluator</h3>
+          <p class="purpose">Scores screenshots against the SkyOps design rubric and returns the most important visible issues for polish loops.</p>
+          <p class="path"><code>agents/visual-evaluator.md</code></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>Commands and workflows available under <code>skills/*</code>.</p>
+      </div>
+      <div class="grid">
+        <article data-kind="skill" data-search="sky-deep-research production readiness audit frontend backend database security performance deployment skills deep-research">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-deep-research</h3>
+          <p class="purpose">Runs a broad production-readiness and best-practices analysis using parallel specialist research agents.</p>
+          <p class="path"><code>skills/sky-deep-research/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-next router state next command what next skills sky-next">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-next</h3>
+          <p class="purpose">Reads project state and tells you the exact next SkyOps command to run.</p>
+          <p class="path"><code>skills/sky-next/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-build execute planned phase builder subagents wave parallel atomic commits skills sky-build">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-build</h3>
+          <p class="purpose">Executes a planned phase by sending each task to fresh builder agents, grouped by safe parallel waves.</p>
+          <p class="path"><code>skills/sky-build/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-doctor framework health check install project state hooks memory synchronization queue skills sky-doctor">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-doctor</h3>
+          <p class="purpose">Checks whether the SkyOps framework itself is healthy before blaming a project or model run.</p>
+          <p class="path"><code>skills/sky-doctor/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-eval evaluate ai feature chat rag voice agent deterministic assertions llm judges skills sky-eval">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-eval</h3>
+          <p class="purpose">Evaluates AI features such as chat, RAG, voice, or agents with deterministic checks and model-judge rubrics.</p>
+          <p class="path"><code>skills/sky-eval/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-feature single feature add component implement small change tweak skills sky-feature">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-feature</h3>
+          <p class="purpose">Adds one focused capability outside the phase road, choosing inline work or a fresh builder based on size.</p>
+          <p class="path"><code>skills/sky-feature/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-fix bug broken error failing test regression hotfix root cause repair skills sky-fix">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-fix</h3>
+          <p class="purpose">Investigates broken behavior to find the root cause, then routes the repair through a focused implementation path.</p>
+          <p class="path"><code>skills/sky-fix/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-handoff client delivery production url documentation assets archive development finalization skills sky-handoff">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-handoff</h3>
+          <p class="purpose">Finishes a client project by producing the required handoff deliverables.</p>
+          <p class="path"><code>skills/sky-handoff/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-idk lost confused diagnostic what is happening planning codebase guidance skills sky-idk">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-idk</h3>
+          <p class="purpose">Diagnoses confusing project situations and returns plain-language guidance plus a command sequence to get unstuck.</p>
+          <p class="path"><code>skills/sky-idk/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-learn remember save pattern client preference knowledge base skills sky-learn">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-learn</h3>
+          <p class="purpose">Saves reusable learnings, fixes, patterns, and client preferences into the local knowledge base.</p>
+          <p class="path"><code>skills/sky-learn/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-map brownfield scan repo existing codebase architecture stack conventions skills sky-map">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-map</h3>
+          <p class="purpose">Maps an existing codebase before SkyOps planning, capturing architecture, stack, conventions, and capabilities.</p>
+          <p class="path"><code>skills/sky-map/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-milestone close milestone next milestone roadmap journey archive skills sky-milestone">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-milestone</h3>
+          <p class="purpose">Closes the current milestone, archives its artifacts, and opens the next milestone from JOURNEY.md.</p>
+          <p class="path"><code>skills/sky-milestone/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-new new project kickoff interview research glossary adr journey setup skills sky-new">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-new</h3>
+          <p class="purpose">Starts a new project with kickoff intake, research, glossary, decisions, journey, and approval gate.</p>
+          <p class="path"><code>skills/sky-new/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-optimize performance audit ui backend alignment simplify improvement discovery skills sky-optimize">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-optimize</h3>
+          <p class="purpose">Runs a deeper improvement-discovery pass for performance, architecture, UI alignment, and simplification opportunities.</p>
+          <p class="path"><code>skills/sky-optimize/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-plan plan phase tasks wave grouped plan checker gaps skills sky-plan">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-plan</h3>
+          <p class="purpose">Plans the current phase into wave-grouped tasks, then validates the plan before build work begins.</p>
+          <p class="path"><code>skills/sky-plan/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-polish design pass redesign critique visual loop route component app skills sky-polish">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-polish</h3>
+          <p class="purpose">Improves visual quality for components, routes, full apps, redesigns, and screenshot-driven polish loops.</p>
+          <p class="path"><code>skills/sky-polish/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-postmortem self healing verify fail rule agent skill delta skills sky-postmortem">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-postmortem</h3>
+          <p class="purpose">After a verification failure, identifies which framework rule, agent, or skill should be improved to prevent repeats.</p>
+          <p class="path"><code>skills/sky-postmortem/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-recall authorized scoped memory vault prior lessons knowledge skills sky-recall">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-recall</h3>
+          <p class="purpose">Retrieves only the current user’s authorized personal, team, project or shared engineering knowledge; ownership alone does not grant private memory access.</p>
+          <p class="path"><code>skills/sky-recall/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-report development session report authorized commit push synchronization skills sky-report">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-report</h3>
+          <p class="purpose">Preserves honest development-session context, local reports and scoped optional synchronization; commits and pushes require authorization.</p>
+          <p class="path"><code>skills/sky-report/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-research domain library research before planning context7 webfetch skills sky-research">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-research</h3>
+          <p class="purpose">Researches a domain or library before phase planning and writes the findings into the planning folder.</p>
+          <p class="path"><code>skills/sky-research/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-review readonly production audit security code review severity skills sky-review">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-review</h3>
+          <p class="purpose">Runs a read-only production audit and routes findings to the correct repair workflow.</p>
+          <p class="path"><code>skills/sky-review/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-road workflow map project journey milestones phases tasks skills sky-road">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-road</h3>
+          <p class="purpose">Shows the terminal workflow map from project kickoff through journey, milestones, phases, tasks, ship, and handoff.</p>
+          <p class="path"><code>skills/sky-road/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-scope intake kickoff interview phase grill definition of done skills sky-scope">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-scope</h3>
+          <p class="purpose">Runs project intake or phase scoping, forcing clear decisions before planning begins.</p>
+          <p class="path"><code>skills/sky-scope/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-secure security scan agent config prompt injection secrets permissions mcp skills sky-secure">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-secure</h3>
+          <p class="purpose">Scans agent config, settings, hooks, and MCP setup for prompt injection, leaked secrets, and risky permissions.</p>
+          <p class="path"><code>skills/sky-secure/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-ship deploy production quality gates commit push verify skills sky-ship">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-ship</h3>
+          <p class="purpose">Deploys to production with state guard, security scan, quality gates, commit, push, deploy, and verification.</p>
+          <p class="path"><code>skills/sky-ship/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-test generate tests run tests tdd coverage skills sky-test">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-test</h3>
+          <p class="purpose">Generates tests, runs tests, or drives a feature through a test-first loop.</p>
+          <p class="path"><code>skills/sky-test/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-update launched project post launch change patch live site operate mode skills sky-update">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-update</h3>
+          <p class="purpose">Ships one lean update to a launched project without restarting the full milestone journey.</p>
+          <p class="path"><code>skills/sky-update/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-verify verify phase acceptance criteria goal backward panel skills sky-verify">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-verify</h3>
+          <p class="purpose">Verifies a built phase against its goal using a panel approach and deterministic verdict aggregation.</p>
+          <p class="path"><code>skills/sky-verify/SKILL.md</code></p>
+        </article>
+
+        <article data-kind="skill" data-search="sky-zoho-workflow invoice mail optional integration billing crm contact payment reminders skills zoho-workflow">
+          <div class="eyebrow">Skill</div>
+          <h3>sky-zoho-workflow</h3>
+          <p class="purpose">Uses configured authorized Zoho Books/Mail integrations for invoices, cover emails, contacts, payments and reminders.</p>
+          <p class="path"><code>skills/sky-zoho-workflow/SKILL.md</code></p>
+        </article>
+      </div>
+    </section>
+
+    <p id="empty" class="empty">No matching agents or skills found.</p>
+  </main>
+
+  <script>
+    const search = document.querySelector("#search");
+    const buttons = [...document.querySelectorAll("[data-filter]")];
+    const cards = [...document.querySelectorAll("article[data-kind]")];
+    const sections = [...document.querySelectorAll("main section")];
+    const empty = document.querySelector("#empty");
+    let activeFilter = "all";
+
+    function applyFilters() {
+      const term = search.value.trim().toLowerCase();
+      let visible = 0;
+
+      cards.forEach((card) => {
+        const kindMatch = activeFilter === "all" || card.dataset.kind === activeFilter;
+        const textMatch = !term || card.dataset.search.includes(term) || card.textContent.toLowerCase().includes(term);
+        const show = kindMatch && textMatch;
+        card.classList.toggle("hidden", !show);
+        if (show) visible += 1;
+      });
+
+      sections.forEach((section) => {
+        const hasVisibleCards = !!section.querySelector("article:not(.hidden)");
+        section.classList.toggle("hidden", !hasVisibleCards);
+      });
+
+      empty.style.display = visible ? "none" : "block";
+    }
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeFilter = button.dataset.filter;
+        buttons.forEach((item) => item.classList.toggle("active", item === button));
+        applyFilters();
+      });
+    });
+
+    search.addEventListener("input", applyFilters);
+  </script>
+</body>
+</html>

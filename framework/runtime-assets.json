@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "purpose": "Additional required source assets introduced by approved capability repairs",
+  "files": [
+    "skyops-templates/stacks/landing-page/scaffold/eslint.config.mjs",
+    "skyops-templates/stacks/full-app/scaffold/eslint.config.mjs",
+    "skyops-templates/stacks/ai-agent/scaffold/eslint.config.mjs",
+    "skyops-templates/stacks/internal-tool/scaffold/eslint.config.mjs"
+  ]
+}

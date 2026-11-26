@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "host": "claude",
+  "checked_at": "2026-11-26T13:29:50.686Z",
+  "platform": "win32",
+  "concurrency_limit": 2,
+  "expected_roles": [
+    "sky-visual-evaluator"
+  ],
+  "tested_roles": 1,
+  "passed": 1,
+  "ok": true,
+  "results": [
+    {
+      "role": "sky-visual-evaluator",
+      "source": "agents/visual-evaluator.md",
+      "source_sha256": "90e1377c2273e21dff731ea908f39c1c84b9762a31958eb39effd6905a30d05a",
+      "native_artifact_sha256": "90e1377c2273e21dff731ea908f39c1c84b9762a31958eb39effd6905a30d05a",
+      "artifact_unchanged": true,
+      "duration_ms": 6291,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-visual-evaluator",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-opus-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          "<rubric>: 9-dimension scoring criteria from skyops-design/design-rubric.md (anchored 1-5)",
+          "<brief>: .planning/DESIGN.md excerpt (aesthetic direction, color strategy, scene sentence)",
+          "<product>: .planning/PRODUCT.md excerpt (register, voice, anti-references)",
+          "<screenshots>: full-page PNG captures for mobile, tablet and desktop viewports",
+          "<viewport_meta>: { reduced_motion: boolean, viewport_widths: [...] }",
+          "iteration number for the evaluation output",
+          "optional: <reference_image> target screenshot for comparison anchoring",
+          "optional: <previous_iteration> issues/fixes to check for regression vs improvement"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 4761,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 314,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 4761,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 314,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 4761,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 4761
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.044376,
+      "permission_denials": []
+    }
+  ],
+  "phase_gate_passed": false,
+  "production_activation": false,
+  "limitations": [
+    "Missing-input native role entrypoint probes only; no implementation, design scoring, research, browser QA or cloud/provider workflow acceptance",
+    "No per-agent tool-policy equivalence, cross-tenant security or full functional parity claim",
+    "No existing .NET framework/configuration/cache or existing Supabase project was accessed"
+  ]
+}

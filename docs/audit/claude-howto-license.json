@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "upstream": "luongnv89/claude-howto",
+  "ref": "v2.2.0",
+  "path": "LICENSE",
+  "license": "MIT",
+  "github_blob_sha": "cf8db6a9099e7d3d55428f08dbfe11477ef5c828",
+  "sha256": "70af63a728d585a646c86276b0a8ae0f6edffcd6cf535f45e595241fec97fbbf",
+  "notice_preserved": "docs/licenses/claude-howto-MIT.txt",
+  "related_source": "knowledge/claudecode-bible.md",
+  "scope": "Upstream reference attribution/license only; does not certify all other third-party materials"
+}

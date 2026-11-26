@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "image": "node@sha256:be979e5523c76fa4d5ca4ebd3099078f220aa47ec39c48ad5b5df9314debd6eb",
+  "platform": "linux_container",
+  "host": "win32",
+  "timestamp": "2026-11-26T13:07:53.190Z",
+  "tests": 90,
+  "passed": 90,
+  "failed": 0,
+  "skipped": 0,
+  "exit_code": 0,
+  "ok": true,
+  "output_sha256": "aa6e2a605e60f98ae6f8b7518351732f7d47c5d9768a93951142df8672c3f0ea",
+  "phase_gate_passed": false,
+  "network": "disabled; loopback fixture servers only",
+  "source_mount": "read_only",
+  "limitation": "Linux Node component/transport tests only. No Linux AI host, Supabase services, macOS, WSL or application end-to-end validation is claimed."
+}

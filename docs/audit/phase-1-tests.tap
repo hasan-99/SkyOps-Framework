@@ -1,0 +1,358 @@
+TAP version 13
+# Subtest: baseline contract: contract-valid
+ok 1 - baseline contract: contract-valid
+  ---
+  duration_ms: 9.0865
+  type: 'test'
+  ...
+# Subtest: baseline contract: contract-unknown-dependency
+ok 2 - baseline contract: contract-unknown-dependency
+  ---
+  duration_ms: 0.56
+  type: 'test'
+  ...
+# Subtest: baseline contract: contract-cycle
+ok 3 - baseline contract: contract-cycle
+  ---
+  duration_ms: 0.4527
+  type: 'test'
+  ...
+# Subtest: baseline contract: contract-wrong-wave
+ok 4 - baseline contract: contract-wrong-wave
+  ---
+  duration_ms: 0.5754
+  type: 'test'
+  ...
+# Subtest: baseline contract: contract-file-list-overlap
+ok 5 - baseline contract: contract-file-list-overlap
+  ---
+  duration_ms: 0.5687
+  type: 'test'
+  ...
+# Subtest: baseline contract: contract-scope-reduction
+ok 6 - baseline contract: contract-scope-reduction
+  ---
+  duration_ms: 0.4559
+  type: 'test'
+  ...
+# Subtest: baseline contract: contract-missing-evidence
+ok 7 - baseline contract: contract-missing-evidence
+  ---
+  duration_ms: 0.4176
+  type: 'test'
+  ...
+# Subtest: baseline contract: contract-shell-metacharacters
+ok 8 - baseline contract: contract-shell-metacharacters
+  ---
+  duration_ms: 0.4393
+  type: 'test'
+  ...
+# Subtest: baseline contract: contract-invalid-json
+ok 9 - baseline contract: contract-invalid-json
+  ---
+  duration_ms: 1.1752
+  type: 'test'
+  ...
+# Subtest: baseline contract: contract-stable-hash
+ok 10 - baseline contract: contract-stable-hash
+  ---
+  duration_ms: 1.1062
+  type: 'test'
+  ...
+# Subtest: baseline contract: waves-small-sequential
+ok 11 - baseline contract: waves-small-sequential
+  ---
+  duration_ms: 3.9976
+  type: 'test'
+  ...
+# Subtest: baseline contract: waves-dependency-order
+ok 12 - baseline contract: waves-dependency-order
+  ---
+  duration_ms: 0.8813
+  type: 'test'
+  ...
+# Subtest: baseline contract: waves-concurrency-cap
+ok 13 - baseline contract: waves-concurrency-cap
+  ---
+  duration_ms: 0.9348
+  type: 'test'
+  ...
+# Subtest: baseline contract: waves-cycle-rejected
+ok 14 - baseline contract: waves-cycle-rejected
+  ---
+  duration_ms: 0.3623
+  type: 'test'
+  ...
+# Subtest: baseline contract: waves-invalid-cap
+ok 15 - baseline contract: waves-invalid-cap
+  ---
+  duration_ms: 0.2857
+  type: 'test'
+  ...
+# Subtest: baseline contract: panel-high-unjudged-fails
+ok 16 - baseline contract: panel-high-unjudged-fails
+  ---
+  duration_ms: 2.7212
+  type: 'test'
+  ...
+# Subtest: baseline contract: panel-tie-survives
+ok 17 - baseline contract: panel-tie-survives
+  ---
+  duration_ms: 0.4322
+  type: 'test'
+  ...
+# Subtest: baseline contract: panel-majority-rejects
+ok 18 - baseline contract: panel-majority-rejects
+  ---
+  duration_ms: 0.3442
+  type: 'test'
+  ...
+# Subtest: baseline contract: panel-critical-fails
+ok 19 - baseline contract: panel-critical-fails
+  ---
+  duration_ms: 0.3595
+  type: 'test'
+  ...
+# Subtest: baseline contract: panel-low-pass
+ok 20 - baseline contract: panel-low-pass
+  ---
+  duration_ms: 0.3824
+  type: 'test'
+  ...
+# Subtest: baseline contract: panel-deduplicates-lenses
+ok 21 - baseline contract: panel-deduplicates-lenses
+  ---
+  duration_ms: 0.4489
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-contains
+ok 22 - baseline contract: eval-contains
+  ---
+  duration_ms: 3.0191
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-missing-string
+ok 23 - baseline contract: eval-missing-string
+  ---
+  duration_ms: 0.2701
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-not-contains
+ok 24 - baseline contract: eval-not-contains
+  ---
+  duration_ms: 0.256
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-equals
+ok 25 - baseline contract: eval-equals
+  ---
+  duration_ms: 0.2347
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-regex
+ok 26 - baseline contract: eval-regex
+  ---
+  duration_ms: 0.2977
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-invalid-regex
+ok 27 - baseline contract: eval-invalid-regex
+  ---
+  duration_ms: 0.2458
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-not-regex
+ok 28 - baseline contract: eval-not-regex
+  ---
+  duration_ms: 0.2304
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-min-length
+ok 29 - baseline contract: eval-min-length
+  ---
+  duration_ms: 0.2209
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-max-length
+ok 30 - baseline contract: eval-max-length
+  ---
+  duration_ms: 0.194
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-latency-pass
+ok 31 - baseline contract: eval-latency-pass
+  ---
+  duration_ms: 0.2011
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-cost-fail
+ok 32 - baseline contract: eval-cost-fail
+  ---
+  duration_ms: 0.215
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-pending-judge
+ok 33 - baseline contract: eval-pending-judge
+  ---
+  duration_ms: 0.2066
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-judge-pass
+ok 34 - baseline contract: eval-judge-pass
+  ---
+  duration_ms: 0.1952
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-unknown-assertion
+ok 35 - baseline contract: eval-unknown-assertion
+  ---
+  duration_ms: 0.3055
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-json-valid
+ok 36 - baseline contract: eval-json-valid
+  ---
+  duration_ms: 0.2294
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-json-path
+ok 37 - baseline contract: eval-json-path
+  ---
+  duration_ms: 0.4209
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-json-missing-path
+ok 38 - baseline contract: eval-json-missing-path
+  ---
+  duration_ms: 0.2454
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-unmeasured-latency-fails
+ok 39 - baseline contract: eval-unmeasured-latency-fails
+  ---
+  duration_ms: 0.2447
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-empty-suite-fails
+ok 40 - baseline contract: eval-empty-suite-fails
+  ---
+  duration_ms: 0.3814
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-empty-assertions-fail
+ok 41 - baseline contract: eval-empty-assertions-fail
+  ---
+  duration_ms: 0.3441
+  type: 'test'
+  ...
+# Subtest: baseline contract: eval-pending-suite-fails
+ok 42 - baseline contract: eval-pending-suite-fails
+  ---
+  duration_ms: 0.3344
+  type: 'test'
+  ...
+# Subtest: baseline was captured from the audited source hashes
+ok 43 - baseline was captured from the audited source hashes
+  ---
+  duration_ms: 0.1747
+  type: 'test'
+  ...
+# Subtest: every immutable source entry has exactly one inventory disposition
+ok 44 - every immutable source entry has exactly one inventory disposition
+  ---
+  duration_ms: 221.6907
+  type: 'test'
+  ...
+# Subtest: every retained source component has a parity entry and a confined target
+ok 45 - every retained source component has a parity entry and a confined target
+  ---
+  duration_ms: 5.4814
+  type: 'test'
+  ...
+# Subtest: all nine agents and all twenty-nine skills are preserved
+ok 46 - all nine agents and all twenty-nine skills are preserved
+  ---
+  duration_ms: 0.6383
+  type: 'test'
+  ...
+# Subtest: every runtime helper, template, rule and design document is inventoried
+ok 47 - every runtime helper, template, rule and design document is inventoried
+  ---
+  duration_ms: 0.4053
+  type: 'test'
+  ...
+# Subtest: original user history and installation state cannot enter target memory or runtime
+ok 48 - original user history and installation state cannot enter target memory or runtime
+  ---
+  duration_ms: 0.8075
+  type: 'test'
+  ...
+# Subtest: source permission is explicitly attested without claiming independent verification
+ok 49 - source permission is explicitly attested without claiming independent verification
+  ---
+  duration_ms: 0.152
+  type: 'test'
+  ...
+# Subtest: all ten acceptance scenarios and required measurement fields are specified
+ok 50 - all ten acceptance scenarios and required measurement fields are specified
+  ---
+  duration_ms: 2.7791
+  type: 'test'
+  ...
+# Subtest: authoritative plan records all approved refinements and phase gates
+ok 51 - authoritative plan records all approved refinements and phase gates
+  ---
+  duration_ms: 2.6616
+  type: 'test'
+  ...
+# Subtest: machine evidence runs actual files and commands and preserves failures
+ok 52 - machine evidence runs actual files and commands and preserves failures
+  ---
+  duration_ms: 1051.8474
+  type: 'test'
+  ...
+# Subtest: state transitions require plans, contracts, machine evidence and sufficient verification
+ok 53 - state transitions require plans, contracts, machine evidence and sufficient verification
+  ---
+  duration_ms: 3800.9171
+  type: 'test'
+  ...
+# Subtest: legacy-to-increment migration can restore original state and tracking bytes
+ok 54 - legacy-to-increment migration can restore original state and tracking bytes
+  ---
+  duration_ms: 1867.7329
+  type: 'test'
+  ...
+# Subtest: recovery journal restores an interrupted pair before the next mutation
+ok 55 - recovery journal restores an interrupted pair before the next mutation
+  ---
+  duration_ms: 771.8082
+  type: 'test'
+  ...
+# Subtest: wave barrier holds missing, running and blocked tasks until every expected task is done
+ok 56 - wave barrier holds missing, running and blocked tasks until every expected task is done
+  ---
+  duration_ms: 48.3234
+  type: 'test'
+  ...
+# Subtest: ledger detects edits to hash-chained development history
+ok 57 - ledger detects edits to hash-chained development history
+  ---
+  duration_ms: 29.84
+  type: 'test'
+  ...
+# Subtest: batch migration assigns each file once and respects worker concurrency
+ok 58 - batch migration assigns each file once and respects worker concurrency
+  ---
+  duration_ms: 438.6383
+  type: 'test'
+  ...
+1..58
+# tests 58
+# suites 0
+# pass 58
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8793.5453

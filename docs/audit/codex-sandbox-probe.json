@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-26T12:44:21.129Z",
+  "host": "codex",
+  "sandbox": "mxc",
+  "permission_profile": ":read-only",
+  "managed_configuration_included": true,
+  "exit_code": 0,
+  "probe_ok": true,
+  "diagnostic": "none",
+  "error": null,
+  "output_bytes": 22,
+  "machine_configuration_modified": false,
+  "production_activation": false
+}

@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-26T13:07:47.667090+00:00",
+  "validator": "External system skill-creator quick_validate.py",
+  "validator_sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806",
+  "dependency": "PyYAML==6.0.4",
+  "development_dependency_only": true,
+  "source_generic_passed": 22,
+  "source_known_extension_cases": 7,
+  "generated_codex_passed": 29,
+  "skills": [
+    {
+      "skill": "sky-build",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "627b858fa090f8f2153d06efb50cefbad09c9176e0c973c075af10e3b6764bef",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "d16b6a827bc249aff6ccf29144c4308d26612614e3434bff5ed50c8a6795e194"
+    },
+    {
+      "skill": "sky-deep-research",
+      "source_generic_validator_passed": false,
+      "source_message": "Unexpected key(s) in SKILL.md frontmatter: tags. Allowed properties are: allowed-tools, description, license, metadata, name",
+      "source_host_extensions": [
+        "tags"
+      ],
+      "source_extension_status": "known_host_extensions_preserved",
+      "source_sha256": "d70b85a97b6b7a9234a795047ddb8a12bb2c9ff63e666e23e1c51e435581c785",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "47f6fc5c64a37282e78fe01f7ad24456b8faf9e766fe46580cda3a26fd15f393"
+    },
+    {
+      "skill": "sky-doctor",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "d13881b0fcb9441b90b1ac98f037795598ff8cb036ce0ff994cc571f840f1b66",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "9cca6279728e29799dd734dee2e993137fcfcf12f684f5edd01876a2583c5dc5"
+    },
+    {
+      "skill": "sky-eval",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "cdcb227cf2714cc0ba21c89759501b6d94faa19d7395e8dad91bc971c7373297",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "653ff0101127fd436d258325ecfa07282883e374f324fc6e9a5df2ea38c99346"
+    },
+    {
+      "skill": "sky-feature",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "979ef0a00cb8c8ffe20a5cecf3f710fda6a6f4ac2dd80c95f11efdc40a45b6f0",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "fdc8d26086889ccdfd7a23cddbb380149c14d9712c443e7891a9b835b3c56bce"
+    },
+    {
+      "skill": "sky-fix",
+      "source_generic_validator_passed": false,
+      "source_message": "Unexpected key(s) in SKILL.md frontmatter: argument-hint. Allowed properties are: allowed-tools, description, license, metadata, name",
+      "source_host_extensions": [
+        "argument-hint"
+      ],
+      "source_extension_status": "known_host_extensions_preserved",
+      "source_sha256": "8b8312828c75e4847bb657d9923181122f5ab18d22851cc2f54be4f7c6b09103",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "f5513a86dfd5400191b0384b83ca05cdd6bd587bc8beac1c17e8baa426d72cf0"
+    },
+    {
+      "skill": "sky-handoff",
+      "source_generic_validator_passed": false,
+      "source_message": "Unexpected key(s) in SKILL.md frontmatter: disable-model-invocation. Allowed properties are: allowed-tools, description, license, metadata, name",
+      "source_host_extensions": [
+        "disable-model-invocation"
+      ],
+      "source_extension_status": "known_host_extensions_preserved",
+      "source_sha256": "38e879e925070333767edce23709c619884c1c86653b9fc3e83d2f65fe0b419c",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "3a86bdd2bea7a3ce9dd43b188588ff43ce9d56901702710930f77f5dcbeb4883"
+    },
+    {
+      "skill": "sky-idk",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "9b2b77faa113f18315b2426b50ba11fce167cb9633157aa1de0165f27d428f28",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "fb50e5ec63797315113fa9844f49c25e8ce492048d7b8cc8a6ba8337d7cc44e2"
+    },
+    {
+      "skill": "sky-learn",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "d9174d5b56f9e9a50aaeae432f148051b90c784d26d07fd61d832c7ba422039b",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "d6793a4419bfce7881d557e9253684df5bfc8512545a4cae73597cc3f67b9cf6"
+    },
+    {
+      "skill": "sky-map",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "d8a7a0f9d598a905353b916ace31110d3936eb3ff1303941acd8baae157645f9",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "b9d136f188ebc1a04cea26e7d7908fa16cf18c13795ac4fd3a53b35ad4532752"
+    },
+    {
+      "skill": "sky-milestone",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "df8975b497364023235b9c802124e9ecd25b886f89da76c489eef558a4a64363",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "c1119fd6b7711224fac8486c6f03fc600faf209ce2f5f3f32e6741d689c0ba5b"
+    },
+    {
+      "skill": "sky-new",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "10200c5c1c6bd5cdc71cbdd9c39a75e323a4abe31a22fc72ff63f1ddadd9cfeb",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "7f0fe0fde712ea0af96cfead55e1220ac5ac579ee6acc319cbe2b21f450489f2"
+    },
+    {
+      "skill": "sky-next",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "b334fe3c64f52daa15153724ecfcaae4c76ffa05aff7984c4a8ad66045632421",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "ac2df1f6dbd831031a5daee29c380ef59189ae878eceaacf34abf94ee0e1aea3"
+    },
+    {
+      "skill": "sky-optimize",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "7c743d2bdf9a8b7e932ac6446c30a7b630c1df6c70d9168d05e21322d63d66b2",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "6250b1e569a47a44a598df3fd8c87c6c2bb1f7d88ea87cc28f0dda1aeab00f17"
+    },
+    {
+      "skill": "sky-plan",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "8d7a8b2d66a68a6d288f09019a1ef5d2d640208219f18f8e5e386cd751fccd35",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "7d213abfdcebc6207ba4573feac99b9cf939a44b7d715e927a650957253d82f6"
+    },
+    {
+      "skill": "sky-polish",
+      "source_generic_validator_passed": false,
+      "source_message": "Unexpected key(s) in SKILL.md frontmatter: argument-hint. Allowed properties are: allowed-tools, description, license, metadata, name",
+      "source_host_extensions": [
+        "argument-hint"
+      ],
+      "source_extension_status": "known_host_extensions_preserved",
+      "source_sha256": "c1ed987ac1a8ddf2acddbd616a9faadf861628f7746bc25ea04638d242af8a4f",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "448302186ea6657f48f68f9d24048afd19ab0f7cbb0ac6d4797ca4b1cada850b"
+    },
+    {
+      "skill": "sky-postmortem",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "220afd4b48b98bdf1ac03058db176a243e06810cf604e61be4461d600bb2e2bc",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "100f479c05ca858ecb20f7b75371e6650721b8b8fe475a09386986a35252e1bf"
+    },
+    {
+      "skill": "sky-recall",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "dd317bea4567afcdc82a766344b4c2565899627ffffac75d01f70b5dc6b0f44f",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "e8d335161588ae6833952a0e24a39e06eb417120ec0f31b4455ad9ff4eb5fda5"
+    },
+    {
+      "skill": "sky-report",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "43e9e50adc5819d99df0555aea4a59f2439dacc55a702e2655e0619d6c8437bb",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "58938ffa6f8ee609ce63522458a4879f135693633803af5283e4bf05cd75e7a9"
+    },
+    {
+      "skill": "sky-research",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "97ae3059a756d76679edfa5c5f95136e3f3f61fe2385ea2363e37eb83c6696dc",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "1d7fe52be216466306149b314bd8761852d24a5cfb5911dae8cfcf0e29a2e4e4"
+    },
+    {
+      "skill": "sky-review",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "748647c01ce6e70777772eb15340b4bdbf0c7fa64b0ef537d41cd64fd268c2c6",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "c76d0c5c67e328d506549f8099a4c7b3a4de854c4723ef949c5273482fc4e957"
+    },
+    {
+      "skill": "sky-road",
+      "source_generic_validator_passed": false,
+      "source_message": "Unexpected key(s) in SKILL.md frontmatter: disable-model-invocation. Allowed properties are: allowed-tools, description, license, metadata, name",
+      "source_host_extensions": [
+        "disable-model-invocation"
+      ],
+      "source_extension_status": "known_host_extensions_preserved",
+      "source_sha256": "bf6d308a0d8e51dfcccad646be5529818b0a05f279b998e9337245f874e8fe1b",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "d8272a33155c07431c7e4c00be862d0e5a15cea9813593f3a2ab9cc8832f509c"
+    },
+    {
+      "skill": "sky-scope",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "322b824d4317eecf4fca3011feecf8ca2ea23aa51c0e03a41163283a245ca651",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "ee5e8c7c6bac86105711d960ab48552d917e5e482af5285c259571a4fe5efddf"
+    },
+    {
+      "skill": "sky-secure",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "c86087d916fdcb56bf4df800b1e67bc0e564003f5155e449e71c390d93c67b52",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "e2c4e46a3f526e56e50a83532e9c71e99b9d43bc5970b294b99c81e312ffa91c"
+    },
+    {
+      "skill": "sky-ship",
+      "source_generic_validator_passed": false,
+      "source_message": "Unexpected key(s) in SKILL.md frontmatter: disable-model-invocation. Allowed properties are: allowed-tools, description, license, metadata, name",
+      "source_host_extensions": [
+        "disable-model-invocation"
+      ],
+      "source_extension_status": "known_host_extensions_preserved",
+      "source_sha256": "a901dc803f77f757f0a32c8488081509e8d54e6ca3d9308f61b389a637545836",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "a788b807e17ddd450dda87b7e387ee28274f381e1147ec664c6c5fe054f1834c"
+    },
+    {
+      "skill": "sky-test",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "f70b78f4c69e545924be5e14a5910fc1946a9ba958902e6f1e2dae7376355540",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "df6d20002588eab39c6e97919bbb4c77fecca5a0aa620d2ee596fa54174d3efa"
+    },
+    {
+      "skill": "sky-update",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "017d1e37e47b576be08e5add550ec4df57b94f339e300ddb4eba1472ce8564d5",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "cc2b507fb9d7680701a13dae4f105734d72df9d5282c9e0b05ec1a42be12bafd"
+    },
+    {
+      "skill": "sky-verify",
+      "source_generic_validator_passed": true,
+      "source_message": "Skill is valid!",
+      "source_host_extensions": [],
+      "source_extension_status": "none",
+      "source_sha256": "102477781b17d2630a4b399918c23205b5c8dfa34f9fb57cb113bc554c611a06",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "5c18b02051560a419942670c9d61b6fbc64ce99d5d4a0f047a3aeb2bbc864890"
+    },
+    {
+      "skill": "sky-zoho-workflow",
+      "source_generic_validator_passed": false,
+      "source_message": "Unexpected key(s) in SKILL.md frontmatter: tags. Allowed properties are: allowed-tools, description, license, metadata, name",
+      "source_host_extensions": [
+        "tags"
+      ],
+      "source_extension_status": "known_host_extensions_preserved",
+      "source_sha256": "a8dac73fcc3180769a19bd9f036a85a0d0b7ce6d70266b60f1d5785323ad533f",
+      "generated_codex_validator_passed": true,
+      "generated_codex_message": "Skill is valid!",
+      "generated_codex_sha256": "aa123fe205899fd63358a95d64884d828d8e0d04fb72e47e36de0c83a9aaeaaa"
+    }
+  ],
+  "ok": true,
+  "phase_gate_passed": false,
+  "scope": "Frontmatter/name/description only; native invocation policies, tool authorization, behavioral skill/agent acceptance and full parity require separate evidence. Canonical host extensions are preserved, not called generic-validator passes."
+}

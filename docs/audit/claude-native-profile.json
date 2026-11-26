@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "host": "claude",
+  "checked_at": "2026-11-26T11:24:07.812Z",
+  "platform": "win32",
+  "exit_code": 1,
+  "compiled_agents": [
+    "sky-builder",
+    "sky-plan-checker",
+    "sky-planner",
+    "sky-qa-browser",
+    "sky-research-synthesizer",
+    "sky-researcher",
+    "sky-roadmapper",
+    "sky-verifier",
+    "sky-visual-evaluator"
+  ],
+  "authenticated": false,
+  "native_config_isolated": true,
+  "ok": true,
+  "stdout_bytes": 462,
+  "stderr_bytes": 0,
+  "gate_passed": false,
+  "limitation": "Native authentication/config-directory diagnostic only, not agent or skill discovery. Agent/skill invocation, guard enforcement, model/cloud calls and other operating systems remain unverified."
+}

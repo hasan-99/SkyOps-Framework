@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "phase": 1,
+  "kind": "original_baseline_and_inventory_verification",
+  "started_at": "2026-11-26T12:44:58.371Z",
+  "finished_at": "2026-11-26T12:45:07.466Z",
+  "node": "v22.23.3",
+  "platform": "win32",
+  "command": [
+    "node",
+    "--test",
+    "--test-reporter=tap",
+    "tests/baseline/characterization.test.cjs",
+    "tests/baseline/inventory.test.cjs",
+    "tests/baseline/state-and-evidence.test.cjs"
+  ],
+  "exit_code": 0,
+  "ok": true,
+  "tests": 58,
+  "passed": 58,
+  "failed": 0,
+  "skipped": 0,
+  "output_sha256": "b77d998f6853e1d8efbb729331765686b50f5d20e51a36cf7bab616814d9676a",
+  "implementation_parity_claimed": false,
+  "limitation": "Local Node baseline behavior and inventory only. No native host, cloud, provider, or end-to-end application validation is claimed."
+}

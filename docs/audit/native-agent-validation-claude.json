@@ -1,0 +1,726 @@
+{
+  "schema_version": 1,
+  "host": "claude",
+  "checked_at": "2026-11-26T13:31:45.390Z",
+  "platform": "win32",
+  "concurrency_limit": 2,
+  "expected_roles": [
+    "sky-builder",
+    "sky-plan-checker",
+    "sky-planner",
+    "sky-qa-browser",
+    "sky-research-synthesizer",
+    "sky-researcher",
+    "sky-roadmapper",
+    "sky-verifier",
+    "sky-visual-evaluator"
+  ],
+  "tested_roles": 9,
+  "passed": 9,
+  "ok": true,
+  "results": [
+    {
+      "role": "sky-builder",
+      "source": "agents/builder.md",
+      "source_sha256": "6775824fd7dc29a3da23e3cdcc15d4129f2f67210c55de398bd033f9b150b9de",
+      "native_artifact_sha256": "ca37d88ea73d4d86474cd01894534bd543ad2cee39f1a75e8a56dc6add9c3b57",
+      "artifact_unchanged": true,
+      "duration_ms": 6826,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-builder",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "required_role_input_observed": true,
+      "unexpected_framework_agents": [],
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-opus-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          "One task block from the phase plan (task number, Wave, Depends on, optional Persona)",
+          "Task Files list defining scope boundary",
+          "Task Why rationale",
+          "Task Acceptance Criteria",
+          "Task Action steps",
+          "Task Validation commands",
+          "Task Context @file references",
+          "PROJECT.md context",
+          "Committed dependency tasks in git log (if Depends on is set)",
+          "Target codebase files to read before writing"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 5273,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 160,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 5273,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 160,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 5273,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 5273
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.045392,
+      "permission_denials": []
+    },
+    {
+      "role": "sky-plan-checker",
+      "source": "agents/plan-checker.md",
+      "source_sha256": "320fdd9ce326f0b19f5629eaa8576983037a5573f63e64897738541132a3aec8",
+      "native_artifact_sha256": "320fdd9ce326f0b19f5629eaa8576983037a5573f63e64897738541132a3aec8",
+      "artifact_unchanged": true,
+      "duration_ms": 6051,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-plan-checker",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "required_role_input_observed": true,
+      "unexpected_framework_agents": [],
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-sonnet-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          "plan_path: the phase plan file to validate (e.g., .planning/phase-{N}-plan.md)",
+          "phase_goal: the phase goal from ROADMAP.md",
+          "success_criteria: the phase success criteria from ROADMAP.md",
+          "project_context: PROJECT.md summary",
+          "phase-{N}-context.md (locked decisions and deferred ideas), if it exists for this phase",
+          "ROADMAP.md and REQUIREMENTS.md with REQ-IDs for the phase, if they exist"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 7019,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 197,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 7019,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 197,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 7019,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 7019
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.03005,
+      "permission_denials": []
+    },
+    {
+      "role": "sky-planner",
+      "source": "agents/planner.md",
+      "source_sha256": "6c7f49f23746b6818f4d2c60ab8ca99430fd14980dcb90cab7b5a646f8256c4b",
+      "native_artifact_sha256": "2a71e43d53bb137ff623c95e8dca3fdfb96e966968c560846526eef26ca44ff2",
+      "artifact_unchanged": true,
+      "duration_ms": 7460,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-planner",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "required_role_input_observed": true,
+      "unexpected_framework_agents": [],
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-opus-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          "<project_context>: .planning/PROJECT.md contents (what is being built, stack, locked library choices)",
+          "<current_state>: .planning/STATE.md contents (current position in roadmap)",
+          "<phase_details>: phase number, goal, success criteria and REQ-IDs from ROADMAP.md",
+          "Codebase files to Read/Grep for file:line evidence backing every task specification",
+          "<product_context>: PRODUCT.md (required for any frontend task, including register field)",
+          "<design_spec> and <design_substrate>: DESIGN.md plus skyops-design/design-laws.md and matching register file (required for frontend tasks)",
+          "Optional if applicable: <locked_decisions> from .planning/phase-{N}-context.md, <research_findings> from .planning/phase-{N}-research.md, <relevant_learnings>",
+          "For revision mode: <current_plan> and <checker_feedback>; for gaps mode: <verification_path> (VERIFICATION.md listing failures)"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 8230,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 351,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 8230,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 351,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 8230,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 8230
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.072868,
+      "permission_denials": []
+    },
+    {
+      "role": "sky-qa-browser",
+      "source": "agents/qa-browser.md",
+      "source_sha256": "35ff9f13afca95cb315d8f95a501aecca8eb09e33cf0d0f927a158ced7087416",
+      "native_artifact_sha256": "35ff9f13afca95cb315d8f95a501aecca8eb09e33cf0d0f927a158ced7087416",
+      "artifact_unchanged": true,
+      "duration_ms": 7284,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-qa-browser",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "required_role_input_observed": true,
+      "unexpected_framework_agents": [],
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-sonnet-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          "plan_path: path to .planning/phase-{N}-plan.md (the phase plan listing the user-facing routes and flows to test)",
+          "phase_number: integer phase number, used to name the .planning/phase-{N}-verification.md report file",
+          "dev_server_url: URL of a reachable running dev server (e.g. http://localhost:3000); none provided, and no running application exists in the fixture",
+          "Playwright MCP browser tools connected and available (required to drive the app; without them the role must report BLOCKED)",
+          "Identified primary user flows and routes to test (derived from the plan; none available)"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 5032,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 250,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 5032,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 250,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 5032,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 5032
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.022632,
+      "permission_denials": []
+    },
+    {
+      "role": "sky-research-synthesizer",
+      "source": "agents/research-synthesizer.md",
+      "source_sha256": "3edbc8bd5b47e5c9041f639ee97cac1da350437c5c3f6a9203c1106fdec282bf",
+      "native_artifact_sha256": "9f93082b11dabf112367ded364918cd507a48e43c24abc35ec5aac965d5f7273",
+      "artifact_unchanged": true,
+      "duration_ms": 5647,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-research-synthesizer",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "required_role_input_observed": true,
+      "unexpected_framework_agents": [],
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-haiku-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          "Four dimensional research files: .planning/research/STACK.md, FEATURES.md, ARCHITECTURE.md, and PITFALLS.md",
+          "Project context: PROJECT.md summary",
+          "Scope flag: quick or standard (defaults to standard if omitted)",
+          "SUMMARY.md output template at the skyops-templates research-project path"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 4197,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 316,
+        "output_tokens_details": {
+          "thinking_tokens": 172
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 4197,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 316,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 4197,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 4197
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.0009976000000000002,
+      "permission_denials": []
+    },
+    {
+      "role": "sky-researcher",
+      "source": "agents/researcher.md",
+      "source_sha256": "4f7143eed239893f8c8df55bc87d1b19a911d2df71267753febafb570f12a74f",
+      "native_artifact_sha256": "c0d98ae62a5b1bc827b3d37a58e350f0f827cad738aa0f485ca26e8c57b20096",
+      "artifact_unchanged": true,
+      "duration_ms": 5853,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-researcher",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "required_role_input_observed": true,
+      "unexpected_framework_agents": [],
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-opus-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          "<dimension> — one of stack, features, architecture, pitfalls",
+          "<domain> — the project domain being researched",
+          "<project_context> — summary of PROJECT.md (core value, constraints, what is being built)",
+          "<milestone_context> — greenfield or subsequent",
+          "<output_path> — absolute path for the single research file to write",
+          "Dimension template at skyops-templates/research-project/{DIMENSION}.md (only readable once the dimension is known)",
+          "<scope> is optional (defaults to standard) and is not required"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 4878,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 194,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 4878,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 194,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 4878,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 4878
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.042912000000000006,
+      "permission_denials": []
+    },
+    {
+      "role": "sky-roadmapper",
+      "source": "agents/roadmapper.md",
+      "source_sha256": "1b2c270bc3eb002987c53e8006f6f7e9e61cb6420bc9a6204d83155816ab5ff2",
+      "native_artifact_sha256": "78cbd3e7b36a30c67d98f7b9c7f688c173ef89f7adfd39a0f48bad80903c31fb",
+      "artifact_unchanged": true,
+      "duration_ms": 6202,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-roadmapper",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "required_role_input_observed": true,
+      "unexpected_framework_agents": [],
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-sonnet-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          ".planning/PROJECT.md (core value, constraints, what is being built, project name, client, type)",
+          ".planning/config.json (depth, template_type)",
+          ".planning/research/SUMMARY.md (optional research synthesis; absence should be confirmed as research skipped)",
+          "User-confirmed feature scope from the sky-new scoping conversation (discovery §9 capability inventory, §8 out-of-scope list, §10 whole-project done-state, §11 handoff/ownership model)",
+          "full_detail flag (boolean, defaults to false)",
+          "Templates: skyops-templates/journey.md, requirements.md and roadmap.md (needed to fill JOURNEY.md, REQUIREMENTS.md and ROADMAP.md)"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 6476,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 271,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 6476,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 271,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 6476,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 6476
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.028618,
+      "permission_denials": []
+    },
+    {
+      "role": "sky-verifier",
+      "source": "agents/verifier.md",
+      "source_sha256": "016866757d6255a8c4e53a2e9f535e8b89c959ee704d9ab73351f7193886c839",
+      "native_artifact_sha256": "64a9c9ee12043d66da805eb519ea57cfae299faf29b64781db62a1ca497d5723",
+      "artifact_unchanged": true,
+      "duration_ms": 6533,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-verifier",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "required_role_input_observed": true,
+      "unexpected_framework_agents": [],
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-sonnet-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          "plan_path: path to .planning/phase-{N}-plan.md (phase number N, success criteria, per-task acceptance criteria, task count for tool budget)",
+          "project_context: inlined .planning/PROJECT.md contents for quality scoring against project conventions",
+          "Phase code/artifacts to verify: the actual implemented files in the repo that the plan claims were built",
+          "Verification contract: .planning/phase-{N}-contract.json (or a '## Verification Contract' section in the plan) with executable checks",
+          "product_context: PRODUCT.md (register, anti-references, principles), if the phase touches frontend",
+          "design_spec: DESIGN.md plus design substrate (design-laws.md, design-rubric.md, matching register file), if the phase touches frontend",
+          "Touched frontend file paths (git diff) for slop-detect and 9-dimension design rubric scoring, if applicable",
+          "previous_verification (optional): prior .planning/phase-{N}-verification.md from an earlier run"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 11813,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 350,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 11813,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 350,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 11813,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 11813
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.050756,
+      "permission_denials": []
+    },
+    {
+      "role": "sky-visual-evaluator",
+      "source": "agents/visual-evaluator.md",
+      "source_sha256": "90e1377c2273e21dff731ea908f39c1c84b9762a31958eb39effd6905a30d05a",
+      "native_artifact_sha256": "90e1377c2273e21dff731ea908f39c1c84b9762a31958eb39effd6905a30d05a",
+      "artifact_unchanged": true,
+      "duration_ms": 7330,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 0,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_requested_agent": "sky-visual-evaluator",
+      "native_role_registered": true,
+      "native_dispatch_method": "Claude --agent",
+      "required_role_input_observed": true,
+      "unexpected_framework_agents": [],
+      "effective_tools": [],
+      "actual_tool_calls": [],
+      "model": "claude-opus-5-5",
+      "result_subtype": "success",
+      "result": {
+        "status": "missing_input",
+        "missing_inputs": [
+          "<rubric>: 9-dimension scoring criteria from skyops-design/design-rubric.md (anchored 1-5)",
+          "<brief>: .planning/DESIGN.md excerpt (aesthetic direction, color strategy, scene sentence)",
+          "<product>: .planning/PRODUCT.md excerpt (register, voice, anti-references)",
+          "<screenshots>: full-page PNG for mobile viewport (375px)",
+          "<screenshots>: full-page PNG for tablet viewport (768px)",
+          "<screenshots>: full-page PNG for desktop viewport (1440px)",
+          "<viewport_meta>: { reduced_motion: boolean, viewport_widths: [...] }",
+          "iteration number (integer) for the output JSON"
+        ],
+        "optional_inputs_not_provided": [
+          "<reference_image>: target screenshot for comparison anchoring",
+          "<previous_iteration>: last iteration's issues/fixes for regression checking"
+        ],
+        "can_claim_complete": false
+      },
+      "unparsed_result_present": false,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 448,
+        "cache_read_input_tokens": 4316,
+        "output_tokens": 384,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 448,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 384,
+            "cache_read_input_tokens": 4316,
+            "cache_creation_input_tokens": 448,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 448
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "actual_cost_usd": 0.0121352,
+      "permission_denials": []
+    }
+  ],
+  "phase_gate_passed": false,
+  "production_activation": false,
+  "limitations": [
+    "Missing-input native role entrypoint probes only; no implementation, design scoring, research, browser QA or cloud/provider workflow acceptance",
+    "No per-agent tool-policy equivalence, cross-tenant security or full functional parity claim",
+    "No existing .NET framework/configuration/cache or existing Supabase project was accessed"
+  ]
+}

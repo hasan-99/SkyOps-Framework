@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "host": "codex",
+  "checked_at": "2026-11-26T13:30:10.434Z",
+  "platform": "win32",
+  "concurrency_limit": 2,
+  "expected_roles": [
+    "sky-visual-evaluator"
+  ],
+  "tested_roles": 1,
+  "passed": 1,
+  "ok": true,
+  "results": [
+    {
+      "role": "sky-visual-evaluator",
+      "source": "agents/visual-evaluator.md",
+      "source_sha256": "90e1377c2273e21dff731ea908f39c1c84b9762a31958eb39effd6905a30d05a",
+      "native_artifact_sha256": "38a2d250aca716cebc34ab37adedef86595fc360d5b369ec91953cde516efc27",
+      "artifact_unchanged": true,
+      "duration_ms": 20961,
+      "exit_code": 0,
+      "process_error": null,
+      "stderr_bytes": 39,
+      "stderr_categories": [],
+      "stderr_agent_mentions": [],
+      "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "unexpected_project_files": [],
+      "scope": "Registered native role entrypoint and missing-input response only; not productive workflow/tool-policy parity",
+      "full_functional_parity_verified": false,
+      "ok": true,
+      "native_dispatch_method": "Codex named role through native agent delegation",
+      "result": {
+        "requested_role": "sky-visual-evaluator",
+        "role_available": true,
+        "child_result": {
+          "status": "missing_input",
+          "missing_inputs": [
+            "Nine-dimension SkyOps design rubric with scoring anchors",
+            "Design brief excerpt with aesthetic direction, color strategy, and scene sentence",
+            "Product brief excerpt with register, voice, and anti-references",
+            "Full-page PNG screenshots for mobile, tablet, and desktop",
+            "Viewport widths and reduced-motion setting",
+            "Iteration number"
+          ],
+          "can_claim_complete": false
+        }
+      },
+      "native_child_role_and_parent_bound": true,
+      "child_session_bindings": [
+        {
+          "bound": false,
+          "matched_role_fields": [],
+          "matched_parent_fields": [],
+          "observed_binding_fields": []
+        },
+        {
+          "bound": true,
+          "matched_role_fields": [
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ],
+          "matched_parent_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id"
+          ],
+          "observed_binding_fields": [
+            "parent_thread_id",
+            "source.subagent.thread_spawn.parent_thread_id",
+            "source.subagent.thread_spawn.agent_role",
+            "agent_role"
+          ]
+        }
+      ],
+      "collaboration_events": [
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.started",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "in_progress",
+          "receiver_count": 0
+        },
+        {
+          "type": "collab_tool_call",
+          "event_type": "item.completed",
+          "tool": "wait",
+          "fields": [
+            "id",
+            "type",
+            "tool",
+            "sender_thread_id",
+            "receiver_thread_ids",
+            "prompt",
+            "agents_states",
+            "status",
+            "event_type"
+          ],
+          "status": "completed",
+          "receiver_count": 0
+        }
+      ],
+      "observed_item_types": [
+        "collab_tool_call",
+        "agent_message"
+      ],
+      "actual_shell_calls": 0,
+      "usage": {
+        "input_tokens": 67821,
+        "cached_input_tokens": 33280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 330,
+        "reasoning_output_tokens": 0
+      },
+      "usage_scope": "Native CLI reported parent-turn usage; child aggregation is not established",
+      "sandbox": "mxc_read_only"
+    }
+  ],
+  "phase_gate_passed": false,
+  "production_activation": false,
+  "limitations": [
+    "Missing-input native role entrypoint probes only; no implementation, design scoring, research, browser QA or cloud/provider workflow acceptance",
+    "No per-agent tool-policy equivalence, cross-tenant security or full functional parity claim",
+    "No existing .NET framework/configuration/cache or existing Supabase project was accessed"
+  ]
+}

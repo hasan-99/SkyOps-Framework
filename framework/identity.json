@@ -1,0 +1,17 @@
+{
+  "name": "SkyOps",
+  "display_name": "SkyOps Framework",
+  "slug": "skyops",
+  "command_prefix": "sky-",
+  "environment_prefix": "SKYOPS_",
+  "author": "Hasan-Jahouse",
+  "organization": "Nexus-AI",
+  "website": "https://hasan-99.github.io/Nexus-AI/",
+  "tagline": "From Idea to Production.",
+  "description": "SkyOps is an AI-powered software engineering framework for the complete development lifecycle, from idea, requirements, planning, and UI/UX design to architecture, implementation, testing, deployment, and maintenance.",
+  "hosts": ["claude", "codex"],
+  "default_home": ".skyops-framework",
+  "distribution": "private",
+  "source_repository": "hasan-99/SkyOps-Framework",
+  "mandatory_infrastructure": ["local", "github", "supabase"]
+}

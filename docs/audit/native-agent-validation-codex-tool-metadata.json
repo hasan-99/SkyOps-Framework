@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "host": "codex",
+  "checked_at": "2026-11-26T13:36:41.689Z",
+  "evidence_source": "Native session metadata and tool-name/usage fields from the latest matching synthetic agent-validation parent/child fixtures only",
+  "referenced_role_receipt": "docs/audit/native-agent-validation-codex.json",
+  "results": [
+    {
+      "role": "sky-builder",
+      "synthetic_parent_created_at": "2026-11-26T13:32:09.676Z",
+      "child_count": 1,
+      "parent": {
+        "ok": true,
+        "reason": null,
+        "inherited_history_boundary": 0,
+        "own_turn_start": 1,
+        "tool_names": [
+          "spawn_agent",
+          "wait_agent",
+          "interrupt_agent"
+        ],
+        "native_reported_total_token_usage": {
+          "input_tokens": 67575,
+          "cached_input_tokens": 33280,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 265,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 67840
+        }
+      },
+      "children": [
+        {
+          "role_and_parent_bound": true,
+          "ok": true,
+          "reason": null,
+          "inherited_history_boundary": 18,
+          "own_turn_start": 19,
+          "tool_names": [],
+          "native_reported_total_token_usage": {
+            "input_tokens": 20022,
+            "cached_input_tokens": 16768,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 108,
+            "reasoning_output_tokens": 74,
+            "total_tokens": 20130
+          }
+        }
+      ],
+      "unexpected_parent_tool_names": [
+        "interrupt_agent"
+      ],
+      "ok": false
+    },
+    {
+      "role": "sky-plan-checker",
+      "synthetic_parent_created_at": "2026-11-26T13:32:11.464Z",
+      "child_count": 1,
+      "parent": {
+        "ok": true,
+        "reason": null,
+        "inherited_history_boundary": 0,
+        "own_turn_start": 1,
+        "tool_names": [
+          "spawn_agent",
+          "wait_agent",
+          "interrupt_agent"
+        ],
+        "native_reported_total_token_usage": {
+          "input_tokens": 67700,
+          "cached_input_tokens": 33280,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 291,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 67991
+        }
+      },
+      "children": [
+        {
+          "role_and_parent_bound": true,
+          "ok": true,
+          "reason": null,
+          "inherited_history_boundary": 18,
+          "own_turn_start": 19,
+          "tool_names": [],
+          "native_reported_total_token_usage": {
+            "input_tokens": 21124,
+            "cached_input_tokens": 16512,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 47,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 21171
+          }
+        }
+      ],
+      "unexpected_parent_tool_names": [
+        "interrupt_agent"
+      ],
+      "ok": false
+    },
+    {
+      "role": "sky-planner",
+      "synthetic_parent_created_at": "2026-11-26T13:32:41.540Z",
+      "child_count": 1,
+      "parent": {
+        "ok": true,
+        "reason": null,
+        "inherited_history_boundary": 0,
+        "own_turn_start": 1,
+        "tool_names": [
+          "spawn_agent",
+          "wait_agent",
+          "wait_agent",
+          "interrupt_agent"
+        ],
+        "native_reported_total_token_usage": {
+          "input_tokens": 84695,
+          "cached_input_tokens": 67072,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 318,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 85013
+        }
+      },
+      "children": [
+        {
+          "role_and_parent_bound": true,
+          "ok": true,
+          "reason": null,
+          "inherited_history_boundary": 0,
+          "own_turn_start": 1,
+          "tool_names": [],
+          "native_reported_total_token_usage": {
+            "input_tokens": 20444,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 69,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 20513
+          }
+        }
+      ],
+      "unexpected_parent_tool_names": [
+        "interrupt_agent"
+      ],
+      "ok": false
+    },
+    {
+      "role": "sky-qa-browser",
+      "synthetic_parent_created_at": "2026-11-26T13:32:58.598Z",
+      "child_count": 1,
+      "parent": {
+        "ok": true,
+        "reason": null,
+        "inherited_history_boundary": 0,
+        "own_turn_start": 1,
+        "tool_names": [
+          "spawn_agent",
+          "wait_agent",
+          "interrupt_agent"
+        ],
+        "native_reported_total_token_usage": {
+          "input_tokens": 67763,
+          "cached_input_tokens": 50304,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 324,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 68087
+        }
+      },
+      "children": [
+        {
+          "role_and_parent_bound": true,
+          "ok": true,
+          "reason": null,
+          "inherited_history_boundary": 18,
+          "own_turn_start": 19,
+          "tool_names": [],
+          "native_reported_total_token_usage": {
+            "input_tokens": 19856,
+            "cached_input_tokens": 16768,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 75,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 19931
+          }
+        }
+      ],
+      "unexpected_parent_tool_names": [
+        "interrupt_agent"
+      ],
+      "ok": false
+    },
+    {
+      "role": "sky-research-synthesizer",
+      "synthetic_parent_created_at": "2026-11-26T13:33:27.735Z",
+      "child_count": 1,
+      "parent": {
+        "ok": true,
+        "reason": null,
+        "inherited_history_boundary": 0,
+        "own_turn_start": 1,
+        "tool_names": [
+          "spawn_agent",
+          "wait_agent",
+          "interrupt_agent"
+        ],
+        "native_reported_total_token_usage": {
+          "input_tokens": 67802,
+          "cached_input_tokens": 48256,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 336,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 68138
+        }
+      },
+      "children": [
+        {
+          "role_and_parent_bound": true,
+          "ok": true,
+          "reason": null,
+          "inherited_history_boundary": 18,
+          "own_turn_start": 19,
+          "tool_names": [],
+          "native_reported_total_token_usage": {
+            "input_tokens": 19259,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 62,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 19321
+          }
+        }
+      ],
+      "unexpected_parent_tool_names": [
+        "interrupt_agent"
+      ],
+      "ok": false
+    },
+    {
+      "role": "sky-researcher",
+      "synthetic_parent_created_at": "2026-11-26T13:33:29.304Z",
+      "child_count": 1,
+      "parent": {
+        "ok": true,
+        "reason": null,
+        "inherited_history_boundary": 0,
+        "own_turn_start": 1,
+        "tool_names": [
+          "spawn_agent",
+          "wait_agent",
+          "interrupt_agent"
+        ],
+        "native_reported_total_token_usage": {
+          "input_tokens": 67809,
+          "cached_input_tokens": 63232,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 335,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 68144
+        }
+      },
+      "children": [
+        {
+          "role_and_parent_bound": true,
+          "ok": true,
+          "reason": null,
+          "inherited_history_boundary": 18,
+          "own_turn_start": 19,
+          "tool_names": [],
+          "native_reported_total_token_usage": {
+            "input_tokens": 19693,
+            "cached_input_tokens": 16512,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 87,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 19780
+          }
+        }
+      ],
+      "unexpected_parent_tool_names": [
+        "interrupt_agent"
+      ],
+      "ok": false
+    },
+    {
+      "role": "sky-roadmapper",
+      "synthetic_parent_created_at": "2026-11-26T13:33:55.614Z",
+      "child_count": 1,
+      "parent": {
+        "ok": true,
+        "reason": null,
+        "inherited_history_boundary": 0,
+        "own_turn_start": 1,
+        "tool_names": [
+          "spawn_agent",
+          "wait_agent",
+          "interrupt_agent"
+        ],
+        "native_reported_total_token_usage": {
+          "input_tokens": 67758,
+          "cached_input_tokens": 33792,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 327,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 68085
+        }
+      },
+      "children": [
+        {
+          "role_and_parent_bound": true,
+          "ok": true,
+          "reason": null,
+          "inherited_history_boundary": 18,
+          "own_turn_start": 19,
+          "tool_names": [],
+          "native_reported_total_token_usage": {
+            "input_tokens": 20646,
+            "cached_input_tokens": 16512,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 73,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 20719
+          }
+        }
+      ],
+      "unexpected_parent_tool_names": [
+        "interrupt_agent"
+      ],
+      "ok": false
+    },
+    {
+      "role": "sky-verifier",
+      "synthetic_parent_created_at": "2026-11-26T13:33:58.334Z",
+      "child_count": 1,
+      "parent": {
+        "ok": true,
+        "reason": null,
+        "inherited_history_boundary": 0,
+        "own_turn_start": 1,
+        "tool_names": [
+          "spawn_agent",
+          "wait_agent",
+          "interrupt_agent"
+        ],
+        "native_reported_total_token_usage": {
+          "input_tokens": 67743,
+          "cached_input_tokens": 33280,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 326,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 68069
+        }
+      },
+      "children": [
+        {
+          "role_and_parent_bound": true,
+          "ok": true,
+          "reason": null,
+          "inherited_history_boundary": 18,
+          "own_turn_start": 19,
+          "tool_names": [],
+          "native_reported_total_token_usage": {
+            "input_tokens": 24137,
+            "cached_input_tokens": 16512,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 86,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 24223
+          }
+        }
+      ],
+      "unexpected_parent_tool_names": [
+        "interrupt_agent"
+      ],
+      "ok": false
+    },
+    {
+      "role": "sky-visual-evaluator",
+      "synthetic_parent_created_at": "2026-11-26T13:34:17.410Z",
+      "child_count": 1,
+      "parent": {
+        "ok": true,
+        "reason": null,
+        "inherited_history_boundary": 0,
+        "own_turn_start": 1,
+        "tool_names": [
+          "spawn_agent",
+          "wait_agent",
+          "interrupt_agent"
+        ],
+        "native_reported_total_token_usage": {
+          "input_tokens": 67873,
+          "cached_input_tokens": 50304,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 357,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 68230
+        }
+      },
+      "children": [
+        {
+          "role_and_parent_bound": true,
+          "ok": true,
+          "reason": null,
+          "inherited_history_boundary": 18,
+          "own_turn_start": 19,
+          "tool_names": [],
+          "native_reported_total_token_usage": {
+            "input_tokens": 19722,
+            "cached_input_tokens": 16768,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 106,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 19828
+          }
+        }
+      ],
+      "unexpected_parent_tool_names": [
+        "interrupt_agent"
+      ],
+      "ok": false
+    }
+  ],
+  "tested_roles": 9,
+  "ok": false,
+  "phase_gate_passed": false,
+  "limitations": [
+    "No token/auth files, previous/global project/session bodies or tool arguments/results are exported",
+    "Inherited parent history is excluded using the recorded native child boundary and own-turn lifecycle",
+    "No productive workflow, browser/visual acceptance, per-agent tool authorization or full parity claim",
+    "Reported child token counters are preserved individually; no unsupported aggregate cost/performance claim"
+  ]
+}

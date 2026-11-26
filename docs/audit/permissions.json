@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-26",
+  "repository": "https://github.com/hasan-99/copilotops-claude.git",
+  "baseline_commit": "0cd3dd5c903767de55c86d3661ad36148307afd8",
+  "original_source": {
+    "status": "cleared_by_owner_attestation",
+    "evidence_kind": "explicit_user_instruction",
+    "confirmation": "I confirm that I own the original source code and have the necessary rights and permissions to modify, reuse, rebrand, and develop it into SkyOps under Nexus-AI.",
+    "authorized_actions": ["modify", "reuse", "rebrand", "develop_under_Nexus-AI", "implement_approved_plan"],
+    "independently_verified_chain_of_title": false,
+    "requires_reconfirmation": false
+  },
+  "technical_plan": {
+    "status": "approved",
+    "authority": "SKYOPS_TRANSFORMATION_PLAN.md",
+    "includes_refinements": true,
+    "scope_changes_require_explicit_approval": true
+  },
+  "third_party_policy": {
+    "status": "component_specific_review_required",
+    "original_ownership_does_not_override_third_party_terms": true,
+    "resolved_versions_and_transitives_reviewed_before_distribution": true,
+    "models_fonts_icons_assets_reviewed_separately": true,
+    "original_unpopulated_marketplace_submodule": "not_imported_or_bundled",
+    "new_logo": "independent_authorship_and_separate_approval_required"
+  },
+  "privacy": {
+    "import_original_user_history": false,
+    "import_original_client_data": false,
+    "import_original_credentials": false,
+    "import_original_installation_state": false,
+    "generic_knowledge": "permission_and_content_review_before_admission"
+  }
+}

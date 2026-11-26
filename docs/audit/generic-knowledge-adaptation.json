@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "applied_at": "2026-11-26T13:16:03.983Z",
+  "files": [
+    {
+      "path": "knowledge/agents.md",
+      "before_sha256": "d82f7cdbb636d714c2d6c2a74e9b84c9cdfad318aa6829b0a3282cd4fde8015c",
+      "after_sha256": "9e458a14a03f1c262ce894ba97176661275b097a912100c88bdbb052b98966d0",
+      "classification": "Authorized generic technical knowledge retained; private historical material excluded",
+      "functional_parity_verified": false
+    },
+    {
+      "path": "knowledge/index.md",
+      "before_sha256": "b35fd67b80d6625e45ce2cdd1ee304c67e54488c1fda8ef0c81589aca8483403",
+      "after_sha256": "bdcdb2350fdfe72c016649bb21f814bd2afa6b1ffc7b51b4e8004d0fb61ecdea",
+      "classification": "Authorized generic technical knowledge retained; private historical material excluded",
+      "functional_parity_verified": false
+    },
+    {
+      "path": "knowledge/common-fixes.md",
+      "before_sha256": "bfad41d4d06d1ef6734b4dc4b1b6d3f9ef1afe5cd6a932e6bf83ec6ecb43fb06",
+      "after_sha256": "1857a22ff4e5781bbaaae6b3f2f950e96294db6bff44c9cd1b85c5565e157878",
+      "classification": "Authorized generic technical knowledge retained; private historical material excluded",
+      "functional_parity_verified": false
+    },
+    {
+      "path": "knowledge/learned-patterns.md",
+      "before_sha256": "c224b9f14cdc18d7388a00764afcb8c8a0f03f0e44f6a0edd3239a59c52d4eaa",
+      "after_sha256": "619988da28b4e571d1f7c7c714ea763c1da1dd3243a9d445c98c60b53b252464",
+      "classification": "Authorized generic technical knowledge retained; private historical material excluded",
+      "functional_parity_verified": false
+    },
+    {
+      "path": "knowledge/supabase-patterns.md",
+      "before_sha256": "22cf53796fd59576a8f1a35c67fe97cbeb85721f1caad00dfc695d438512cc40",
+      "after_sha256": "dc507eef6a2e6e6729447357cb5a5b6b0048283892ff453d299a12048b1278ae",
+      "classification": "Authorized generic technical knowledge retained; private historical material excluded",
+      "functional_parity_verified": false
+    },
+    {
+      "path": "knowledge/voice-agent-patterns.md",
+      "before_sha256": "4b4df7ffec5006cf94e4202b77c7b650aeb05f95d38d1e3bd44cec188ad9ee55",
+      "after_sha256": "1e5a4bf7c2a97e28c4392a76c1326d74e48bc71a9aa758059723dde8a9df64f9",
+      "classification": "Authorized generic technical knowledge retained; private historical material excluded",
+      "functional_parity_verified": false
+    },
+    {
+      "path": "knowledge/claudecode-bible.md",
+      "before_sha256": "0380c54121d42ad79da3ba8b2548eb1b5616431f195baafad398555a357d324c",
+      "after_sha256": "10a1a89085e23dacac9bef1ce723a4b263dd74ca123883740f711dae1450f6ae",
+      "upstream_license_evidence": "docs/audit/claude-howto-license.json",
+      "functional_parity_verified": false
+    }
+  ],
+  "private_data_excluded": [
+    "Original client/project histories, IDs, contacts and commit references embedded in generic notes",
+    "Original project-only skill names, team roster and deployment-map references",
+    "All original daily logs and private knowledge files; not read or imported by this script"
+  ],
+  "learning_mechanisms_preserved": [
+    "Scoped raw/curated/index tiers",
+    "Learn/recall/flush concepts and cross-reference structure",
+    "Generic engineering/design/technical lessons"
+  ],
+  "personal_memory_imported": false,
+  "implementation_scope": "Reviewed generic source seed adaptation only; not operational multi-tenant memory/backend validation"
+}

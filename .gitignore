@@ -1,0 +1,66 @@
+# Ephemeral data (large, regenerated)
+/projects/
+file-history/
+plugins/cache/
+statsig/
+paste-cache/
+telemetry/
+tasks/
+
+# Session-specific
+todos/
+session-env/
+debug/
+shell-snapshots/
+plans/
+
+# Cache files
+*.cache
+*.log
+stats-cache.json
+history.jsonl
+
+# Personal / Sensitive — NEVER push
+settings.json
+settings.local.json
+settings.json.bak.*
+.env*
+.erp-api-key
+.erp-retry-queue.json
+.approval-policy-events.json
+.main-push-events.json
+.mcp.json
+mcp-needs-auth-cache.json
+.skyops-traces/
+.erp-staged/
+.skyops-last-session-log
+*credentials*
+*secret*
+*.pem
+*.key
+config/
+cache/
+ide/
+context-states/
+backups/
+plugins/
+# Knowledge — include shared files, exclude personal/sensitive
+knowledge/session-digest.md
+knowledge/optimization-research*.md
+knowledge/employees.md
+knowledge/email-signature.html
+knowledge/project-notes/
+
+# Archive (old rotated files)
+archive/
+
+# Ephemeral session/cache data
+image-cache/
+sessions/
+venv/
+*.pyc
+
+# SkyOps local configuration and development tools, never release payloads
+.skyops-config.json
+.skyops-sync-queue.json*
+.skyops-dev-tools/

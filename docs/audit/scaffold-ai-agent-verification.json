@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-26T18:38:16.440Z",
+  "scaffold": "ai-agent",
+  "platform": "win32",
+  "node": "v22.23.3",
+  "fixture": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-7RgQaX",
+  "source_hashes": {
+    "app/api/chat/route.ts": "200407efe4d872f81d5936bdb1a6a6c53e9cba898fc4b0728c88e3cb65e0d424",
+    "app/globals.css": "385b62fa77fa9b26c104ee6e707cae77a90e86276b4f83858fea712525405ddb",
+    "app/layout.tsx": "ef607f8b03ad85c1b52f6d01cb69453eb75d8d83f9f44f670010c8be6e985f7d",
+    "app/page.tsx": "314cf9996c8504582f32ac60d460dfeea937542895ea9e50dd8611644bfa9d41",
+    "eslint.config.mjs": "77e9f34454d52f5986545c76c35c90aa6c82f29d00612fe85b7519d34031bb8b",
+    "evals/cases.json": "ef245ea3b69e6527ce7f6b5708905d5f92fefc15850fc49707a42bcfa7576f0a",
+    "lib/openrouter/client.ts": "30ef230fcb3f45bcc5451df31251765ab87d8ee90ffb7f81efc8bde88b8037bb",
+    "lib/prompts/system.ts": "125bd3c704e2ccd864e0fb24df73ad4b349b68d062e0c0c03a2e94cd583807be",
+    "lib/supabase/client.ts": "d783bc9270f897a2266565d6c68b3ceb2635db5d0066443479f471ff7d546153",
+    "lib/supabase/server.ts": "3d48ad63da808209e31d0f69332ed606791f47591902e84b7c5cbad234306413",
+    "next.config.mjs": "ccb4809f8f6ec4449b9278137dadb862d743e3f1c0950355d18f0534dc5e9a60",
+    "package.json": "2e6716491f50ebad591907d09631c319cb3bb563172bbdc9ad6c06d6ae83579d",
+    "postcss.config.mjs": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+    "README.md": "4fe3c3440d59cc6423bc9a9c41d25083314b51a30f14ea0feed1590336cd338e",
+    "supabase/migrations/0001_init.sql": "4ab1e3faa1c81268b9b006a5517567451d326e9796ff6103275cdf51615003b6",
+    "tsconfig.json": "ccf8cfe2017ffdda28263c3656d46922e592f913ac70b74128bcac6e44d4f2b2"
+  },
+  "results": [
+    {
+      "stage": "install",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 126541,
+      "output_sha256": "0667b5059a12f3a1871737f5720aaa000d640d1761d5e885324782df3c3a1d1c",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-7RgQaX\\install.log"
+    },
+    {
+      "stage": "lint",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 23289,
+      "output_sha256": "2d5997eeb5b70c1a7b57059e55e7cddb0b5626a2a98179ae4b179005d1c64c54",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-7RgQaX\\lint.log"
+    },
+    {
+      "stage": "typecheck",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 4804,
+      "output_sha256": "23239735a260103cd74cd6604fe5b828d7a64455c21cc4427e4752dd5115b137",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-7RgQaX\\typecheck.log"
+    },
+    {
+      "stage": "build",
+      "exit_code": 0,
+      "error": null,
+      "duration_ms": 22618,
+      "output_sha256": "d2f6a0fb0238ff069b751a301b6e2edb59cec27104c844039f59d891654fd6b9",
+      "log": "C:\\Users\\hjahouse\\AppData\\Local\\Temp\\skyops-scaffold-7RgQaX\\build.log"
+    }
+  ],
+  "ok": true,
+  "credentials_inherited": false,
+  "dependency_install_scripts": "disabled",
+  "telemetry": "disabled",
+  "phase_gate_passed": false,
+  "limitation": "Actual isolated scaffold dependency/lint/type/build check only; not finished application quality, real auth/RLS/API integration, browser acceptance or deployment. Original scaffold content still requires the planned project development workflow."
+}

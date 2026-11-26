@@ -1,0 +1,16 @@
+{
+  "name": "skyops",
+  "version": "0.1.0-dev.1",
+  "private": true,
+  "description": "SkyOps Framework — From Idea to Production.",
+  "author": "Hasan-Jahouse",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=22" },
+  "bin": { "skyops": "bin/skyops.cjs" },
+  "scripts": {
+    "test": "node scripts/test.cjs",
+    "verify:baseline": "node scripts/verify-baseline.cjs",
+    "verify:packaging": "node scripts/verify-packaging.cjs",
+    "skyops": "node bin/skyops.cjs"
+  }
+}

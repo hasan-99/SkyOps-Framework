@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "status": "not_configured",
+  "keys": [],
+  "note": "Production public trust requires the authenticated owner-controlled bootstrap. Test keys and package-supplied keys are never trusted here."
+}
